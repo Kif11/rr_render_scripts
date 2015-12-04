@@ -1,0 +1,339 @@
+[Amys-MacBook-Pro]
+09.29 11:37.11| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+09.29 11:48.21| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+09.29 11:48.30| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+09.29 14:22.40| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+09.29 14:22.44| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+09.30 11:43.28| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.01 16:30.22| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 10:24.48| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 10:25.13| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 10:38.23| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 10:58.42| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 10:58.42| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 12:26.39| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 12:26.41| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 22:25.49| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 22:25.50| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.02 23:44.14| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 23:44.15| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.03 10:12.19| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.03 10:13.36| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.03 12:14.11| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.03 12:14.15| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.03 15:13.31| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.03 15:13.43| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.03 21:35.53| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.03 21:36.53| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.04 01:43.16| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.04 01:43.18| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.04 10:41.24| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.04 10:42.08| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.04 20:05.00| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.04 20:05.08| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.04 21:07.27| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.04 21:08.51| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.04 22:11.00| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.04 22:11.16| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 10:15.53| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.05 10:17.12| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 11:10.02| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 11:14.24| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 11:57.34| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.05 11:58.24| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 12:57.56| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.05 12:58.02| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.05 15:58.06| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.05 15:58.11| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.12 15:51.37| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.12 16:14.13| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.12 16:46.21| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.12 16:54.07| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.13 15:54.44| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.13 15:55.23| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.13 15:58.57| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.13 16:01.01| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.13 23:52.31| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.13 23:52.34| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.14 10:04.50| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 10:04.51| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.14 11:04.42| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1000
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1000;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 11:04.47| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.14 11:21.31| ERR FStats addFrames:  job: 4-4,5/10  stats max:2  framelistStart:0 framelistMax:1   thisMAx:10   loadedfromFile?: true framesFound: 1 validFrameNr:true 
+                     mode:B  firstF=4     4:   1-1,1   
+                     |1 53%  0%  |1 53%  0%  |1 53%  0%  |1 53%  0%  |1 53%  0% |end|
+                     timeDiffRenderSegment: 16  frametime: 0  renderTime: -1   
+                    stat times:  |4 11:21  |4 11:21 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 3320;;   () rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 11:23.30| ERR FStats addFrames:  job: 3-3,1/10  stats max:2  framelistStart:0 framelistMax:1   thisMAx:10   loadedfromFile?: true framesFound: 1 validFrameNr:true 
+                     mode:B  firstF=3     3:   1-1,1   
+                     |1 55%  0%  |1 55%  0%  |1 55%  0%  |1 55%  0%  |1 55%  0% |end|
+                     timeDiffRenderSegment: 16  frametime: 0  renderTime: -1   
+                    stat times:  |3 11:23  |3 11:23 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 3320;;   () rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 12:12.06| ERR FStats addFrames:  job: 4-4,5/10  stats max:2  framelistStart:0 framelistMax:1   thisMAx:10   loadedfromFile?: true framesFound: 1 validFrameNr:true 
+                     mode:B  firstF=4     4:   1-1,1   
+                     |1 49%  0%  |1 49%  0%  |1 49%  0%  |1 49%  0%  |1 49%  0% |end|
+                     timeDiffRenderSegment: 17  frametime: 0  renderTime: -1   
+                    stat times:  |4 12:11  |4 12:12 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 3320;;   () rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 13:50.57| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 13:50.59| ERR No license file (or not allowed to read file)! 
+
+[Amys-MacBook-Pro]
+10.14 16:01.44| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+
+[Amys-MacBook-Pro]
+10.14 16:01.46| ERR No license file (or not allowed to read file)! 
+

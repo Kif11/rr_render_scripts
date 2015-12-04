@@ -1,0 +1,113 @@
+++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+11.12 12:24.08
+Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+Job: {D-Fa}  Sequence: 1-10, 9
+Scene: .../    arnold/    rr_arnold_01 92.03Kb 11.12 12:19.49
+Render config used: Maya arnold   3D02__Maya2009__Arnold.cfg
+Executable used: /Applications/Autodesk/maya2015/Maya.app/Contents/bin/Render   
+rrExeBit x64
+rrExeVersion 2015.0
+rrExeVersionMinReq 2015
+rrExeVersionMajor 2015
+rrExeVersionMinor 0
+rrExeOS mac
+++++++++++++ Environment Variables Job: ++++++++++++++++++++
+rrJobRenderapp Maya
+rrJobRenderer arnold
+rrJobRendererVersion 1.2.2.0
+rrJobProject rrServer
+rrJobType 3D
+rrJobBit x64
+rrJobVersion 2015.16
+rrJobVersionMajor 2015
+rrJobVersionMinor 16
+rrJobTiled false
+rrJobCustomScene 
+rrJobCustomShot 
+rrJobCustomVersion 
+rrJobSceneOS mac
+++++++++++++ Environment Variables Client: +++++++++++++++++
+rrClientName Amys-MacBook-Pro
+rrClientCores 4
+rrClientCoresUsed 4
+rrClientBit x64
+rrClientRenderInstance 0
+rrClientThreadID 0
+rrClientThreadIDstr A
+RR_ROOT /Users/amy/rrServer
+rrBin /Users/amy/rrServer/bin/mac/
+rrPlugins /Users/amy/rrServer/render_apps/renderer_plugins/maya/mac_x64/
+rrPluginsNoOS /Users/amy/rrServer/render_apps/renderer_plugins/maya/
+rrPrefs /Users/amy/rrServer/render_apps/renderer_prefs/maya/mac_x64/
+rrSharedExeDir /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/
+rrLocalTemp /Users/Shared/RR_localdata/temp/A/
+TEMP /Users/Shared/RR_localdata/temp/A
+TMP /Users/Shared/RR_localdata/temp/A
+rrLocalRoot /Users/Shared/RR_localdata/
+rrLocalExeDir /Users/Shared/RR_localdata/renderer_exe/maya/mac_x64/
+rrLocalPrefs /Users/Shared/RR_localdata/renderer_prefs/maya/mac_x64/
+rrLocalPlugins /Users/Shared/RR_localdata/renderer_plugins/maya/mac_x64/
+rrBaseAppPath /Applications/Autodesk/maya2015/Maya.app/Contents
+++++++++++++ Environment Variables Done  +++++++++++++++++++
+source \"/Users/Shared/RR_localdata/_global.sh\"
+source \"/Users/Shared/RR_localdata/maya.sh\"
+RenderManStudio installation path is /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/RenderManStudio-2.0.1-maya2015
+MtoA is installed in /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/mtoadeploy_2015=
+rrErr: dyld: Library not loaded: librrShared.1.dylib
+rrErr:   Referenced from: /Users/amy/rrServer/bin/mac/rrCopy.app/Contents/MacOS/rrCopy
+rrErr:   Reason: image not found
+Trace/BPT trap
+\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++ 7.0.11 ++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        \"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/kso_maya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: arnold, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/rr_arnold_01.ma, Db: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/,  Camera: persp, FDir:  /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/images , FName: <RenderPass>/rr_arnold_01  , FNameNoVar: beauty/rr_arnold_01_  , FPadding: 4, FExt: .exr,   FrStart: 1, FrEnd: 10, FrStep: 9 , FrOffset: 0 , RenderDemo: False, Threads:  4,   Verbose: 0,    \") 
+
+rrErr: Result: untitled
+12:24:12 DEBUG: Initilizing RRMaya...
+12:24:12 DEBUG: Initilizing MayaRenderer...
+12:24:12 INFO: Maya renderer: arnold
+12:24:12 WARNING: Argument with name "FSingleOutput" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "Layer" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "ResX" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "ResY" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "FOverrideFormat" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "AA1" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "AA2" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "AA3" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "AA4" doesn not exist. Returning None
+12:24:12 INFO: New argument "RegionX1" with value "0" was created.
+12:24:12 INFO: New argument "RegionX2" with value "19999" was created.
+12:24:12 INFO: New argument "RegionY1" with value "0" was created.
+12:24:12 INFO: New argument "RegionY2" with value "19999" was created.
+12:24:12 WARNING: Argument with name "RenderMotionBlur" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "RenderDisplace" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "FExtOverride" doesn not exist. Returning None
+12:24:12 WARNING: Argument with name "KSOMode" doesn not exist. Returning None
+rrErr: Error: file: /Users/amy/rrServer/render_apps/scripts/kso_maya.mel line 11: RuntimeError: file /Applications/Autodesk/maya2015/Maya.app/Contents/Frameworks/Python.framework/Versions/Current/lib/python2.7/site-packages/pymel/internal/pmcmds.py line 134: setAttr: 'defaultRenderGlobals.imageFilePrefix' is not a simple numeric attribute.  Its values must be set with a -type flag.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++11.12. 12:24.18 Render Executable done +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Royal Render checks the return code of the executable ++++++++++++++++++++
+++++ Executable returned 0 (0x 0) as exit code for frame 1.
+++++ Executable finished
+++++++++++++++++++++++++++++++++++++++++++++ 7.0.15+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+Job ID: {D-Fa}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+Current time:11.12 12:24.30
+
+
+Total processing time: 00:00.22
+Machine free memory left: 2.12GB 
+************************* CLIENT REPORTS DURING THIS RENDER *************************
+
+Error in this log file (90): rrerr: error: file: /users/amy/rrserver/render_apps/scripts/kso_maya.mel line 11: runtimeerror: file /applications/autodesk/maya2015/maya.app/contents/frameworks/python.framework/versions/current/lib/python2.7/site-packages/pymel/internal/pmcmds.py line 134: setattr: 'defaultrenderglobals.imagefileprefix' is not a simple numeric attribute.  its values must be set with a -type flag.
+
+

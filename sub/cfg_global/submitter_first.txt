@@ -1,0 +1,336 @@
+#
+#**************************************************************
+#  SUBMITTER CONFIG FILE INFORMATION:
+#**************************************************************
+#  This file controls the default values for the submitter and control
+#  There can be multiple submitter config files which are loaded
+#  You can also specify all options in a commandline for submitter or control.
+#  The files are loaded in this order:
+#    0) renderapp/_config/[renderApp].cfg
+#    ---------------------------------------
+#    1) sub/cfg_global/submitter_first.txt
+#    2) sub/cfg_user/submitter_prj_[ProjectName].txt
+#    3) sub/cfg_user/submitter_usr_[UserLoggedIn].txt
+#    4) sub/cfg_user/submitter_mac_[MachineName].txt
+#    5) Commandline
+#    6) (Show All menu item: Sets allowChange=1 for all options)
+#    7) sub/cfg_global/submitter_last.txt
+#    8) sub/cfg_global/submitter_last_non_admin.txt
+#    ---------------------------------------
+#    9) renderapp/_config/[renderApp].cfg
+#
+#    The Settings are stacked. 
+#    e.g. If you set a value in 1) submitter_first and this value is not set in any other config file, it is kept.
+#    Values set in 3) user configs overwrite values from 1) submitter_first. 
+#
+#    7) submitter_last_non_admin.txt is only loaded if the user logged in is not a RRender admin.
+#
+#    0) 8) The render application config is applied two times
+#    The first time 0) it is loaded as basic settings for the render application. 
+#    Then all the submitter config files are overwriting the parameters.
+#    Then 8) the render application config is checked again if parameters are not allowed for that render application. 
+#    If a render application does not allow some parameter, it is simply not possible to use it with that application.
+#    To ensure that those options are not set, it is checked again while a job is send to the rrServer
+#
+#
+#  NOTE: PLEASE SEE HELP FILES SECTION Customization / Submitter defauls FOR MORE EXPLANATION.
+#
+#
+#**************************************************************
+#  FORMAT:
+#**************************************************************
+#  The format of this file is ParameterName='Options'
+#  If 'Options' has multiple options to set, they are divided by a '~' 
+#
+#  The values types are 
+#     AC  = Allow change  ( 0= Do not allow to change   , 1=  Allow to change)
+#           Most of the Parameters have this option. It controls if this setting can be changed at the submitter.
+#           If it is not allowed to change this value, it is disabled and, if not checked, it is not visible at the submitter at all
+#     VIS = Visible   ( 0 = hidden,   1 = visible) 
+#           Sets if the parameter is visible at the submitter
+#     COL = Collaped ( 0= Group is expanded , 1=  Group is collapsed )
+#			Changes the expanded/collaped state
+#     CK  = Checked   (0 = not checked,   1 = parameter is checked)
+#			If this is set, the parameter is checked by default
+#     VAL = Value   (Number)
+#           Default value for the parameter
+#     TXT = Text  (text line) 
+#			Name or parameter line set by default
+#
+#
+#    NOTE: You do not have to set all values for a parameter.
+#    You can set an empty space if you do not want to override the value.
+#    This does not apply for the render config files.
+#
+#
+#
+#**************************************************************
+#  EXAMPLES:
+#**************************************************************
+#            #RenderPreview=AC~CK
+#  RenderPreview= 0~0                           Not allowed to change  (hidden) ~ not checked
+#  RenderPreview= 1~0                           Allowed to change (and visible) ~ not checked
+#  RenderPreview= 1~1                           Allowed to change (and visible) ~ checked
+#  RenderPreview=  ~1                           (value is not overridden) ~ checked
+#
+#            #Param=AC~CK~TXT
+#  Param= 1~0~                                  Allowed to change ~ not checked ~ no default parameter line
+#  Param= 1~0~ -samples_min -2 -samples_max 0   Allowed to change ~ not checked ~ a parameter line for preview antialiasing
+#
+#
+#
+#
+#**************************************************************
+#   PLEASE UNCOMMENT LINES YOU WANT TO OVERWRITE
+#**************************************************************
+#
+
+
+#                               UIStyle=AC~TXT
+#UIStyle=1~
+#                               AutoDeleteFrames=AC~CK
+#AutoDeleteFrames=1~0
+#                               NoLocalDriveWarning=AC~CK
+#NoLocalDriveWarning=1~0
+#                               CloseAfterSubmit=AC~CK
+#CloseAfterSubmit=1~0
+#                               WarnIfAllClientsAssigned=AC~CK
+#WarnIfAllClientsAssigned=1~0
+#                               ShotNameRequired=AC
+#ShotNameRequired=0
+#                               ShowAllOptionsButton=AC
+#ShowAllOptionsButton=1
+#                               OverrideRendererPossible=AC
+#OverrideRendererPossible=1
+
+
+
+#                               GroupRightSubmitter=AC~COL
+#GroupRightSubmitter=1~0
+#                               GroupSceneSettings=AC~COL
+#GroupSceneSettings=1~0
+#                               GroupSceneSettingsPlugin=AC~COL
+#GroupSceneSettingsPlugin=1~1
+#                               GroupLoadScenePlugin=AC~COL
+#GroupLoadScenePlugin=1~1
+#                               OverrideSequence=AC
+#OverrideSequence=1
+#                               AllowImageNameChange=AC
+#AllowImageNameChange=1
+#                               AllowImageDirChange=AC
+#AllowImageDirChange=1
+#                               OverridePathPreset=AC~CK~TXT
+#OverridePathPreset=1~0~
+#                               PathPresets=TXT
+#                               PathPresets=TXT
+#.....
+#PathPresets=<CScene>-<CShot>\<CVersion>\<ImageFile>
+#PathPresets=<Camera>_<Layer>\<ImageFile>
+#PathPresets=<SceneName>\<Camera>
+#PathPresets=<Layer>
+#                               OverrideRREnvFile=AC~TXT
+#OverrideRREnvFile=1~
+#                               OverrideRREnvLine=AC~TXT
+#OverrideRREnvLine=1~
+
+
+
+#                               GroupClients=AC~COL
+#GroupClients=1~0
+#                               GroupClientFilter=AC~COL
+#GroupClientFilter=1~0
+#                               DefaultClientGroup=AC~TXT
+#DefaultClientGroup=1~
+#                               InvalidClientGroup=AC~TXT
+#InvalidClientGroup=1~
+
+
+
+#                               GroupRenderSettings=AC~COL
+#GroupRenderSettings=1~0
+#                               Priority=AC~VAL
+#Priority=1~50
+#                               PriorityMIN=AC~VAL
+#PriorityMIN=1~1
+#                               PriorityMAX=AC~VAL
+#PriorityMAX=1~99
+#                               UltimatePriority=AC
+#UltimatePriority=1
+#                               MaxCrashes=AC~VAL
+#MaxCrashes=0~30
+#                               MaxLimitsReached=AC~VAL
+#MaxLimitsReached=0~30
+#                               SeqDivMIN=AC~VAL
+#SeqDivMIN=1~2
+#                               SeqDivMAX=AC~VAL
+#SeqDivMAX=1~30
+#                               SeqDivMINComp=AC~VAL
+#SeqDivMINComp=1~7
+#                               SeqDivMAXComp=AC~VAL
+#SeqDivMAXComp=1~40
+#                               MaxClientsAtATime=AC~VAL
+#MaxClientsAtATime=0~999
+#                               MaxFrameTime=AC~VAL
+#MaxFrameTime=0~0
+#                               NumberPreview=AC~VAL
+#NumberPreview=0~6
+#                               SequenceDivide=AC~CK
+#SequenceDivide=1~0
+#                               RequiredMemory=AC~VAL
+#RequiredMemory=0~0
+#                               MinFileSizeKb=AC~VAL
+#MinFileSizeKb=0~0
+
+
+
+#                               GroupRROptions=AC~COL
+#GroupRROptions=1~0
+#                               UserName=AC~TXT
+#UserName=0~<User>
+#                               CustomSeQName=AC~TXT
+#CustomSeQName=1~<s s>
+#                               CustomSHotName=AC~TXT
+#CustomSHotName=1~<s _sh>
+#                               CustomVersionName=AC~TXT
+#CustomVersionName=1~<s _v>
+#                               CompanyProjectName=AC~TXT
+#CompanyProjectName=0~<CompanyProject>
+#                               CustomUserInfo=AC~CK~TXT
+#CustomUserInfo=0~0~
+#                               Color_ID=AC~VAL
+#Color_ID=1~-1
+#                               TileFrame=AC~CK~VAL
+#TileFrame=1~0~4
+#                               SendJobDisabled=AC~CK
+#SendJobDisabled=0~0
+
+
+
+#                               GroupOverride=AC~COL
+#GroupOverride=1~1
+#                               OverrideImageType=AC~CK~TXT
+#OverrideImageType=0~0~
+#                               OverrideImageSize=AC~CK~TXT
+#OverrideImageSize=0~0~
+#                               OverrideRenderQuality=AC~VAL
+#OverrideRenderQuality=1~0
+#                               OverrideRenderVerbose=AC~VAL
+#OverrideRenderVerbose=1~0
+#                               OverrideJobBit=AC~VAL
+#OverrideJobBit=0~0
+
+
+
+#                               GroupCommandLine=AC~COL
+#GroupCommandLine=1~0
+#                               AdditionalCommandlineParam=AC~CK~TXT
+#AdditionalCommandlineParam=0~0~
+
+
+
+#                               GroupNotify=AC~COL
+#GroupNotify=1~1
+#                               NotifyFinish=AC~CK~TXT
+#NotifyFinish=1~0~
+#                               NotifyFinishWhen=AC~VAL
+#NotifyFinishWhen=1~0
+#                               NotifyFinishClient=AC~TXT
+#NotifyFinishClient=1~<ThisMachine>
+#                               NotifyFinishParam=AC~CK~VAL
+#NotifyFinishParam=1~0~0
+
+
+
+#                               GroupWait=AC~COL
+#GroupWait=1~1
+#                               WaitForJob=AC
+#WaitForJob=1
+#                               WaitForTime=AC~CK~VAL
+#WaitForTime=1~0~0
+
+
+
+#                               GroupOnSubmissionScript=AC~COL
+#GroupOnSubmissionScript=1~0
+#                               GroupAfterPreviewScript=AC~COL
+#GroupAfterPreviewScript=1~0
+#                               GroupPreRenderScript=AC~COL
+#GroupPreRenderScript=1~0
+#                               GroupPostRenderScript=AC~COL
+#GroupPostRenderScript=1~0
+#                               GroupFinishedScript=AC~COL
+#GroupFinishedScript=1~0
+#                               AbortJobswithLowerPriority=AC~CK
+#AbortJobswithLowerPriority=0~0
+#                               IgnoreCrashes=AC~CK
+#IgnoreCrashes=0~0
+#                               AutoApproveJob=AC~CK
+#AutoApproveJob=0~0
+#                               unused=AC~CK
+#unused=0~0
+#                               RenderPreviewFirst=AC~CK
+#RenderPreviewFirst=1~1
+#                               DoNotShowPreviewJpegs=AC~CK
+#DoNotShowPreviewJpegs=0~0
+#                               DoNotCheckForFrames=AC~CK
+#DoNotCheckForFrames=0~0
+#                               LittleJob=AC~CK
+#LittleJob=0~0
+#                               StartMultipleInstances=AC~CK
+#StartMultipleInstances=0~0
+#                               KeepSceneOpen=AC~CK
+#KeepSceneOpen=1~1
+#                               AllowtoDeleteCrashedFrames=AC~CK
+#AllowtoDeleteCrashedFrames=0~1
+#                               AllowLocalSceneCopy=AC~CK
+#AllowLocalSceneCopy=0~1
+#                               AllowTextureReplacement=AC~CK
+#AllowTextureReplacement=0~1
+#                               AllowLocalRenderOut=AC~CK
+#AllowLocalRenderOut=0~1
+#                               PreviewGamma2.2=AC~CK
+#PreviewGamma2.2=0~0
+#                               CropEXR=AC~CK
+#CropEXR=0~1
+#                               MultiOSScenes=AC~CK
+#MultiOSScenes=0~0
+#                               NoProcessTreeCheck=AC~CK
+#NoProcessTreeCheck=0~0
+#                               Overwriteexistingfiles=AC~CK
+#Overwriteexistingfiles=0~0
+#                               NoFreezeDetection=AC~CK
+#NoFreezeDetection=0~0
+#                               GPUrequired=AC~CK
+#GPUrequired=1~0
+#                               DistributeStartToEnd=AC~CK
+#DistributeStartToEnd=0~0
+#                               Preview-ContiguousFrames=AC~CK
+#Preview-ContiguousFrames=0~0
+#                               Auto-getRequiredMemory=AC~CK
+#Auto-getRequiredMemory=0~0
+#                               PPShotgun-updateStats=AC~CK
+#PPShotgun-updateStats=1~0
+#                               PPDeletebroken=AC~CK
+#PPDeletebroken=1~0
+#                               PPDeleteJob=AC~CK
+#PPDeleteJob=1~0
+#                               PPAssembleTiles=AC~CK
+#PPAssembleTiles=1~0
+#                               PPSequenceCheck=AC~CK
+#PPSequenceCheck=1~1
+#                               PPEXRCropchannels=AC~CK
+#PPEXRCropchannels=1~1
+#                               PPCreateFullVideo=AC~CK
+#PPCreateFullVideo=1~0
+#                               PPCreateSmallVideo=AC~CK
+#PPCreateSmallVideo=1~1
+#                               PPJob-MakeVideo-proreshq=AC~CK
+#PPJob-MakeVideo-proreshq=1~0
+#                               PPShotgun-AddPreview=AC~CK
+#PPShotgun-AddPreview=1~0
+#                               OSperjob_App_3D__hello_job=AC~CK
+#OSperjob_App_3D__hello_job=1~0
+#                               OSperjob_hello_job=AC~CK
+#OSperjob_hello_job=1~0
+#                               OSperjob_setEnvLine=AC~CK
+#OSperjob_setEnvLine=1~0

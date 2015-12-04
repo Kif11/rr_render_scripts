@@ -1,0 +1,234 @@
+[Amys-MacBook-Pro]
+09.29 11:35.52| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.01 16:30.49| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.01 16:30.49| ERR rrServer config IP 10.10.112.154 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.70
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.01 16:39.12| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.01 16:39.12| ERR rrServer config IP 10.10.112.154 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.70
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.01 16:42.26| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.01 16:42.27| ERR rrServer config IP 10.10.112.154 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.70
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 10:24.17| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.02 10:24.18| ERR rrServer config IP 10.10.112.154 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.22
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.02 10:36.30| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.04 10:49.53| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.05 11:08.56| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.05 11:15.04| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.05 11:15.04| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    172.16.0.3
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.06 00:29.20| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.06 00:29.21| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    172.16.0.3
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 15:51.59| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 15:51.59| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 15:52.19| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 15:52.19| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:04.25| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:04.25| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:08.11| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:08.11| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:11.58| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:11.59| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:45.50| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:47.42| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:47.42| ERR This machine Amys-MacBook-Pro is not the rrServer Amys-MacBook-Pro.local!
+                    rrServerTCP  None None pos:0;;   () rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:51.51| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:51.52| ERR This machine Amys-MacBook-Pro is not the rrServer Amys-MacBook-Pro.local!
+                    rrServerTCP  None None pos:0;;   () rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:51.57| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:51.57| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.12 16:54.46| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.12 16:54.46| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.77
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.13 15:54.30| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.13 15:54.30| ERR rrServer config IP 192.168.1.22 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.116
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.13 16:00.57| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.13 16:00.57| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.116
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.13 16:56.39| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.13 16:56.40| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.116
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.13 16:58.10| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.13 16:58.10| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.116
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.14 11:20.15| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.14 11:20.15| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.148
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.14 11:22.59| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.14 11:22.59| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.148
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.14 12:11.15| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.14 12:11.15| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.148
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.14 12:12.15| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.14 12:12.15| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.148
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+
+[Amys-MacBook-Pro]
+10.14 16:41.46| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+
+[Amys-MacBook-Pro]
+10.14 16:41.47| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    10.10.112.183
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+

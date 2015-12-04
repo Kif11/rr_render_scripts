@@ -1,0 +1,268 @@
+++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+11.23 14:13.15
+Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+Job: {0QR}  Sequence: 1-10, 9
+Scene: .../    vray/    rr_vray_01 120.33Kb 11.23 14:12.20
+Render config used: Maya vray   3D02__Maya2009__Vray.cfg
+Executable used: /Applications/Autodesk/maya2015/Maya.app/Contents/bin/Render   
+rrExeBit x64
+rrExeVersion 2015.0
+rrExeVersionMinReq 2015
+rrExeVersionMajor 2015
+rrExeVersionMinor 0
+rrExeOS mac
+++++++++++++ Environment Variables Job: ++++++++++++++++++++
+rrJobRenderapp Maya
+rrJobRenderer vray
+rrJobRendererVersion 3.10.01
+rrJobProject rrServer
+rrJobType 3D
+rrJobBit x64
+rrJobVersion 2015.16
+rrJobVersionMajor 2015
+rrJobVersionMinor 16
+rrJobTiled false
+rrJobCustomScene 
+rrJobCustomShot 
+rrJobCustomVersion ray
+rrJobSceneOS mac
+++++++++++++ Environment Variables Client: +++++++++++++++++
+rrClientName Amys-MacBook-Pro
+rrClientCores 4
+rrClientCoresUsed 4
+rrClientBit x64
+rrClientRenderInstance 0
+rrClientThreadID 0
+rrClientThreadIDstr A
+RR_ROOT /Users/amy/rrServer
+rrBin /Users/amy/rrServer/bin/mac/
+rrPlugins /Users/amy/rrServer/render_apps/renderer_plugins/maya/mac_x64/
+rrPluginsNoOS /Users/amy/rrServer/render_apps/renderer_plugins/maya/
+rrPrefs /Users/amy/rrServer/render_apps/renderer_prefs/maya/mac_x64/
+rrSharedExeDir /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/
+rrLocalTemp /Users/Shared/RR_localdata/temp/A/
+TEMP /Users/Shared/RR_localdata/temp/A
+TMP /Users/Shared/RR_localdata/temp/A
+rrLocalRoot /Users/Shared/RR_localdata/
+rrLocalExeDir /Users/Shared/RR_localdata/renderer_exe/maya/mac_x64/
+rrLocalPrefs /Users/Shared/RR_localdata/renderer_prefs/maya/mac_x64/
+rrLocalPlugins /Users/Shared/RR_localdata/renderer_plugins/maya/mac_x64/
+rrBaseAppPath /Applications/Autodesk/maya2015/Maya.app/Contents
+++++++++++++ Environment Variables Done  +++++++++++++++++++
+source \"/Users/Shared/RR_localdata/_global.sh\"
+source \"/Users/Shared/RR_localdata/maya.sh\"
+RenderManStudio installation path is /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/RenderManStudio-2.0.1-maya2015
+MtoA is installed in /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/mtoadeploy_2015=
+rrErr: dyld: Library not loaded: librrShared.1.dylib
+rrErr:   Referenced from: /Users/amy/rrServer/bin/mac/rrCopy.app/Contents/MacOS/rrCopy
+rrErr:   Reason: image not found
+Trace/BPT trap
+\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++ 7.0.11 ++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        \"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/kso_maya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: vray, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/scenes/rr_vray_01.ma, Db: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/,  Camera: persp, FDir:  /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/images , FNameNoVar: rr_vray_01.  , FName: rr_vray_01  , FPadding: 4, FExt: .png,   FrStart: 1, FrEnd: 10, FrStep: 9 , FrOffset: 0 , Threads:  4,       \") 
+
+rrErr: Result: untitled
+14:13:19 DEBUG: Initilizing RRMaya...
+14:13:19 DEBUG: Initilizing MayaRenderer...
+14:13:19 INFO: Maya renderer: vray
+14:13:19 DEBUG: Argument with name "FSingleOutput" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "Layer" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "ResX" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "ResY" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "FOverrideFormat" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "AA1" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "AA2" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "AA3" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "AA4" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RegionX1" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RegionX2" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RegionY1" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RegionY2" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RenderMotionBlur" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RenderDemo" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "RenderDisplace" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "FExtOverride" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "Verbose" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "KSOMode" doesn not exist. Returning None
+14:13:19 INFO: Camera: persp
+14:13:19 INFO: Threads: 4
+14:13:19 DEBUG: Initilization of MayaRenderer finished
+14:13:19 DEBUG: Argument with name "Database" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "Layer" doesn not exist. Returning None
+14:13:19 DEBUG: Argument with name "OverwriteRenderCmd" doesn not exist. Returning None
+14:13:19 DEBUG: Initilization of RRMaya finished
+14:13:19 INFO: Environmental variable "PYTHONPATH" set to "/Users/amy/rrServer/render_apps/scripts"
+14:13:19 INFO: Maya image directory: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/images
+14:13:19 INFO: Maya version: 2015
+rrErr: Warning: file: /Applications/Autodesk/maya2015/Maya.app/Contents/scripts/others/makeCameraRenderable.mel line 60: Found camera perspShape.
+rrErr: AbcImport v1.0 using Alembic 1.5.4 (built May  9 2014 15:43:11)
+rrErr: [2015/Nov/23|14:13:21] V-Ray: V-Ray for Maya version 3.10.01 DEMO from Jul 20 2015, 15:48:57
+rrErr: [2015/Nov/23|14:13:21] V-Ray: V-Ray core version is 3.25.01
+rrErr: Initializing V-Ray for Maya
+rrErr: 
+rrErr: [2015/Nov/23|14:13:21] V-Ray: Loading plugins from "/Applications/Autodesk/maya2015/vray/vrayplugins/libvray_*.so"
+rrErr: [2015/Nov/23|14:13:26] V-Ray: 141 plugin(s) loaded successfully
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Finished loading plugins.
+Phoenix FD plugin resolved to '/Applications/Autodesk/maya2015/vray/vrayplugins/libvray_phxshader.so'
+Phoenix FD plugin resolved to '/Applications/Autodesk/maya2015/vray/vrayplugins/libvray_phxshader.so'
+14:13:26 INFO: Open scene file: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/scenes/rr_vray_01.ma
+14:13:26 DEBUG: Vray attr fileNamePadding set to 4
+14:13:26 DEBUG: Vray attr batchCamera set to persp
+14:13:26 INFO: Scene load time: 0:00:07.030797 (h:m:s.ms)
+14:13:26 INFO: Scene initialization finished. Starting to render...
+14:13:26 INFO: Running before segment render hook...
+RENDERER FROM HOOK:  vray
+14:13:26 INFO: Running before frame render hook...
+14:13:26 INFO: Starting to render frame 1...
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Registered dynamic node vrayMultiProjection (id: 1115335/0x001104C7)
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Registered dynamic node VRayCurvature (id: 201308280/0x0BFFB878)
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Registered dynamic node VRaySkinMtl (id: 1115348/0x001104D4)
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Registered dynamic node VRayPointParticleMtl (id: 1115353/0x001104D9)
+rrErr: File read in  6 seconds.
+rrErr: 
+rrErr: V-Ray: Starting render
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Exporting scene to V-Ray.
+rrErr: [2015/Nov/23|14:13:26] V-Ray: Parsing light links time  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Translating scene geometry for V-Ray
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Total time translating scene for V-Ray  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Rendering.
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Clearing bitmap cache memory...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Rendering frames.
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Updating frame at time 1.00
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Total time updating frame  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Preparing renderer...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Using Intel Embree ray server
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Preparing scene for rendering...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: 1 lights found.
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Max ray intensity is enabled: rendered result may have incorrect brightness.
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Preparing scene for frame...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Compiling geometry...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Using embree ray tracing.
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Building embree static accelerator ...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Building embree static trees took 0 milliseconds
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Rendering image...
+rrErr: [2015/Nov/23|14:13:27] V-Ray: Start progressive rendering, server mode 0, perform rendering 1
+rrErr: [2015/Nov/23|14:13:33] V-Ray:  (Estimated time remaining:  0h  0m 54.7s): 10 % completed
+rrErr: [2015/Nov/23|14:13:39] V-Ray:  (Estimated time remaining:  0h  0m 48.3s): 20 % completed
+rrErr: [2015/Nov/23|14:13:45] V-Ray:  (Estimated time remaining:  0h  0m 42.2s): 30 % completed
+rrErr: [2015/Nov/23|14:13:51] V-Ray:  (Estimated time remaining:  0h  0m 36.1s): 40 % completed
+rrErr: [2015/Nov/23|14:13:57] V-Ray:  (Estimated time remaining:  0h  0m 30.0s): 50 % completed
+rrErr: [2015/Nov/23|14:14:03] V-Ray:  (Estimated time remaining:  0h  0m 24.1s): 60 % completed
+rrErr: [2015/Nov/23|14:14:09] V-Ray:  (Estimated time remaining:  0h  0m 18.0s): 70 % completed
+rrErr: [2015/Nov/23|14:14:15] V-Ray:  (Estimated time remaining:  0h  0m 12.0s): 80 % completed
+rrErr: [2015/Nov/23|14:14:21] V-Ray:  (Estimated time remaining:  0h  0m  6.0s): 90 % completed
+14:14:27 INFO: Randering of frame: 1 finished in 0:01:00.573005 (h:m:s.ms)
+14:14:27 INFO: Running before frame render hook...
+14:14:27 INFO: Starting to render frame 10...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Progressive rendering finished: maximum time limit reached
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Sampling level reached: 12.65 subdivs (160 passes)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Number of raycasts: 63632881 (235.68 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Camera rays: 43859392 (162.44 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Shadow rays: 19773489 (73.24 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   GI rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Reflection rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Refraction rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Unshaded rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Number of light evaluations: 19873921 (73.61 per pixel)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Number of intersectable primitives: 1370
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   SD triangles: 1370
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   MB triangles: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Static primitives: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Moving primitives: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Infinite primitives: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Static hair segments: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray:   Moving hair segments: 0
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Successfully written image file "/Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/images/rr_vray_01.0001.png"
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Total frame time  0h  1m  0.5s (60.5 s)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Total sequence time  0h  1m  0.5s (60.5 s)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Render complete
+rrErr: [2015/Nov/23|14:14:27] V-Ray: ========================
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Clearing exporter memory...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Total time clearing exporter memory  0h  0m  0.0s (0.0 s)
+rrErr: 
+rrErr: V-Ray: Starting render
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Exporting scene to V-Ray.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Parsing light links time  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Translating scene geometry for V-Ray
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Total time translating scene for V-Ray  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Rendering.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Clearing bitmap cache memory...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Rendering frames.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Updating frame at time 10.00
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Total time updating frame  0h  0m  0.0s (0.0 s)
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Preparing renderer...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Using Intel Embree ray server
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Preparing scene for rendering...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: 1 lights found.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Max ray intensity is enabled: rendered result may have incorrect brightness.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Preparing scene for frame...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Compiling geometry...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Using embree ray tracing.
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Building embree static accelerator ...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Building embree static trees took 0 milliseconds
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Rendering image...
+rrErr: [2015/Nov/23|14:14:27] V-Ray: Start progressive rendering, server mode 0, perform rendering 1
+rrErr: [2015/Nov/23|14:14:33] V-Ray:  (Estimated time remaining:  0h  0m 54.4s): 10 % completed
+rrErr: [2015/Nov/23|14:14:39] V-Ray:  (Estimated time remaining:  0h  0m 48.3s): 20 % completed
+rrErr: [2015/Nov/23|14:14:45] V-Ray:  (Estimated time remaining:  0h  0m 42.1s): 30 % completed
+rrErr: [2015/Nov/23|14:14:51] V-Ray:  (Estimated time remaining:  0h  0m 36.1s): 40 % completed
+rrErr: [2015/Nov/23|14:14:57] V-Ray:  (Estimated time remaining:  0h  0m 30.1s): 50 % completed
+rrErr: [2015/Nov/23|14:15:03] V-Ray:  (Estimated time remaining:  0h  0m 24.0s): 60 % completed
+rrErr: [2015/Nov/23|14:15:09] V-Ray:  (Estimated time remaining:  0h  0m 18.0s): 70 % completed
+rrErr: [2015/Nov/23|14:15:15] V-Ray:  (Estimated time remaining:  0h  0m 12.0s): 80 % completed
+rrErr: [2015/Nov/23|14:15:21] V-Ray:  (Estimated time remaining:  0h  0m  6.0s): 90 % completed
+14:15:28 INFO: Randering of frame: 10 finished in 0:01:00.775197 (h:m:s.ms)
+14:15:28 INFO: Running after segment render hook...
+14:15:28 INFO: Render finished.
+rrErr: [2015/Nov/23|14:15:27] V-Ray: Progressive rendering finished: maximum time limit reached
+rrErr: [2015/Nov/23|14:15:27] V-Ray: Sampling level reached: 12.37 subdivs (153 passes)
+rrErr: [2015/Nov/23|14:15:27] V-Ray: Number of raycasts: 60853612 (225.38 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Camera rays: 41946472 (155.36 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Shadow rays: 18907140 (70.03 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   GI rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Reflection rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Refraction rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Unshaded rays: 0 (0.00 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray: Number of light evaluations: 19003567 (70.38 per pixel)
+rrErr: [2015/Nov/23|14:15:27] V-Ray: Number of intersectable primitives: 1370
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   SD triangles: 1370
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   MB triangles: 0
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Static primitives: 0
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Moving primitives: 0
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Infinite primitives: 0
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Static hair segments: 0
+rrErr: [2015/Nov/23|14:15:27] V-Ray:   Moving hair segments: 0
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Successfully written image file "/Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/vray/images/rr_vray_01.0010.png"
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Total frame time  0h  1m  0.7s (60.7 s)
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Total sequence time  0h  1m  0.7s (60.7 s)
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Render complete
+rrErr: [2015/Nov/23|14:15:28] V-Ray: ========================
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Clearing exporter memory...
+rrErr: [2015/Nov/23|14:15:28] V-Ray: Total time clearing exporter memory  0h  0m  0.0s (0.0 s)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++11.23. 14:15.29 Render Executable done +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Royal Render checks the return code of the executable ++++++++++++++++++++
+++++ Executable returned 0 (0x 0) as exit code for frame 1.
+++++ Executable finished
+++++++++++++++++++++++++++++++++++++++++++++ 7.0.15+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+Job ID: {0QR}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+Current time:11.23 14:15.36
+
+
+Total processing time: 00:02.21
+Machine free memory left: 1.08GB 
+************************* CLIENT REPORTS DURING THIS RENDER *************************
+
+
+

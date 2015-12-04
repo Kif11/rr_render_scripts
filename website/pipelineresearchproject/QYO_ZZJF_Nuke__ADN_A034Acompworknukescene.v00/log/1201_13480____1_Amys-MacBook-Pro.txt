@@ -1,0 +1,260 @@
+++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+12.01 13:48.05
+Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+Job: {QYO}  Sequence: 1-39, 1
+Scene: .../    nuke/    scene.v001 2.80Kb 12.01 13:47.48
+Render config used: Nuke shotgun   C13__Nuke5_shotgun.cfg
+Executable used: /Applications/Nuke9.0v6/Nuke9.0v6.app/Contents/MacOS/Nuke9.0v6   
+rrExeBit x64
+rrExeVersion 9.6
+rrExeVersionMinReq 9.6
+rrExeVersionMajor 9
+rrExeVersionMinor 6
+rrExeOS mac
+++++++++++++ Environment Variables Job: ++++++++++++++++++++
+rrJobRenderapp Nuke
+rrJobRenderer shotgun
+rrJobRendererVersion 
+rrJobProject pipeline_research_project
+rrJobType Comp
+rrJobBit x64
+rrJobVersion 9.06
+rrJobVersionMajor 9
+rrJobVersionMinor 06
+rrJobTiled false
+rrJobCustomScene cene
+rrJobCustomShot 
+rrJobCustomVersion 
+rrJobSceneOS mac
+++++++++++++ Environment Variables Client: +++++++++++++++++
+rrClientName Amys-MacBook-Pro
+rrClientCores 4
+rrClientCoresUsed 4
+rrClientBit x64
+rrClientRenderInstance 0
+rrClientThreadID 0
+rrClientThreadIDstr A
+RR_ROOT /Users/amy/rrServer
+rrBin /Users/amy/rrServer/bin/mac/
+rrPlugins /Users/amy/rrServer/render_apps/renderer_plugins/nuke/mac_x64/
+rrPluginsNoOS /Users/amy/rrServer/render_apps/renderer_plugins/nuke/
+rrPrefs /Users/amy/rrServer/render_apps/renderer_prefs/nuke/mac_x64/
+rrSharedExeDir /Users/amy/rrServer/render_apps/renderer_exe/nuke/mac_x64/
+rrLocalTemp /Users/Shared/RR_localdata/temp/A/
+TEMP /Users/Shared/RR_localdata/temp/A
+TMP /Users/Shared/RR_localdata/temp/A
+rrLocalRoot /Users/Shared/RR_localdata/
+rrLocalExeDir /Users/Shared/RR_localdata/renderer_exe/nuke/mac_x64/
+rrLocalPrefs /Users/Shared/RR_localdata/renderer_prefs/nuke/mac_x64/
+rrLocalPlugins /Users/Shared/RR_localdata/renderer_plugins/nuke/mac_x64/
+rrBaseAppPath /Applications/Nuke9.0v6/Nuke9.0v6.app/Contents/MacOS
+++++++++++++ Environment Variables Done  +++++++++++++++++++
+source \"/Users/Shared/RR_localdata/_global.sh\"
+source \"/Users/Shared/RR_localdata/nuke.sh\"
+ \"/Applications/Nuke9.0v6/Nuke9.0v6.app/Contents/MacOS/Nuke9.0v6\" -t \"/Users/amy/rrServer/render_apps/scripts/nuke_shotgun.py\" plugins/python_modules /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/nuke/scene.v001.nk /Users/Shared/RR_localdata/cachedscenes/Volumes_Collab/pipeline_research_project/59d4a248/nuke/scene.v001.nk  /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/ /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/ /Users/Shared/RR_localdata/renderout/A/
+Nuke 9.0v6, 64 bit, built May 27 2015.
+Copyright (c) 2015 The Foundry Visionmongers Ltd.  All Rights Reserved.
+Shotgun Toolkit Nuke engine was initilized.
+Found "ShotgunWrite1" shotgun write node.
+Converting to nuke write nodes...
+All Shotgun write nodes was converted.
+Render output path: /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.%04d.dpx
+Saving nuke script to /Users/Shared/RR_localdata/cachedscenes/Volumes_Collab/pipeline_research_project/59d4a248/nuke/scene.v001.nk
+
+Local scene created successufuly
+
+\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"
+rrErr: [13:48.09] ERROR: The Shotgun Pipeline Toolkit is disabled: The path '/Users/Shared/RR_localdata/cachedscenes/Volumes_Collab/pipeline_research_project/59d4a248/nuke/scene.v001.nk' does not seem to belong to any known Toolkit project!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++ 7.0.11 ++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        \"/Applications/Nuke9.0v6/Nuke9.0v6.app/Contents/MacOS/Nuke9.0v6\" -X ShotgunWrite1  -f    -m 4 --priority low \"/Users/Shared/RR_localdata/cachedscenes/Volumes_Collab/pipeline_research_project/59d4a248/nuke/scene.v001.nk\" 1-39/1
+Nuke 9.0v6, 64 bit, built May 27 2015.
+Copyright (c) 2015 The Foundry Visionmongers Ltd.  All Rights Reserved.
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0001.dpx took 0.09 seconds
+Frame 1 (1 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0002.dpx took 0.07 seconds
+Frame 2 (2 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0003.dpx took 0.07 seconds
+Frame 3 (3 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0004.dpx took 0.07 seconds
+Frame 4 (4 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0005.dpx took 0.07 seconds
+Frame 5 (5 of 39)
+
+.9
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0006.dpx took 0.13 seconds
+Frame 6 (6 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0007.dpx took 0.07 seconds
+Frame 7 (7 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0008.dpx took 0.07 seconds
+Frame 8 (8 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0009.dpx took 0.07 seconds
+Frame 9 (9 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0010.dpx took 0.07 seconds
+Frame 10 (10 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0011.dpx took 0.07 seconds
+Frame 11 (11 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0012.dpx took 0.07 seconds
+Frame 12 (12 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0013.dpx took 0.07 seconds
+Frame 13 (13 of 39)
+
+.3
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0014.dpx took 0.07 seconds
+Frame 14 (14 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0015.dpx took 0.07 seconds
+Frame 15 (15 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0016.dpx took 0.07 seconds
+Frame 16 (16 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0017.dpx took 0.07 seconds
+Frame 17 (17 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0018.dpx took 0.07 seconds
+Frame 18 (18 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0019.dpx took 0.07 seconds
+Frame 19 (19 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0020.dpx took 0.07 seconds
+Frame 20 (20 of 39)
+
+.5
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0021.dpx took 0.07 seconds
+Frame 21 (21 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0022.dpx took 0.08 seconds
+Frame 22 (22 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0023.dpx took 0.07 seconds
+Frame 23 (23 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0024.dpx took 0.07 seconds
+Frame 24 (24 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0025.dpx took 0.07 seconds
+Frame 25 (25 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0026.dpx took 0.07 seconds
+Frame 26 (26 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0027.dpx took 0.07 seconds
+Frame 27 (27 of 39)
+
+.2
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0028.dpx took 0.07 seconds
+Frame 28 (28 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0029.dpx took 0.07 seconds
+Frame 29 (29 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0030.dpx took 0.07 seconds
+Frame 30 (30 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0031.dpx took 0.07 seconds
+Frame 31 (31 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0032.dpx took 0.07 seconds
+Frame 32 (32 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0033.dpx took 0.07 seconds
+Frame 33 (33 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0034.dpx took 0.07 seconds
+Frame 34 (34 of 39)
+
+.4
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0035.dpx took 0.07 seconds
+Frame 35 (35 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0036.dpx took 0.07 seconds
+Frame 36 (36 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0037.dpx took 0.07 seconds
+Frame 37 (37 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0038.dpx took 0.07 seconds
+Frame 38 (38 of 39)
+
+
+Writing /Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.0039.dpx took 0.07 seconds
+Frame 39 (39 of 39)
+
+Total render time: 2.82 seconds
+.9+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++12.01. 13:48.13 Render Executable done +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Royal Render checks the return code of the executable ++++++++++++++++++++
+++++ Executable returned 0 (0x 0) as exit code for frame 1.
+++++ Executable finished
+++++++++++++++++++++++++++++++++++++++++++++ 7.0.15+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+Job ID: {QYO}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+Current time:12.01 13:48.22
+
+
+Total processing time: 00:00.17
+************************* LOCAL RENDER INFORMATION *************************
+Total render files found:     0
+Files successful copied:      0
+Files broken/not copied:      0
+Total render files found (main pass only):     0
+List of files: (C=copied    R=successfully read    X=Exr cropped    F=image verify failed    V=rrViewer cache created)
+************************* CLIENT REPORTS DURING THIS RENDER *************************
+
+Error in this log file (69): rrerr: [13:48.09] error: the shotgun pipeline toolkit is disabled: the path '/users/shared/rr_localdata/cachedscenes/volumes_collab/pipeline_research_project/59d4a248/nuke/scene.v001.nk' does not seem to belong to any known toolkit project!
+
+

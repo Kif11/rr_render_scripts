@@ -1,0 +1,155 @@
+++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++
+Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO
+10.14 12:13.52
+Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+Job: {2DDa}  Sequence: 1-10, 1
+Scene: .../    testProject/    test_01 70.61Kb 10.14 11:19.27
+Render config used: PPSequence Check    post02__SequenceCheck.cfg
+rrExeBit x64
+ExeVersionMinReq 2015.16
+rrExeVersion 2015.16
+rrExeVersionMajor 2015
+rrExeVersionMinor 16
+rrExeOS mac
+++++++++++++ Environment Variables Job: ++++++++++++++++++++
+rrJobRenderapp Maya
+rrJobRenderer mayaSoftware
+rrJobRendererVersion 
+rrJobProject Desktop
+rrJobType 3D
+rrJobBit x64
+rrJobVersion 2015.16
+rrJobVersionMajor 2015
+rrJobVersionMinor 16
+rrJobTiled false
+rrJobCustomScene t
+rrJobCustomShot 
+rrJobCustomVersion 
+rrJobSceneOS mac
+++++++++++++ Environment Variables Client: +++++++++++++++++
+rrClientName Amys-MacBook-Pro
+rrClientCores 4
+rrClientCoresUsed 4
+rrClientBit x64
+rrClientRenderInstance 0
+rrClientThreadID 0
+rrClientThreadIDstr A
+RR_ROOT /Users/amy/rrServer
+rrBin /Users/amy/rrServer/bin/mac/
+rrPlugins /Users/amy/rrServer/render_apps/renderer_plugins/maya/mac_x64/
+rrPluginsNoOS /Users/amy/rrServer/render_apps/renderer_plugins/maya/
+rrPrefs /Users/amy/rrServer/render_apps/renderer_prefs/maya/mac_x64/
+rrSharedExeDir /Users/amy/rrServer/render_apps/renderer_exe/maya/mac_x64/
+rrLocalTemp /Users/Shared/RR_localdata/temp/A/
+TEMP /Users/Shared/RR_localdata/temp/A
+TMP /Users/Shared/RR_localdata/temp/A
+rrLocalRoot /Users/Shared/RR_localdata/
+rrLocalExeDir /Users/Shared/RR_localdata/renderer_exe/maya/mac_x64/
+rrLocalPrefs /Users/Shared/RR_localdata/renderer_prefs/maya/mac_x64/
+rrLocalPlugins /Users/Shared/RR_localdata/renderer_plugins/maya/mac_x64/
+rrBaseAppPath 
+++++++++++++ Environment Variables Done  +++++++++++++++++++
+\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++ 7.0.11 ++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        \"/Users/amy/rrServer/bin/mac64/rrSequenceCheck.app/Contents/MacOS/rrSequenceCheck\" \"/Users/amy/Desktop/testProject/images/test_01.#.jpg\"  -del -delMiss -cropEXR -seq 1 10 1 0 -minFileSizeKB 0   -c -jd \"/Users/amy/rrServer/website/Desktop/2DDa_QQEE_Maya__rsamyDesktoptestProjecttest_0/\" -threadID 0
+----------------------------------------------------------------
+rrSequenceCheck  7.0.25
+Copyright(c)  Holger Schoenberger. All rights reserved.
+----------------------------------------------------------------
+10.14 12:13.52|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+10.14 12:13.52|        rrSequenceCheck console     7.0.25    rrVer7.0.26  64bit
+10.14 12:13.52|         shared RR root is /Users/amy/rrServer/
+10.14 12:13.52|        time - main files: .002s
+10.14 12:13.52|        time - globalconfig: .002s
+10.14 12:13.52| ERR No license file (or not allowed to read file)! 
+10.14 12:13.52|     Time Zone -7:00.00
+10.14 12:13.52|        time - all init:.004s
+10.14 12:13.52|        rrSequenceCheck console     7.0.25    rrVer7.0.26
+10.14 12:13.52|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+Option set: Allow Delete
+Option set: Allow delete of main channel if this channel misses files
+Option set: Crop EXR files
+Option set: Create rrViewer cache files
+10.14 12:13.53|     Image plugins load time: .018s
+Found Sequence 1-10, 1
+Loading frame 0001  (1/10) ...
+0001    960x540  8bit  Jpg  RGB      11.411 bytes  10.14 12:11.36  Amys-MacBook-Pro  
+0002    960x540  8bit  Jpg  RGB      11.411 bytes  10.14 12:12.54  Amys-MacBook-Pro  
+0003    960x540  8bit  Jpg  RGB      11.431 bytes  10.14 12:12.54  Amys-MacBook-Pro  
+0004    960x540  8bit  Jpg  RGB      11.411 bytes  10.14 12:12.55  Amys-MacBook-Pro  
+0005    960x540  8bit  Jpg  RGB      11.438 bytes  10.14 12:11.55  Amys-MacBook-Pro  
+0006    960x540  8bit  Jpg  RGB      11.411 bytes  10.14 12:12.35  Amys-MacBook-Pro  
+0007    960x540  8bit  Jpg  RGB      11.395 bytes  10.14 12:12.35  Amys-MacBook-Pro  
+0008    960x540  8bit  Jpg  RGB      11.411 bytes  10.14 12:12.36  Amys-MacBook-Pro  
+0009    960x540  8bit  Jpg  RGB      11.417 bytes  10.14 12:12.36  Amys-MacBook-Pro  
+0010    960x540  8bit  Jpg  RGB      11.392 bytes  10.14 12:11.36  Amys-MacBook-Pro  
+
+
+Image differences:
+av. histo diff:     0.001   0.000    av image diff:   0.001   0.000
+timer 0.035
+ 0001:   Histo  0.77 (  0.000   0.000)     Image  0.12 (  0.000   0.000)
+ 0002:   Histo  0.77 (  0.000   0.000)     Image  0.37 (  0.000   0.000)
+ 0003:   Histo  1.28 (  0.001   0.000)     Image  1.81 (  0.002   0.000)
+ 0004:   Histo  0.77 (  0.000   0.000)     Image  1.01 (  0.001   0.000)
+ 0005:   Histo  1.49 (  0.001   0.000)     Image  1.65 (  0.002   0.000)
+ 0006:   Histo  0.77 (  0.000   0.000)     Image  0.88 (  0.001   0.000)
+ 0007:   Histo  0.97 (  0.001   0.000)     Image  1.64 (  0.002   0.000)
+ 0008:   Histo  0.77 (  0.000   0.000)     Image  0.67 (  0.001   0.000)
+ 0009:   Histo  0.99 (  0.001   0.000)     Image  1.17 (  0.001   0.000)
+ 0010:   Histo  1.40 (  0.001   0.000)     Image  0.68 (  0.001   0.000)
+Saving /Users/amy/rrServer/website/Desktop/2DDa_QQEE_Maya__rsamyDesktoptestProjecttest_0/rrview_globals.rrc
+Done
+10.14 12:13.53|     Application Down
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++10.14. 12:13.54 Render Executable done +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Royal Render checks the return code of the executable ++++++++++++++++++++
+++++ Executable returned 0 (0x 0) as exit code for frame 1.
+++++ Executable finished
+++++++++++++++++++++++++++++++++++++++++++++ 7.0.15+++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++
+Render config used: PPCreate Small Video    post10__Create_Small_Video.cfg
+\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++ 7.0.11 ++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        \"/Users/amy/rrServer/bin/mac64/rrCreateVideo.app/Contents/MacOS/rrCreateVideo\" \"/Users/amy/rrServer/website/Desktop/2DDa_QQEE_Maya__rsamyDesktoptestProjecttest_0/test_01__2DDa_s.mov\" \"/Users/amy/Desktop/testProject/images/test_01.#.jpg\" -w \"/Users/amy/rrServer/website/Desktop/2DDa_QQEE_Maya__rsamyDesktoptestProjecttest_0\"  -tl \"test_01 - \" -bl \"Wed, 14.Oct\" -br \"*frame*\" -bli /Users/amy/rrServer/sub/R_left.png -bri /Users/amy/rrServer/sub/R_right.png -Slate \"Project:,Date:,,Shot:,Scene:,Layer:,,Sequence:,Length: ~ Desktop,Wed, 14.Oct,,t--,test_01,,,1-10 1,10\" -slateImg \"/Users/amy/rrServer/sub/slatebg.png\"
+----------------------------------------------------------------
+rrCreateVideo  7.0.25      Copyright(c)  Holger Schoenberger. All rights reserved.
+This application accesses the FFmpeg libraries.
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project. 
+
+----------------------------------------------------------------
+Loaded 25x20 '/Users/amy/rrServer/sub/R_right.png'
+Loaded 25x20 '/Users/amy/rrServer/sub/R_left.png'
+Loaded 500x280 '/Users/amy/rrServer/sub/slatebg.png'
+Found Sequence 1-10, 1
+Input Resolution 960x540
+Output Resolution 500x320 (image size 500x280)
+rrErr: Output #0, mov, to '/tmp/rrCreateVideo_temp.mov':
+rrErr:     Stream #0:0: Video: mjpeg, yuvj422p, 500x320, q=4-8, 9999 kb/s, 25 tbn, 25 tbc
+Using codec 'mjpeg' (MJPEG (Motion JPEG))
+ with pixel format 'YUVJ422P (planar YUV 4:2:2, 16bpp, full scale (JPEG))'
+ into output format 'mov' (QuickTime / MOV) 
+Adding Slate
+Converting frame 0001  (1/10)
+Copy from temp ('/tmp/rrCreateVideo_temp.mov') to '/Users/amy/rrServer/website/Desktop/2DDa_QQEE_Maya__rsamyDesktoptestProjecttest_0/test_01__2DDa_s.mov'
+Done
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++10.14. 12:13.56 Render Executable done +++++++++++++++++++++++++++++++++++
+++++++++++++++++++++ Royal Render checks the return code of the executable ++++++++++++++++++++
+++++ Executable returned 0 (0x 0) as exit code for frame 1.
+++++ Executable finished
+++++++++++++++++++++++++++++++++++++++++++++ 7.0.15+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+Current time:10.14 12:13.59
+
+
+Total processing time: 00:00.07
