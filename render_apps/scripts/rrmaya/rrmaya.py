@@ -1,134 +1,33 @@
-#  Render script for Maya
-#  Last Change: v 7.0.20
-#  Copyright (c)  Holger Schoenberger - Binary Alchemy
-
+import os
+import sys
 import datetime
 import time
-import sys
-import re
-import os
-import maya.cmds as cmds
 import pymel.core as pm
 import maya.mel
-
 parent_dir = os.path.join(os.getcwd(), '..')
 sys.path.append(parent_dir)
-
-from rrapp import Application
+import rrapp.application
+reload(rrapp.application)
+from rrapp.application import RRApp
 from utils.hook import Hook
+import utils.argparser
+reload(utils.argparser)
+from utils.argparser import ArgumentParser
 import rrtcp
+from utils.logger import Logger
 
-
-class RRMaya(Application):
-
-    def __init__ (self, args_string):
-        super(self.__class__, self).__init__(args_string)
-        self.log.debug('Initilizing RRMaya...')
-
-        self.rend = MayaRenderer(self)
-
-        # Command argument values
+class RRMayaJob(object):
+    def __init__(self, args_string):
+        self.arg = ArgumentParser('RRMaya', args_string)
+        self.log = Logger()
+        self.render_name = self.arg.get('Renderer')
         self.workspace = self.arg.get('Database')
         self.image_dir = self.arg.get('FDir')
         self.python_path = self.arg.get('PyModPath')
         self.maya_scene = self.arg.get('SName')
-        self.layer_name = self.arg.get('Layer')
+        # self.render_layer = self.arg.get('Layer')
         self.override_render_cmd = self.arg.get('OverwriteRenderCmd')
         self.kso_mode = self.arg.get('KSOMode')
-
-        self.log.debug('Initilization of RRMaya finished')
-
-    def app_version(self):
-        # Return full api version as 201516
-        # We trim two last digits to produce 2015
-        version = cmds.about(apiVersion=True)/100
-        self.log.info("Maya version: %s" % version)
-        return version
-
-    def open_scene(self, scene):
-        scene = cmds.file(scene, f=True, o=True)
-        self.log.info('Open scene file: %s' % scene)
-        return scene
-
-    def init_globals(self):
-
-        self.set_env('PYTHONPATH', self.python_path)
-
-        if (self.workspace is not None):
-            cmds.workspace(self.workspace, openWorkspace=True )
-            self.log.info("Maya workspace: %s" % self.workspace)
-        if (self.image_dir is not None):
-            cmds.workspace(fileRule = ["images", self.image_dir])
-            cmds.workspace(fileRule = ["depth", self.image_dir])
-            self.log.info("Maya image directory: %s" % self.image_dir)
-
-        # Load global plugins
-        maya.mel.eval("loadPlugin AbcImport;")
-        if (self.app_version() >= 2014):
-            maya.mel.eval("loadPlugin xgenMR;")
-            maya.mel.eval("loadPlugin xgenToolkit;")
-
-        self.open_scene(self.maya_scene)
-        self.set_render_layer(self.layer_name)
-
-    def set_render_layer(self, layer_name):
-
-        # TODO(Kirill): Refactor this function using PyMel
-
-        if (layer_name is not None):
-
-            self.log.info('Current layer: %s' % layer_name)
-
-            if (layer_name == 'masterLayer'):
-                layer_name = 'defaultRenderLayer'
-
-            render_layers = cmds.listConnections('renderLayerManager',
-                                                 t='renderLayer')
-
-            if (not layer_name.upper() in (name.upper() for name in render_layers)):
-                self.log.error('Layer "%s" does not exist!' % layer_name)
-
-            maya.mel.eval('setMayaSoftwareLayers("%s");' % layer_name)
-
-    def start_render(self):
-
-        time_start = datetime.datetime.now()
-
-        # Maya and render initialization
-        self.init_globals()
-        self.rend.initialize()
-
-        time_end = datetime.datetime.now() - time_start
-
-        self.log.info("Scene load time: %s (h:m:s.ms)" % time_end)
-        self.log.info("Scene initialization finished. Starting to render...")
-
-        if (self.kso_mode):
-            self.start_kso_server()
-        else:
-            self.rend.render_frames()
-
-        self.log.info('Render finished.')
-
-
-class MayaRenderer(object):
-
-    def __init__(self, rrmaya):
-        """
-        :rrmaya object: Parent RRMaya object
-        """
-        self.log = rrmaya.log
-        self.log.debug('Initilizing MayaRenderer...')
-
-        self.rrmaya = rrmaya
-        self.arg = rrmaya.arg
-
-        self.hook = Hook(self)
-
-        self.render_globals = pm.PyNode('defaultRenderGlobals')
-
-        # Command argument values
-        self.renderer = self.get_renderer()
         self.file_name = self.arg.get('FName')
         self.file_ext = self.arg.get('FExt')
         self.file_name_no_var = self.arg.get('FNameNoVar')
@@ -144,7 +43,7 @@ class MayaRenderer(object):
         self.threads = self.arg.get('Threads')
         self.resx = self.arg.get('ResX')
         self.resy = self.arg.get('ResY')
-        self.format = self.arg.get('FOverrideFormat')
+        self.image_format = self.arg.get('FOverrideFormat')
         self.threads = self.arg.get('Threads')
         self.edge_aa = self.arg.get('AA1')
         self.samples = self.arg.get('AA2')
@@ -161,302 +60,303 @@ class MayaRenderer(object):
         self.verbose = self.arg.get('Verbose')
         self.kso_mode = self.arg.get('KSOMode')
 
-        self.init_globals()
-
-        self.log.debug('Initilization of MayaRenderer finished')
-
-    def init_globals(self):
+    @property
+    def render_layer(self):
         """
-        This function is global for all renders. It run on the
-        class instantiation.
+        Setup the Maya renderer to render only the specified layers.
+        In case when arg layer is None will set masterLayer as rendarable.
+        param layer: Layer name string.
         """
+        user_layer = self.arg.get('Layer')
+        lm = pm.PyNode('renderLayerManager')
+        render_layers = lm.listConnections()
 
-        def unlock_default_global(param):
-            maya.mel.eval('removeRenderLayerAdjustmentAndUnlock '
-                          'defaultRenderGlobals.%s;' % param)
+        selected = False
+        for l in render_layers:
+            if l.name() == user_layer:
+                l.setAttr('renderable', True)
+                selected = True
+            else:
+                l.setAttr('renderable', False)
+        if not selected:
+            # This is the case when render specified by user does not exist or None.
+            default_layer = pm.nodetypes.RenderLayer(u'defaultRenderLayer')
+            default_layer.setAttr('renderable', True)
+            self.log.warning('Failed to set layer %s as renderable. ' \
+                             'Does not exists. Set to %s.' \
+                             % (user_layer, default_layer.name()))
+            return default_layer.name()
 
+            # TODO(Kirill): Add return statment for every condition.
+        else:
+            self.log.info('Current render layer: %s' % user_layer)
+
+class RRMaya(RRApp):
+
+    def __init__(self, rr_job):
+        super(self.__class__, self).__init__()
+        self.job = rr_job
+        self.hook = Hook(self)
+        self.GLOABAL_STARTUP_PLUGINS = ['xgenMR', 'xgenToolkit', 'AbcImport']
+        self.WORK_SPACE = {
+            'images': self.job.image_dir,
+            'depth': self.job.image_dir
+        }
+
+    def version(self):
+        """
+        returns: Maya app version e.g 2015.
+        """
+        # Return full api version as 201516
+        # We trim two last digits to produce 2015
+        version = cmds.about(apiVersion=True)/100
+        self.log.info("Maya version: %s" % version)
+        return version
+
+    def open_scene(self, scene):
+        """
+        Open maya scene.
+        param scene: Path to maya scene file.
+        """
+        scene = pm.openFile(scene, force=True)
+        self.log.info('Open scene file: %s' % scene)
+        return scene
+
+    def set_workspace(self):
+        # workspace.open doesn't do anything if workspace.open = None
+        pm.workspace.open(self.job.workspace)
+        self.log.info('Maya workspace: %s' % pm.workspace.getcwd())
+        for file_rule, path in self.WORK_SPACE.items():
+            pm.workspace.fileRules[file_rule] = path
+
+    @property
+    def render_name(self):
+        """
+        returns: Name of the current renderer provided
+        by rrSubmiter or specified in Maya settings.
+        """
+        if (self.job.render_name is None):
+            return self.render_globals.getAttr('currentRenderer')
+        else:
+            return self.job.render_name
+
+    def load_plugin(self, plugin_name):
+        # Maya will skip this action if plugin is alredy loaded
+        maya.mel.eval('loadPlugin %s;' % plugin_name)
+
+    def override_attr(self, attr, value):
+        """
+        Overide attribute value.
+        param attr: PyMel atribute object.
+        param value: New value for the attribute.
+        """
+        # Removes any render layer adjustment
+    	# and unlocks the attr,
+    	# so that command line rendering can override the value.
+        maya.mel.eval('removeRenderLayerAdjustmentAndUnlock %s;' % attr.name())
+        attr.set(value)
+
+        return attr
+
+    def set_attrs(self, node, attr_dict):
+        """
+        param node: PyMel note to assign attributes to.
+        param attr_dict: Dictionlary of Attribute name : value.
+        """
+        for name, value in attr_dict.items():
+            if (value is not None):
+                node.setAttr(name, value)
+            else:
+                self.log.debug('Attribute %s is %s. Skipped!' % (name, value))
+
+    def set_default_render_resolution(self, x, y):
+        """
+        Set resolution for all native Maya renders.
+        param x: Resolution X
+        param y: Resolution Y
+        """
         default_res = pm.PyNode('defaultResolution')
-
-        if (self.single_output is None):
-            unlock_default_global('animation')
-            # self.render_globals.setAttr('imageFilePrefix', self.file_name )
-            self.render_globals.setAttr('animation', True)
-
-            unlock_default_global('endFrame')
-            unlock_default_global('byFrameStep')
-            unlock_default_global('modifyExtension')
-            unlock_default_global('startExtension')
-
-            self.render_globals.setAttr('modifyExtension', 1)
-            self.render_globals.setAttr('extensionPadding', self.frame_padding)
-
-        if (self.camera is not None):
-            maya.mel.eval('makeCameraRenderable("%s")' % self.camera)
-            self.log.info('Camera: %s' % self.camera)
-
-        if (self.threads is not None):
-            cmds.threadCount(n=self.threads)
-            self.log.info('Threads: %s' % self.threads)
-
-        # Set default render resolution
-        if (self.resx is not None):
-            default_res.setAttr('width', self.resx)
-            self.log.info('Render width: %s' % self.resx)
-        if (self.resy is not None):
-            default_res.setAttr('height', self.resy)
-            self.log.info('Render height: %s' % self.resy)
-
-        self.render_globals.setAttr('skipExistingFrames', 0)
-        maya.mel.eval('setImageSizePercent(-1.)')
-        self.render_globals.setAttr('renderAll', 1)
-
-    def get_renderer(self):
-        render_name = self.arg.get('Renderer')
-        # If no renderer argument specified
-        # retrive renderer from maya settings
-        if (render_name is None):
-            maya_renderer = self.render_globals.getAttr('currentRenderer')
-            render_name = self.arg.set('Renderer', maya_renderer)
-
-        self.log.info('Maya renderer: %s' % render_name)
-
-        return render_name
-
-    def initialize(self):
-
-        if (self.renderer == "mayaSoftware"):
-            self.init_mayasoftware()
-        elif (self.renderer == "mentalRay"):
-            self.init_mentalray()
-        elif (self.renderer == "vray"):
-            self.init_vray()
-        elif (self.renderer == "arnold"):
-            self.init_arnold()
-        elif (self.renderer == "redshift"):
-            self.init_redshift()
+        if (x is not None):
+            default_res.setAttr('width', x)
+            self.log.info('Render width: %s' % x)
+        if (y is not None):
+            default_res.setAttr('height', y)
+            self.log.info('Render height: %s' % y)
 
     def init_mayasoftware(self):
 
-        self.log.debug("INITILAZING MAYA SOFTWARE")
+        render_globals = pm.PyNode('defaultRenderGlobals')
+        render_quality = pm.PyNode('defaultRenderQuality')
 
-        quality = pm.PyNode('defaultRenderQuality')
+        self.set_default_render_resolution(self.job.resx, self.job.resy)
+        if self.job.image_format is not None:
+            pm.mel.setMayaSoftwareImageFormat(self.job.image_format)
 
-        if (self.format is not None):
-            maya.mel.eval('setMayaSoftwareImageFormat("%s")' % self.format)
+        self.set_attrs(render_globals, {
+            'numCpusToUse': self.job.threads,
+            'motionBlur': self.job.motion_blur
+        })
 
-        globals_attrs = {'numCpusToUse': self.threads,
-                         'motionBlur': self.motion_blur}
-
-        for name, value in globals_attrs.items():
-            if (value is not None):
-                self.render_globals.setAttr(name, value)
-
-        quality_attrs = {
-             'edgeAntiAliasing': self.edge_aa,
-             'shadingSamples': self.samples,
-             'maxShadingSamples': self.max_samples,
-             'redThreshold': self.treshold,
-             'greenThreshold': self.treshold,
-             'blueThreshold': self.treshold,
-             'coverageThreshold': self.treshold}
-
-        for name, value in quality_attrs.items():
-            if (value is not None):
-                render_quality.setAttr(name, value)
-
-        # TODO(kirill): Remove it since it doesn't do anything meaningful.
-        # Source file location mac: /Applications/Autodesk/maya2015/Maya.app/Contents/scripts/others
-        # # Set render rigion
-        # maya.mel.eval('setMayaSoftwareRegion(%s,%s,%s,%s)'
-        #                                       % (self.rx1, self.rx2,
-        #                                          self.ry1, self.ry2))
+        self.set_attrs(render_quality, {
+             'edgeAntiAliasing': self.job.edge_aa,
+             'shadingSamples': self.job.samples,
+             'maxShadingSamples': self.job.max_samples,
+             'redThreshold': self.job.treshold,
+             'greenThreshold': self.job.treshold,
+             'blueThreshold': self.job.treshold,
+             'coverageThreshold': self.job.treshold
+        })
 
     def init_mentalray(self):
 
-        self.log.debug("INITILAZING MENTAL RAY SOFTWARE")
-
-        maya.mel.eval('loadPlugin Mayatomr;')
-        maya.mel.eval('miLoadMayatomr;')
-        maya.mel.eval('miCreateDefaultNodes();')
-
         mi_default = pm.PyNode('miDefaultOptions')
 
-        # TODO(Kirill): May be I can replace this long maya mell commands
-        # with PyMel commands
-        if (self.format is not None):
-            maya.mel.eval('setMentalRayImageFormat("%s")' % self.format)
-        if (self.verbose is not None):
-            maya.mel.eval('global int $g_mrBatchRenderCmdOption_VerbosityOn = true;'
-                          'global int $g_mrBatchRenderCmdOption_Verbosity = %s' % self.verbose)
+        self.load_plugin('Mayatomr')
+        # This function call from mentalrayUI.mel required
+        # to initialize render properly.
+        pm.mel.miCreateDefaultNodes()
 
-        if (self.threads is not None):
-            maya.mel.eval('global int $g_mrBatchRenderCmdOption_NumThreadOn = true;'
-                          'global int $g_mrBatchRenderCmdOption_NumThread = %s' % self.threads)
-        else:
-            maya.mel.eval('global int $g_mrBatchRenderCmdOption_NumThreadAutoOn = true;'
-                          'global int $g_mrBatchRenderCmdOption_NumThreadAuto = true')
+        self.set_default_render_resolution(self.job.resx, self.job.resy)
+        if self.job.image_format is not None:
+            pm.mel.setMentalRayImageFormat(self.job.image_format)
 
-        maya.mel.eval('setMentalRayRenderRegion(%s,%s,%s,%s)'
-                                              % (self.rx1, self.rx2,
-                                                 self.ry1, self.ry2))
-
-        if (self.motion_blur is not None):
-            if (self.motion_blur):
-                mi_default.setAttr('motionBlur', 2)
-            else:
-                mi_default.setAttr('motionBlur', 0)
-
-        mi_attrs = {'displacementShaders': self.render_displace,
-                    'miDefaultOptions': self.edge_aa,
-                    'maxSamples': self.samples,
-                    'contrastR': self.max_samples,
-                    'contrastG': self.max_samples,
-                    'contrastB': self.max_samples,
-                    'contrastA': self.max_samples}
-
-        for name, value in mi_attrs.items():
+        # Set global mental ray variables.
+        for name, value in {
+            'VerbosityOn': 'true',
+            'Verbosity': self.job.verbose,
+            'NumThreadOn': 'true',
+            'NumThread': self.job.threads,
+            'NumThreadAutoOn': 'true',
+            'NumThreadAuto': 'true'}.items():
             if (value is not None):
-                mi_default.setAttr(name, value)
+                cmd = 'global int $g_mrBatchRenderCmdOption_%s = %s;' % (name, value)
+                maya.mel.eval(cmd)
+
+        self.set_attrs(mi_default, {
+            'displacementShaders': self.job.render_displace,
+            'miDefaultOptions': self.job.edge_aa,
+            'maxSamples': self.job.samples,
+            'contrastR': self.job.max_samples,
+            'contrastG': self.job.max_samples,
+            'contrastB': self.job.max_samples,
+            'contrastA': self.job.max_samples,
+            'motionBlur': self.job.motion_blur
+        })
 
     def init_vray(self):
-        vr_render = pm.PyNode('vraySettings')
 
-        vr_render.setAttr('animation', True)
-        vr_render.setAttr('fileNamePrefix', self.file_name)
-        maya.mel.eval('vrayRegisterRenderer(); vrayCreateVRaySettingsNode();')
-        if (self.threads is not None):
-            vr_render.setAttr('sys_max_threads', self.threads)
+        vray_settings = pm.PyNode('vraySettings')
 
-        # TODO(Kirill): This setting cause very long render time
-        # Tested on maya 2016 with vray 3. Do we realy need it?
-        # # Set vray render region
-        # maya.mel.eval('vraySetBatchDoRegion(%s,%s,%s,%s)'
-        # 				% (self.rx1, self.rx2, self.ry1, self.ry2))
+        self.load_plugin('vrayformaya')
+        # pm.mel.loadPreferredRenderGlobalsPreset('vray') # Not sure that we need it.
+        pm.mel.vrayRegisterRenderer()
+        pm.mel.vrayCreateVRaySettingsNode()
 
-        vray_attrs = {'width': self.resx,
-                      'height': self.resy,
-                      'fileNamePadding': self.frame_padding,
-                      'batchCamera': self.camera,
-                      'imageFormatStr': self.format}
-
-        for name, value in vray_attrs.items():
-            if (value is not None):
-                vr_render.setAttr(name, value)
-                self.log.debug('Vray attr %s set to %s'
-                				% (name, value))
+        self.set_attrs(vray_settings, {
+            'animation': True,
+            'fileNamePrefix': self.job.file_name,
+            'sys_max_threads': self.job.threads,
+            'width': self.job.resx,
+            'height': self.job.resy,
+            'fileNamePadding': self.job.frame_padding,
+            'batchCamera': self.job.camera,
+            'imageFormatStr': self.job.image_format
+        })
 
     def init_arnold(self):
+
+        self.load_plugin('mtoa')
 
         ai_render = pm.PyNode('defaultArnoldRenderOptions')
         ai_driver = pm.PyNode('defaultArnoldDriver')
         ai_translator = ai_driver.ai_translator
 
-        ai_render.setAttr('renderType', 0)
+        ext_dict = {'.exr': 'exr', '.jpeg': 'jpeg', '.jpg': 'jpeg',
+                    '.maya': 'maya', '.png': 'png', '.tif': 'tif'}
 
-        if (self.single_output is None and
-                self.file_name is not None):
-            self.file_name = self.file_name.replace('<Layer>', '<RenderLayer>')
-            self.file_name = self.file_name.replace('<layer>', '<RenderLayer>')
-            self.render_globals.setAttr('imageFilePrefix', self.file_name)
+        self.set_attrs(ai_render, {
+            'renderType': 0,
+            'threads_autodetect': False,
+            'threads': self.job.threads,
+            'motion_blur_enable': self.job.motion_blur,
+            'ignoreMotionBlur': not self.job.motion_blur,
+            'ignoreDisplacement': not self.job.render_displace,
+            'abortOnLicenseFail': not self.job.render_demo,
+            'skipLicenseCheck': self.job.render_demo,
+            'log_verbosity': self.job.verbose
+        })
 
-        if (self.threads is not None):
-            ai_render.setAttr('threads_autodetect', False)
-            ai_render.setAttr('threads', self.threads)
-
-        if (self.motion_blur is not None):
-            ai_render.setAttr('motion_blur_enable', self.motion_blur)
-            ai_render.setAttr('ignoreMotionBlur', not self.motion_blur)
-
-        if (self.render_demo is not None):
-            if (self.render_demo):
-                ai_render.setAttr('abortOnLicenseFail', False)
-                ai_render.setAttr('skipLicenseCheck', True)
-            else:
-                ai_render.setAttr('abortOnLicenseFail', True)
-                ai_render.setAttr('skipLicenseCheck', False)
-
-        if (self.render_displace is not None):
-            ai_render.setAttr('ignoreDisplacement', not self.render_displace)
-
-        if (self.format is not None):
-            ai_translator.set(self.format)
-
-        if (self.ext_override is not None):
-            ext_dict = {'.exr': 'exr', '.jpeg': 'jpeg', '.jpg': 'jpeg',
-                        '.maya': 'maya', '.png': 'png', '.tif': 'tif'}
-            ai_translator.set(ext_dict[self.file_ext.lower()])
-
-        # Set render region
-        regions = {'regionMinX': self.rx1, 'regionMaxX': self.rx2,
-                   'regionMinY': self.ry1, 'regionMaxY': self.ry2}
-
-        for name, value in regions.items():
-            if value is not None:
-                ai_render.setAttr(name, value)
-
-        if (self.verbose is not None):
-            ai_render.setAttr('log_verbosity', self.verbose)
+        if (self.job.image_format is not None):
+            ai_translator.set(self.job.image_format)
+        if (self.job.ext_override is not None):
+            new_ext = ext_dict[self.job.file_ext.lower()]
+            ai_translator.set(new_ext)
 
     def init_redshift(self):
         pass
 
     def render_frame(self, frame_number):
+        """
+        Render one frame.
+        """
+        render_globals = pm.PyNode('defaultRenderGlobals')
 
         before_frame = datetime.datetime.now()
 
+        self.set_attrs(render_globals, {
+            'startFrame': frame_number,
+            'endFrame': frame_number,
+            'startExtension': frame_number + self.job.frame_offset
+        })
+
         self.log.info('Starting to render frame %s...' % frame_number)
-
-        self.render_globals.setAttr('startFrame', frame_number)
-        self.render_globals.setAttr('endFrame', frame_number)
-        self.render_globals.setAttr('startExtension', frame_number +
-                                                self.frame_offset)
-
-        # Render one frame
-        maya.mel.eval('mayaBatchRenderProcedure(0, "", "%s", "%s", "")'
-                                    % (self.layer_name, self.renderer))
+        # global proc mayaBatchRenderProcedure(
+        # 	int $isInteractiveBatch,	// interactive batch or command line rendering
+        # 	string $sceneName,			// the original scene name before export
+        # 	string $layer,				// render specific layer
+        # 	string $renderer,			// use specific renderer is not empty string.
+        # 	string $option				// optional arg to the render command
+        # )
+        pm.mel.mayaBatchRenderProcedure(0, "", self.job.render_layer, self.job.render_name, "")
 
         after_frame = datetime.datetime.now() - before_frame
 
         self.log.info("Randering of frame: %s finished in %s (h:m:s.ms)"
                                           % (frame_number, after_frame))
 
-    def render_frames(self):
+    def initialize(self):
 
-        # Before starting render execute user script
-        self.hook.before_segment_render()
+        default_res = pm.PyNode('defaultResolution')
+        render_globals = pm.PyNode('defaultRenderGlobals')
 
-        self.log.info('Changing scene frame to frame %s...' % self.frame_start)
-        cmds.currentTime(self.frame_start, edit=True)
+        self.set_env('PYTHONPATH', self.job.python_path)
 
-        self.render_globals.setAttr('byFrameStep', self.frame_step)
-        self.render_globals.setAttr('byExtension', self.frame_step)
+        for p in self.GLOABAL_STARTUP_PLUGINS:
+            self.load_plugin(p)
 
-        if (self.renderer == 'vray'):
-            setAttr('vraySettings.startFrame', self.frame_start)
-            setAttr('vraySettings.endFrame', self.frame_end)
-            setAttr('vraySettings.frameStep', self.frame_step)
+        self.set_workspace()
+        self.open_scene(self.job.maya_scene)
+        # self.set_render_layer(self.job.render_layer)
 
-        maya.mel.eval('setImageSizePercent(-1.)')
-        self.render_globals.setAttr('renderAll', 1)
+        renderer = self.render_name
+        if (renderer == "mayaSoftware"):
+            self.init_mayasoftware()
+        elif (renderer == "mentalRay"):
+            self.init_mentalray()
+        elif (renderer == "vray"):
+            self.init_vray()
+        elif (renderer == "arnold"):
+            self.init_arnold()
+        elif (renderer == "redshift"):
+            self.init_redshift()
 
-        frame_range = xrange(self.frame_start, self.frame_end + 1, self.frame_step)
-
-        for frame in frame_range:
-            self.hook.before_frame_render()
-            file_name = '%s/%s.' % (self.file_dir, self.file_name_no_var)
-            rrtcp.create_placeholder(file_name, frame, self.frame_padding, self.file_ext)
-
-            self.render_frame(frame)
-
-        # Run user code after render of segment is finished
-        self.hook.after_segment_render()
-
-        # if (argValid(arg.FNameNoVar)):
-        #     if (Renderer == "vray" and not arg.FNameNoVar.endswith('.')):
-        #         kso_tcp.writeRenderPlaceholder_nr(arg.FDir+"/"+arg.FNameNoVar+".", frameNr, arg.FPadding, arg.FExt)
-        #     else:
-        #         kso_tcp.writeRenderPlaceholder_nr(arg.FDir+"/"+arg.FNameNoVar, frameNr, arg.FPadding, arg.FExt)
+        print 'KSO MODE: ', self.job.kso_mode
+        if (self.job.kso_mode):
+            self.start_kso_server()
+        else:
+            self.render_frame(12) # Temp
 
 def rrStart(args_string):
-    rr_maya = RRMaya(args_string)
-    rr_maya.start_render()
+    rr_job = RRMayaJob(args_string)
+    rr_maya = RRMaya(rr_job)
+    rr_maya.initialize()
