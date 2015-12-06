@@ -6982,3 +6982,93 @@ e to connect to Server!; 61: Connection refused;  while trying to connect to 127
 12.03 21:04.38|     High artist CPU usage since 21:04.  Artist uses right now 83%CPU. System: 83%   Job Threads A: 0%  B: 0%  C: 0%
 12.03 21:04.39|     List Processes (minCore=3.5% ( 0.9% total))
 12.03 22:13.24|     High artist CPU usage since 22:13.  Artist uses right now 80%CPU. System: 80%   Job Threads A: 0%  B: 0%  C: 0%
+12.06 14:34.24|     #################STARTUP#################################################################
+12.06 14:34.24|     ------------------------------------------------------------------------------------------- 
+12.06 14:34.24|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.06 14:34.24|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.06 14:34.24|         shared RR root is /Users/amy/rrServer/
+12.06 14:34.24|        time - main files: .015s
+12.06 14:34.24|        time - globalconfig: .004s
+12.06 14:34.24| ERR No license file (or not allowed to read file)! 
+12.06 14:34.25|        time - loadFileRenderApps: .511s
+12.06 14:34.25|        time - loadFileUserSettings: .002s
+12.06 14:34.25|     Time Zone -8:00.00
+12.06 14:34.25|        time - all init:.533s
+12.06 14:34.25|        rrClient console     7.0.26    rrVer7.0.26
+12.06 14:34.25|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.06 14:34.25|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.06 14:34.25|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.06 14:34.25|      EUser: 501 amy  EGroup: 20 staff
+12.06 14:34.25|     Image plugins load time: .049s
+12.06 14:34.25|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.06 14:34.25|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.06 14:34.28|     List Processes (minCore=14.5% ( 3.6% total))
+12.06 14:34.28|     User logged in: amy
+12.06 14:34.29|     User login change: 'amy'
+12.06 14:34.29|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.06 14:34.30|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.06 08:34.30)
+12.06 14:34.30|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.06 14:34.30|     DailyExecute: LocalTextureFreeDriveSpace...
+12.06 14:34.30|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.06 14:34.34|     User login change: 'amy'
+12.06 14:34.34|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.06 14:34.37|     ******* Sending client status 'Waiting 7s' *******
+12.06 14:34.47|     ******* Sending client status 'Idle' *******
+12.06 14:34.49|     Job Received: {R-Y} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:34.49|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.06 14:34.49|     SetNewJobID {R-Y}  9250548963168616704 for thread 0 startNewJob
+12.06 14:34.49|     {R-Y} Rendering Job 1-39,1
+12.06 14:34.49|     {R-Y} Rendering to: /Users/Shared/RR_localdata/renderout/A/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.  copy to:/Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/
+12.06 14:34.49|     {R-Y} Auto-version change. Job: 9.06  client config: 9.6
+12.06 14:34.49|     {R-Y} Using Text Codec 'System'
+12.06 14:34.49|     {R-Y} Starting 1 Job instances... {R-Y} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:34.57|     ******* Sending client status '{R-Y} Rendering Job' *******
+12.06 14:35.00|     {R-Y} Render task done.
+12.06 14:35.01|     {R-Y} Job has crashed Permanentely: {R-Y} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.01|     ******* Sending client status '{R-Y} Render Crashed Permanentely' *******
+12.06 14:35.02|     Job Received: {SAF} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.02|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.06 14:35.02|     SetNewJobID {SAF}  6584420988346564864 for thread 0 startNewJob
+12.06 14:35.02|     {SAF} Rendering Job 1-39,1
+12.06 14:35.02|     {SAF} Rendering to: /Users/Shared/RR_localdata/renderout/A/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.  copy to:/Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/
+12.06 14:35.02|     {SAF} Auto-version change. Job: 9.06  client config: 9.6
+12.06 14:35.02|     {SAF} Using Text Codec 'System'
+12.06 14:35.02|     {SAF} Starting 1 Job instances... {SAF} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.07|     {SAF} Render task done.
+12.06 14:35.08|     {SAF} Job has crashed Permanentely: {SAF} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.10|     Job Received: {SAL} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.10|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.06 14:35.10|     SetNewJobID {SAL}  3990348555054612736 for thread 0 startNewJob
+12.06 14:35.11|     {SAL} Rendering Job 1-39,1
+12.06 14:35.11|     {SAL} Rendering to: /Users/Shared/RR_localdata/renderout/A/images/scene/v001/2048x1556/ADN_A034A_scene_output_v001.  copy to:/Volumes/Collab/pipeline_research_project/sequences/SQ_A034/ADN_A034A/comp/work/
+12.06 14:35.11|     {SAL} Auto-version change. Job: 9.06  client config: 9.6
+12.06 14:35.11|     {SAL} Using Text Codec 'System'
+12.06 14:35.11|     {SAL} Starting 1 Job instances... {SAL} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.16|     {SAL} Render task done.
+12.06 14:35.17|     {SAL} Job has crashed Permanentely: {SAL} pipeline_research_project|Nuke|cene--| scene.v001
+12.06 14:35.27|     ******* Sending client status 'Waiting 7s' *******
+12.06 14:35.37|     ******* Sending client status 'Idle' *******
+12.06 14:36.12|     Job Received: {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01
+12.06 14:36.12|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.06 14:36.12|     SetNewJobID {OHN}  7672286336514392320 for thread 0 startNewJob
+12.06 14:36.12|     {OHN} Rendering Job 1-10,9
+12.06 14:36.12|     {OHN} Rendering to: /Users/amy/Desktop/testScene/images/rr_msoftware_
+12.06 14:36.12|     {OHN} Auto-version change. Job: 2015.16  client config: 2015.0
+12.06 14:36.12|     {OHN} Using Text Codec 'System'
+12.06 14:36.12|     {OHN} Starting 1 Job instances... {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01
+12.06 14:36.17|     ******* Sending client status '{OHN} Rendering Job' *******
+12.06 14:37.00|     {OHN} Render task done.
+12.06 14:37.00|     {OHN} Starting to create 3 thumbnails.
+12.06 14:37.01|     {OHN} Job Done: {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01
+12.06 14:37.02|     ******* Sending client status '{OHN} Render Successfull' *******
+12.06 14:37.03|     Job Received: {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01
+12.06 14:37.03|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.06 14:37.03|     SetNewJobID {OHN}  7672286336514392320 for thread 0 startNewJob
+12.06 14:37.03|     {OHN} Rendering Job 5-5,5
+12.06 14:37.03|     {OHN} Rendering to: /Users/amy/Desktop/testScene/images/rr_msoftware_
+12.06 14:37.03|     {OHN} Auto-version change. Job: 2015.16  client config: 2015.0
+12.06 14:37.03|     {OHN} Using Text Codec 'System'
+12.06 14:37.03|     {OHN} Starting 1 Job instances... {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01
+12.06 14:37.12|     ******* Sending client status '{OHN} Rendering Job' *******
+12.06 14:37.19|     {OHN} Render task done.
+12.06 14:37.20|     {OHN} Job Done: {OHN} Desktop|Maya|oftaware--|are / rr_mayasoftaware_01

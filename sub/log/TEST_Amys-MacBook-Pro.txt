@@ -128,3 +128,16 @@
 11.28 13:12.58| ERR Unable to connect to renderer! 61: Connection refused;  while trying to connect to 127.0.0.1:7774!;;   (sendCommands) rrTest_ksoTCP 7.0.29 64bit []
 11.29 17:51.20|     Application Down
 11.29 17:51.20|     ##################SHUTDOWN#########################################################
+12.06 13:21.11|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.06 13:21.11|        rrTest_ksoTCP     7.0.29    rrVer7.0.26        64bit
+12.06 13:21.11|         shared RR root is /Users/amy/rrServer/
+12.06 13:21.11|        time - main files: .013s
+12.06 13:21.11|        time - globalconfig: .002s
+12.06 13:21.11|        time - loadFileRenderApps: .339s
+12.06 13:21.11|     Time Zone -8:00.00
+12.06 13:21.11|        time - all init:.358s
+12.06 13:21.11|        rrTest_ksoTCP     7.0.29    rrVer7.0.26      
+12.06 13:21.11|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.06 13:21.24| KSO sendString reTCP Quit()
+12.06 13:23.31| KSO sendString reTCP Quit()
+12.06 14:24.44| KSO sendString reTCP Quit()

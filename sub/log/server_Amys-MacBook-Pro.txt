@@ -5272,3 +5272,90 @@
 12.01 18:47.01|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
 12.01 18:47.08|     Application Down
 12.01 18:47.08|     ##################SHUTDOWN#########################################################
+12.06 14:34.16|     #################STARTUP#################################################################
+12.06 14:34.16|     ------------------------------------------------------------------------------------------- 
+12.06 14:34.16|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.06 14:34.16|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.06 14:34.16|         shared RR root is /Users/amy/rrServer/
+12.06 14:34.16|        time - main files: .010s
+12.06 14:34.16|        time - globalconfig: .003s
+12.06 14:34.16| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.06 14:34.17|        time - loadFileRenderApps: .401s
+12.06 14:34.17|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.06 14:34.17|        time - loadFileClientGroups: .032s
+12.06 14:34.17|        time - loadFileUserSettings: .002s
+12.06 14:34.17|     Time Zone -8:00.00
+12.06 14:34.17|        time - all init:.449s
+12.06 14:34.17|        rrServer console     7.0.26    rrVer7.0.26
+12.06 14:34.17|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.06 14:34.17|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.06 14:34.17|     Server is running with user amy
+12.06 14:34.17|      EUser: 501 amy  EGroup: 20 staff
+12.06 14:34.17| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.06 14:34.17|     {ALL} 11 jobs loaded
+12.06 14:34.17|     libmac_rrImageArchive.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageBmp.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageCt.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageDpx.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageExr.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageHdr.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageIff.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageJpg.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImagePic.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImagePng.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImagePsd.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageRla.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageSgi.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageTga.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageTiff.1.dylib loaded.
+12.06 14:34.17|     libmac_rrImageYuv.1.dylib loaded.
+12.06 14:34.17|     Image plugins load time: .059s
+12.06 14:34.17|     libmac_rrNotifyEmail.1.dylib loaded.
+12.06 14:34.17| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.06 14:34.17|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.06 14:34.17| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.06 14:34.17|     Notify plugins load time: .005s
+12.06 14:34.17|     Job plugins load time: .000s
+12.06 14:34.17|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.06 14:34.20|     {ALL} Checking #1/11  {Q4H} pipeline_research_project|Nuke|cene--| scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #1/11  {Q4H} pipeline_research_project|Nuke|cene--| scene.v001 (100)   0.001s
+12.06 14:34.20|     {ALL} Checking jobs #2/11 ...
+12.06 14:34.20|     {ALL} Checking #2/11  {Q6Ya} pipeline_research_project|Nuke|cene--|scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #2/11  {Q6Ya} pipeline_research_project|Nuke|cene--|scene.v001 (100)   0.001s
+12.06 14:34.20|     {ALL} Checking #3/11  {Q60a} pipeline_research_project|Nuke|cene--|scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #3/11  {Q60a} pipeline_research_project|Nuke|cene--|scene.v001 (100)   0.000s
+12.06 14:34.20|     {ALL} Checking #4/11  {R-Y} pipeline_research_project|Nuke|cene--| scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #4/11  {R-Y} pipeline_research_project|Nuke|cene--| scene.v001 (100)   0.000s
+12.06 14:34.20|     {ALL} Checking #5/11  {SAF} pipeline_research_project|Nuke|cene--| scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #5/11  {SAF} pipeline_research_project|Nuke|cene--| scene.v001 (100)   0.002s
+12.06 14:34.20|     {ALL} Checking #6/11  {SAL} pipeline_research_project|Nuke|cene--| scene.v001 (100) ...
+12.06 14:34.20|     {ALL} Checked  #6/11  {SAL} pipeline_research_project|Nuke|cene--| scene.v001 (100)   0.000s
+12.06 14:34.20|     Creating Websites...
+12.06 14:34.20|     Websites Created
+12.06 14:34.20|     Startup checks done.

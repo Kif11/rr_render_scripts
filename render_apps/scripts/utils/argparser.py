@@ -36,8 +36,9 @@ class ArgumentParser(object):
                 pass
 
         # Conver string to bool
-        if (value == 'true' or value == 'false'):
-            value = bool(value)
+        bool_dict = {'true': True, 'false': False}
+        if value in bool_dict.keys():
+            value = bool_dict[value]
 
         return value
 

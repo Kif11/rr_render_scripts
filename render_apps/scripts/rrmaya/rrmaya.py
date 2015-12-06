@@ -317,6 +317,7 @@ class RRMaya(RRApp):
         # 	string $renderer,			// use specific renderer is not empty string.
         # 	string $option				// optional arg to the render command
         # )
+        # TODO(Kirill): Test with user custom render layers.
         pm.mel.mayaBatchRenderProcedure(0, "", self.job.render_layer, self.job.render_name, "")
 
         after_frame = datetime.datetime.now() - before_frame
@@ -350,13 +351,13 @@ class RRMaya(RRApp):
         elif (renderer == "redshift"):
             self.init_redshift()
 
-        print 'KSO MODE: ', self.job.kso_mode
         if (self.job.kso_mode):
             self.start_kso_server()
         else:
-            self.render_frame(12) # Temp
+            self.render_frame(12) # Temp for test
 
-def rrStart(args_string):
+
+def rr_start(args_string):
     rr_job = RRMayaJob(args_string)
     rr_maya = RRMaya(rr_job)
     rr_maya.initialize()

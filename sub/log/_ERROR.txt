@@ -1428,3 +1428,6 @@
 [Amys-MacBook-Pro]
 12.03 18:01.36| ERR No license file (or not allowed to read file)! 
 
+[Amys-MacBook-Pro]
+12.06 14:34.24| ERR No license file (or not allowed to read file)! 
+

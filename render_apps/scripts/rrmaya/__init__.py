@@ -1,1 +1,1 @@
-from rrmaya2 import *
+from rrmaya import *
