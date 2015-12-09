@@ -5359,3 +5359,758 @@
 12.06 14:34.20|     Creating Websites...
 12.06 14:34.20|     Websites Created
 12.06 14:34.20|     Startup checks done.
+12.06 14:46.41|     SigTerm
+12.06 14:46.41|     ***** Got Signal to end session. *****
+12.06 14:46.41|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.06 14:46.41|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.06 14:46.41|     {ALL} jobs.db (1 jobs) saved.
+12.06 14:46.41|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.06 14:46.47|     Application Down
+12.06 14:46.47|     ##################SHUTDOWN#########################################################
+12.08 11:25.59|     #################STARTUP#################################################################
+12.08 11:25.59|     ------------------------------------------------------------------------------------------- 
+12.08 11:25.59|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 11:25.59|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 11:25.59|         shared RR root is /Users/amy/rrServer/
+12.08 11:25.59|        time - main files: .018s
+12.08 11:25.59|        time - globalconfig: .004s
+12.08 11:25.59| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 11:25.59|        time - loadFileRenderApps: .430s
+12.08 11:25.59|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 11:25.59|        time - loadFileClientGroups: .030s
+12.08 11:25.59|        time - loadFileUserSettings: .001s
+12.08 11:25.59|     Time Zone -8:00.00
+12.08 11:25.59|        time - all init:.484s
+12.08 11:25.59|        rrServer console     7.0.26    rrVer7.0.26
+12.08 11:25.59|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 11:25.59|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 11:25.59|     Server is running with user amy
+12.08 11:25.59|      EUser: 501 amy  EGroup: 20 staff
+12.08 11:25.59| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 11:25.59|     {ALL} 1 jobs loaded
+12.08 11:25.59|     libmac_rrImageArchive.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageBmp.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageCt.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageDpx.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageExr.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageHdr.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageIff.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageJpg.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImagePic.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImagePng.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImagePsd.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageRla.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageSgi.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageTga.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageTiff.1.dylib loaded.
+12.08 11:25.59|     libmac_rrImageYuv.1.dylib loaded.
+12.08 11:25.59|     Image plugins load time: .063s
+12.08 11:25.59|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 11:25.59| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 11:25.59|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 11:25.59| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 11:25.59|     Notify plugins load time: .008s
+12.08 11:25.59|     Job plugins load time: .000s
+12.08 11:25.59|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 11:26.02|     Creating Websites...
+12.08 11:26.02|     Websites Created
+12.08 11:26.02|     Startup checks done.
+12.08 11:26.06|     SigTerm
+12.08 11:26.06|     ***** Got Signal to end session. *****
+12.08 11:26.06|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 11:26.06|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 11:26.06|     {ALL} jobs.db (1 jobs) saved.
+12.08 11:26.06|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 11:26.09|     Application Down
+12.08 11:26.09|     ##################SHUTDOWN#########################################################
+12.08 11:26.33|     #################STARTUP#################################################################
+12.08 11:26.33|     ------------------------------------------------------------------------------------------- 
+12.08 11:26.33|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 11:26.33|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 11:26.33|         shared RR root is /Users/amy/rrServer/
+12.08 11:26.33|        time - main files: .013s
+12.08 11:26.33|        time - globalconfig: .003s
+12.08 11:26.33| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 11:26.33|        time - loadFileRenderApps: .445s
+12.08 11:26.33|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 11:26.33|        time - loadFileClientGroups: .030s
+12.08 11:26.33|        time - loadFileUserSettings: .001s
+12.08 11:26.33|     Time Zone -8:00.00
+12.08 11:26.33|        time - all init:.492s
+12.08 11:26.33|        rrServer console     7.0.26    rrVer7.0.26
+12.08 11:26.33|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 11:26.33|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 11:26.33|     Server is running with user amy
+12.08 11:26.33|      EUser: 501 amy  EGroup: 20 staff
+12.08 11:26.33| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 11:26.33|     {ALL} 1 jobs loaded
+12.08 11:26.33|     libmac_rrImageArchive.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageBmp.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageCt.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageDpx.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageExr.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageHdr.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageIff.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageJpg.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImagePic.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImagePng.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImagePsd.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageRla.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageSgi.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageTga.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageTiff.1.dylib loaded.
+12.08 11:26.33|     libmac_rrImageYuv.1.dylib loaded.
+12.08 11:26.33|     Image plugins load time: .027s
+12.08 11:26.33|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 11:26.33| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 11:26.33|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 11:26.33| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 11:26.33|     Notify plugins load time: .002s
+12.08 11:26.33|     Job plugins load time: .000s
+12.08 11:26.33|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 11:26.36|     Creating Websites...
+12.08 11:26.36|     Websites Created
+12.08 11:26.36|     Startup checks done.
+12.08 11:28.46|     {1YTa} Adjust Seqdiv1:  org:  7 40  before:  7 40 after: 33 110  best: 60 180 frTime 00:00.01(00:00.01)
+12.08 11:37.22|     SigTerm
+12.08 11:37.22|     ***** Got Signal to end session. *****
+12.08 11:37.22|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 11:37.22|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 11:37.22|     {ALL} jobs.db (2 jobs) saved.
+12.08 11:37.22|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 11:37.23|     Application Down
+12.08 11:37.23|     ##################SHUTDOWN#########################################################
+12.08 12:24.34|     #################STARTUP#################################################################
+12.08 12:24.34|     ------------------------------------------------------------------------------------------- 
+12.08 12:24.34|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 12:24.34|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 12:24.34|         shared RR root is /Users/amy/rrServer/
+12.08 12:24.34|        time - main files: .019s
+12.08 12:24.34|        time - globalconfig: .003s
+12.08 12:24.34| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 12:24.35|        time - loadFileRenderApps: .450s
+12.08 12:24.35|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 12:24.35|        time - loadFileClientGroups: .032s
+12.08 12:24.35|        time - loadFileUserSettings: .002s
+12.08 12:24.35|     Time Zone -8:00.00
+12.08 12:24.35|        time - all init:.507s
+12.08 12:24.35|        rrServer console     7.0.26    rrVer7.0.26
+12.08 12:24.35|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 12:24.35|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 12:24.35|     Server is running with user amy
+12.08 12:24.35|      EUser: 501 amy  EGroup: 20 staff
+12.08 12:24.35| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 12:24.35|     {ALL} 2 jobs loaded
+12.08 12:24.35|     libmac_rrImageArchive.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageBmp.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageCt.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageDpx.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageExr.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageHdr.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageIff.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageJpg.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImagePic.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImagePng.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImagePsd.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageRla.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageSgi.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageTga.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageTiff.1.dylib loaded.
+12.08 12:24.35|     libmac_rrImageYuv.1.dylib loaded.
+12.08 12:24.35|     Image plugins load time: .070s
+12.08 12:24.35|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 12:24.35| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 12:24.35|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 12:24.35| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 12:24.35|     Notify plugins load time: .008s
+12.08 12:24.35|     Job plugins load time: .000s
+12.08 12:24.35|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 12:24.38|     {ALL} Checking #1/2  {1YTa} pipeline_research_project|Nuke|cene--|scene.v001 (111) ...
+12.08 12:24.38|     {ALL} Checked  #1/2  {1YTa} pipeline_research_project|Nuke|cene--|scene.v001 (111)   0.001s
+12.08 12:24.38|     Creating Websites...
+12.08 12:24.38|     Websites Created
+12.08 12:24.38|     Startup checks done.
+12.08 12:26.15|     {18Za} Adjust Seqdiv1:  org:  7 40  before:  7 40 after: 33 110  best: 60 180 frTime 00:00.01(00:00.01)
+12.08 12:26.53|     SigTerm
+12.08 12:26.53|     ***** Got Signal to end session. *****
+12.08 12:26.53|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 12:26.53|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 12:26.53|     {ALL} jobs.db (2 jobs) saved.
+12.08 12:26.53|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 12:26.55|     Application Down
+12.08 12:26.55|     ##################SHUTDOWN#########################################################
+12.08 12:27.01|     #################STARTUP#################################################################
+12.08 12:27.01|     ------------------------------------------------------------------------------------------- 
+12.08 12:27.01|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 12:27.01|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 12:27.01|         shared RR root is /Users/amy/rrServer/
+12.08 12:27.01|        time - main files: .014s
+12.08 12:27.01|        time - globalconfig: .002s
+12.08 12:27.01| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 12:27.01|        time - loadFileRenderApps: .459s
+12.08 12:27.01|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 12:27.01|        time - loadFileClientGroups: .036s
+12.08 12:27.01|        time - loadFileUserSettings: .002s
+12.08 12:27.01|     Time Zone -8:00.00
+12.08 12:27.01|        time - all init:.513s
+12.08 12:27.01|        rrServer console     7.0.26    rrVer7.0.26
+12.08 12:27.01|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 12:27.01|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 12:27.01|     Server is running with user amy
+12.08 12:27.01|      EUser: 501 amy  EGroup: 20 staff
+12.08 12:27.01| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 12:27.01|     {ALL} 2 jobs loaded
+12.08 12:27.01|     libmac_rrImageArchive.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageBmp.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageCt.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageDpx.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageExr.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageHdr.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageIff.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageJpg.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImagePic.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImagePng.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImagePsd.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageRla.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageSgi.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageTga.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageTiff.1.dylib loaded.
+12.08 12:27.01|     libmac_rrImageYuv.1.dylib loaded.
+12.08 12:27.01|     Image plugins load time: .062s
+12.08 12:27.01|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 12:27.01| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 12:27.01|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 12:27.01| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 12:27.01|     Notify plugins load time: .008s
+12.08 12:27.01|     Job plugins load time: .000s
+12.08 12:27.01|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 12:27.04|     {ALL} Checking #1/2  {18Za} pipeline_research_project|Nuke|cene--|scene.v001 (100) ...
+12.08 12:27.04|     {ALL} Checked  #1/2  {18Za} pipeline_research_project|Nuke|cene--|scene.v001 (100)   0.001s
+12.08 12:27.04|     Creating Websites...
+12.08 12:27.04|     Websites Created
+12.08 12:27.04|     Startup checks done.
+12.08 12:33.13|     {104} Adjust Seqdiv1:  org:  7 40  before:  7 40 after: 33 110  best: 60 180 frTime 00:00.01(00:00.01)
+12.08 12:38.07|     SigTerm
+12.08 12:38.07|     ***** Got Signal to end session. *****
+12.08 12:38.07|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 12:38.07|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 12:38.07|     {ALL} jobs.db (2 jobs) saved.
+12.08 12:38.07|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 12:38.11|     Application Down
+12.08 12:38.11|     ##################SHUTDOWN#########################################################
+12.08 13:37.40|     #################STARTUP#################################################################
+12.08 13:37.40|     ------------------------------------------------------------------------------------------- 
+12.08 13:37.40|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:37.40|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 13:37.40|         shared RR root is /Users/amy/rrServer/
+12.08 13:37.40|        time - main files: .018s
+12.08 13:37.40|        time - globalconfig: .004s
+12.08 13:37.40| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 13:37.41|        time - loadFileRenderApps: .422s
+12.08 13:37.41|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 13:37.41|        time - loadFileClientGroups: .034s
+12.08 13:37.41|        time - loadFileUserSettings: .001s
+12.08 13:37.41|     Time Zone -8:00.00
+12.08 13:37.41|        time - all init:.480s
+12.08 13:37.41|        rrServer console     7.0.26    rrVer7.0.26
+12.08 13:37.41|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:37.41|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 13:37.41|     Server is running with user amy
+12.08 13:37.41|      EUser: 501 amy  EGroup: 20 staff
+12.08 13:37.41| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 13:37.41|     {ALL} 2 jobs loaded
+12.08 13:37.41|     libmac_rrImageArchive.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageBmp.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageCt.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageDpx.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageExr.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageHdr.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageIff.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageJpg.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImagePic.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImagePng.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImagePsd.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageRla.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageSgi.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageTga.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageTiff.1.dylib loaded.
+12.08 13:37.41|     libmac_rrImageYuv.1.dylib loaded.
+12.08 13:37.41|     Image plugins load time: .063s
+12.08 13:37.41|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 13:37.41| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 13:37.41|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 13:37.41| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 13:37.41|     Notify plugins load time: .006s
+12.08 13:37.41|     Job plugins load time: .000s
+12.08 13:37.41|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 13:37.44|     Creating Websites...
+12.08 13:37.44|     Websites Created
+12.08 13:37.44|     Startup checks done.
+12.08 13:40.35|     SigTerm
+12.08 13:40.35|     ***** Got Signal to end session. *****
+12.08 13:40.35|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 13:40.35|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 13:40.35|     {ALL} jobs.db (3 jobs) saved.
+12.08 13:40.35|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 13:40.41|     Application Down
+12.08 13:40.41|     ##################SHUTDOWN#########################################################
+12.08 13:41.31|     #################STARTUP#################################################################
+12.08 13:41.31|     ------------------------------------------------------------------------------------------- 
+12.08 13:41.31|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:41.31|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 13:41.31|         shared RR root is /Users/amy/rrServer/
+12.08 13:41.31|        time - main files: .012s
+12.08 13:41.31|        time - globalconfig: .003s
+12.08 13:41.31| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 13:41.32|        time - loadFileRenderApps: .418s
+12.08 13:41.32|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 13:41.32|        time - loadFileClientGroups: .032s
+12.08 13:41.32|        time - loadFileUserSettings: .001s
+12.08 13:41.32|     Time Zone -8:00.00
+12.08 13:41.32|        time - all init:.466s
+12.08 13:41.32|        rrServer console     7.0.26    rrVer7.0.26
+12.08 13:41.32|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:41.32|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 13:41.32|     Server is running with user amy
+12.08 13:41.32|      EUser: 501 amy  EGroup: 20 staff
+12.08 13:41.32| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 13:41.32|     {ALL} 3 jobs loaded
+12.08 13:41.32|     libmac_rrImageArchive.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageBmp.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageCt.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageDpx.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageExr.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageHdr.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageIff.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageJpg.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImagePic.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImagePng.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImagePsd.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageRla.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageSgi.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageTga.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageTiff.1.dylib loaded.
+12.08 13:41.32|     libmac_rrImageYuv.1.dylib loaded.
+12.08 13:41.32|     Image plugins load time: .025s
+12.08 13:41.32|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 13:41.32| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 13:41.32|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 13:41.32| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 13:41.32|     Notify plugins load time: .001s
+12.08 13:41.32|     Job plugins load time: .000s
+12.08 13:41.32|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 13:41.35|     {ALL} Checking #1/3  {2KWa} pipeline_research_project|Nuke|cene--|scene.v001 (100) ...
+12.08 13:41.35|     {ALL} Checked  #1/3  {2KWa} pipeline_research_project|Nuke|cene--|scene.v001 (100)   0.000s
+12.08 13:41.35|     Creating Websites...
+12.08 13:41.35|     Websites Created
+12.08 13:41.35|     Startup checks done.
+12.08 13:51.43|     SigTerm
+12.08 13:51.43|     ***** Got Signal to end session. *****
+12.08 13:51.43|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 13:51.43|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 13:51.43|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 13:51.49|     Application Down
+12.08 13:51.49|     ##################SHUTDOWN#########################################################
+12.08 13:56.04|     #################STARTUP#################################################################
+12.08 13:56.04|     ------------------------------------------------------------------------------------------- 
+12.08 13:56.04|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:56.04|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 13:56.04|         shared RR root is /Users/amy/rrServer/
+12.08 13:56.04|        time - main files: .011s
+12.08 13:56.04|        time - globalconfig: .002s
+12.08 13:56.04| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 13:56.04|        time - loadFileRenderApps: .408s
+12.08 13:56.04|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 13:56.04|        time - loadFileClientGroups: .030s
+12.08 13:56.04|        time - loadFileUserSettings: .001s
+12.08 13:56.04|     Time Zone -8:00.00
+12.08 13:56.04|        time - all init:.454s
+12.08 13:56.04|        rrServer console     7.0.26    rrVer7.0.26
+12.08 13:56.04|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 13:56.04|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 13:56.04|     Server is running with user amy
+12.08 13:56.04|      EUser: 501 amy  EGroup: 20 staff
+12.08 13:56.04| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 13:56.04|     libmac_rrImageArchive.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageBmp.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageCt.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageDpx.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageExr.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageHdr.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageIff.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageJpg.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImagePic.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImagePng.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImagePsd.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageRla.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageSgi.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageTga.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageTiff.1.dylib loaded.
+12.08 13:56.04|     libmac_rrImageYuv.1.dylib loaded.
+12.08 13:56.04|     Image plugins load time: .024s
+12.08 13:56.04|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 13:56.04| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 13:56.04|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 13:56.04| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 13:56.04|     Notify plugins load time: .006s
+12.08 13:56.04|     Job plugins load time: .000s
+12.08 13:56.04|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 13:56.07|     Creating Websites...
+12.08 13:56.07|     Websites Created
+12.08 13:56.07|     Startup checks done.
+12.08 14:03.01|     SigTerm
+12.08 14:03.01|     ***** Got Signal to end session. *****
+12.08 14:03.01|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 14:03.01|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 14:03.01|     {ALL} jobs.db (1 jobs) saved.
+12.08 14:03.01|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 14:03.04|     Application Down
+12.08 14:03.04|     ##################SHUTDOWN#########################################################
+12.08 23:04.19|     #################STARTUP#################################################################
+12.08 23:04.19|     ------------------------------------------------------------------------------------------- 
+12.08 23:04.19|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 23:04.19|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 23:04.19|         shared RR root is /Users/amy/rrServer/
+12.08 23:04.19|        time - main files: .018s
+12.08 23:04.19|        time - globalconfig: .003s
+12.08 23:04.19| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 23:04.20|        time - loadFileRenderApps: .403s
+12.08 23:04.20|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 23:04.20|        time - loadFileClientGroups: .031s
+12.08 23:04.20|        time - loadFileUserSettings: .001s
+12.08 23:04.20|     Time Zone -8:00.00
+12.08 23:04.20|        time - all init:.458s
+12.08 23:04.20|        rrServer console     7.0.26    rrVer7.0.26
+12.08 23:04.20|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 23:04.20|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 23:04.20|     Server is running with user amy
+12.08 23:04.20|      EUser: 501 amy  EGroup: 20 staff
+12.08 23:04.20| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 23:04.20|     {ALL} 1 jobs loaded
+12.08 23:04.20|     libmac_rrImageArchive.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageBmp.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageCt.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageDpx.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageExr.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageHdr.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageIff.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageJpg.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImagePic.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImagePng.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImagePsd.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageRla.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageSgi.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageTga.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageTiff.1.dylib loaded.
+12.08 23:04.20|     libmac_rrImageYuv.1.dylib loaded.
+12.08 23:04.20|     Image plugins load time: .164s
+12.08 23:04.20|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 23:04.20| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 23:04.20|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 23:04.20| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 23:04.20|     Notify plugins load time: .096s
+12.08 23:04.20|     Job plugins load time: .001s
+12.08 23:04.20|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 23:04.23|     Creating Websites...
+12.08 23:04.23|     Websites Created
+12.08 23:04.23|     Startup checks done.
+12.08 23:05.53|     SigTerm
+12.08 23:05.53|     ***** Got Signal to end session. *****
+12.08 23:05.53|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 23:05.53|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 23:05.53|     {ALL} jobs.db (2 jobs) saved.
+12.08 23:05.53|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 23:06.00|     Application Down
+12.08 23:06.00|     ##################SHUTDOWN#########################################################
+12.08 23:06.48|     #################STARTUP#################################################################
+12.08 23:06.48|     ------------------------------------------------------------------------------------------- 
+12.08 23:06.48|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.08 23:06.48|        rrServer console     7.0.26    rrVer7.0.26  64bit
+12.08 23:06.48|         shared RR root is /Users/amy/rrServer/
+12.08 23:06.48|        time - main files: .014s
+12.08 23:06.48|        time - globalconfig: .003s
+12.08 23:06.48| ERR No license file (or not allowed to read file)! 
+                    rrServerTCP  None None pos:0
+12.08 23:06.49|        time - loadFileRenderApps: .401s
+12.08 23:06.49|     /Users/amy/rrServer/sub/cfg_global/clients.ini all loading...
+12.08 23:06.49|        time - loadFileClientGroups: .029s
+12.08 23:06.49|        time - loadFileUserSettings: .001s
+12.08 23:06.49|     Time Zone -8:00.00
+12.08 23:06.49|        time - all init:.448s
+12.08 23:06.49|        rrServer console     7.0.26    rrVer7.0.26
+12.08 23:06.49|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.08 23:06.49|     Server is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.08 23:06.49|     Server is running with user amy
+12.08 23:06.49|      EUser: 501 amy  EGroup: 20 staff
+12.08 23:06.49| ERR rrServer config IP 127.0.0.1 not found in this machine. Please recheck globalconfig.ini file.
+                    Found:    192.168.1.6
+                    rrServerTCP  None None pos:0;;   (main) rrServer console 7.0.26 64bit []
+12.08 23:06.49|     {ALL} 2 jobs loaded
+12.08 23:06.49|     libmac_rrImageArchive.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageBmp.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageCt.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageDpx.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageExr.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageHdr.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageIff.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageJpg.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImagePic.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImagePng.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImagePsd.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageRla.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageSgi.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageTga.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageTiff.1.dylib loaded.
+12.08 23:06.49|     libmac_rrImageYuv.1.dylib loaded.
+12.08 23:06.49|     Image plugins load time: .021s
+12.08 23:06.49|     libmac_rrNotifyEmail.1.dylib loaded.
+12.08 23:06.49| WRN Error while loading library /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib; dlopen(/Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib, 1): Library not loaded: @loader_path/../../../lib/QtCore
+                      Referenced from: /Users/amy/rrServer/plugins64/server_notify/libmac_rrNotifyRRMessage.1.dylib
+                      Reason: image not found
+12.08 23:06.49|     libmac_rrNotifyRRMessage.1.dylib failed to load. 
+12.08 23:06.49| WRN Unable to load 'libmac_rrNotifyRRMessage.1.dylib'!
+12.08 23:06.49|     Notify plugins load time: .003s
+12.08 23:06.49|     Job plugins load time: .000s
+12.08 23:06.49|     This RR version was released on: 04.Sep.2015 
+                     .
+                    Some features of RR are not available in demo mode. And some new features require to be on support contract to receive them.
+                    Your license does not support all features of this RR version.
+                    You are running the demo version
+                    You are missing the following features:
+                    01.01.14  -  KeepSceneOpen:                     The Client will keep the render application open between frame segments
+                    25.07.14  -  EXR 2.0 Multi Part:                Convert .exr files with multiple layers into multi-part images.
+                    01.08.14  -  Contiguous Preview:                Preview: Render contiguous frames
+                    25.04.15  -  rrVerifyExrModes:                  Tool to check EXR modes
+                    15.05.15  -  rrViewer Multi-threading:          Use multiple threads for rrViewer
+                    
+                    Your license includes the following features:
+                    15.06.14  -  Modo - KSO:                        KSO mode support added to Modo
+                    19.06.14  -  Submitter - UI preset editor:      UI editor for the submitter default value preset files.
+                    25.08.14  -  Check Archives:                    Sequence Check: Check .ifd archives after render
+                    01.10.14  -  Per Job Submitter Parameter:       use <SubmitterParameter> per job in submit xml
+                    06.10.14  -  Min Frame File Size:               Job setting top allow the rrServer/rrClient to delete frames smaller than X
+                    17.10.14  -  3dsMax - Scripted:                 A new scripted connection to support KSO, scene states and stereo cams
+                    28.11.14  -  Houdini - KSO:                     KSO mode support added to Houdini
+                    15.12.14  -  rrViewer - ETA:                    Calculates a frame ETA for frames being rendered
+                    02.02.15  -  rrAssembler- MultiExr:             Assembles multi-layer exr files
+12.08 23:06.52|     {ALL} Checking #1/2  {477} Desktop|Maya|tScene--| / testScene / testScene_01 (4) ...
+12.08 23:06.52|     {ALL} Checked  #1/2  {477} Desktop|Maya|tScene--| / testScene / testScene_01 (4)   0.001s
+12.08 23:06.52|     Creating Websites...
+12.08 23:06.52|     Websites Created
+12.08 23:06.52|     Startup checks done.
+12.08 23:17.09|     SigTerm
+12.08 23:17.09|     ***** Got Signal to end session. *****
+12.08 23:17.09|     rrServerCommand: Shutdown Server from rrUnknown@rrServer; queryEndSession 
+12.08 23:17.09|     {ALL} /Users/amy/rrServer/sub/cfg_global/jobs.db   saving...
+12.08 23:17.09|     {ALL} jobs.db (2 jobs) saved.
+12.08 23:17.09|     rrServerCommand: Shutdown Server from rrUnknown@rrServer;  
+12.08 23:17.09|     Application Down
+12.08 23:17.09|     ##################SHUTDOWN#########################################################

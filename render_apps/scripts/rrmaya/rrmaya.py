@@ -17,15 +17,14 @@ import rrtcp
 from utils.logger import Logger
 
 class RRMayaJob(object):
+
     def __init__(self, args_string):
         self.arg = ArgumentParser('RRMaya', args_string)
         self.log = Logger()
-        self.render_name = self.arg.get('Renderer')
         self.workspace = self.arg.get('Database')
         self.image_dir = self.arg.get('FDir')
         self.python_path = self.arg.get('PyModPath')
         self.maya_scene = self.arg.get('SName')
-        # self.render_layer = self.arg.get('Layer')
         self.override_render_cmd = self.arg.get('OverwriteRenderCmd')
         self.kso_mode = self.arg.get('KSOMode')
         self.file_name = self.arg.get('FName')
@@ -61,6 +60,20 @@ class RRMayaJob(object):
         self.kso_mode = self.arg.get('KSOMode')
 
     @property
+    def render_name(self):
+        """
+        returns: Name of the current renderer provided
+        by rrSubmiter or specified in Maya settings.
+        """
+        render_globals = pm.PyNode('defaultRenderGlobals')
+        render_name = self.arg.get('Renderer')
+
+        if (render_name is None):
+            return render_globals.getAttr('currentRenderer')
+        else:
+            return render_name
+
+    @property
     def render_layer(self):
         """
         Setup the Maya renderer to render only the specified layers.
@@ -71,25 +84,25 @@ class RRMayaJob(object):
         lm = pm.PyNode('renderLayerManager')
         render_layers = lm.listConnections()
 
-        selected = False
+        rendarable_layer = None
         for l in render_layers:
             if l.name() == user_layer:
                 l.setAttr('renderable', True)
-                selected = True
+                rendarable_layer = l.name()
             else:
                 l.setAttr('renderable', False)
-        if not selected:
+        if rendarable_layer is None:
             # This is the case when render specified by user does not exist or None.
             default_layer = pm.nodetypes.RenderLayer(u'defaultRenderLayer')
             default_layer.setAttr('renderable', True)
             self.log.warning('Failed to set layer %s as renderable. ' \
                              'Does not exists. Set to %s.' \
                              % (user_layer, default_layer.name()))
-            return default_layer.name()
+            rendarable_layer = default_layer.name()
 
-            # TODO(Kirill): Add return statment for every condition.
-        else:
-            self.log.info('Current render layer: %s' % user_layer)
+        self.log.info('Current render layer: %s' % rendarable_layer)
+
+        return rendarable_layer
 
 class RRMaya(RRApp):
 
@@ -128,17 +141,6 @@ class RRMaya(RRApp):
         self.log.info('Maya workspace: %s' % pm.workspace.getcwd())
         for file_rule, path in self.WORK_SPACE.items():
             pm.workspace.fileRules[file_rule] = path
-
-    @property
-    def render_name(self):
-        """
-        returns: Name of the current renderer provided
-        by rrSubmiter or specified in Maya settings.
-        """
-        if (self.job.render_name is None):
-            return self.render_globals.getAttr('currentRenderer')
-        else:
-            return self.job.render_name
 
     def load_plugin(self, plugin_name):
         # Maya will skip this action if plugin is alredy loaded
@@ -206,6 +208,10 @@ class RRMaya(RRApp):
              'blueThreshold': self.job.treshold,
              'coverageThreshold': self.job.treshold
         })
+
+        # Set render rigion. Need for multi-tiled rendering.
+        region = (self.job.rx1, self.job.rx2, self.job.ry1, self.job.ry2)
+        pm.mel.setMayaSoftwareRegion(*region)
 
     def init_mentalray(self):
 
@@ -339,7 +345,7 @@ class RRMaya(RRApp):
         self.open_scene(self.job.maya_scene)
         # self.set_render_layer(self.job.render_layer)
 
-        renderer = self.render_name
+        renderer = self.job.render_name
         if (renderer == "mayaSoftware"):
             self.init_mayasoftware()
         elif (renderer == "mentalRay"):

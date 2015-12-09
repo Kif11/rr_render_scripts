@@ -141,3 +141,5 @@
 12.06 13:21.24| KSO sendString reTCP Quit()
 12.06 13:23.31| KSO sendString reTCP Quit()
 12.06 14:24.44| KSO sendString reTCP Quit()
+12.07 00:54.45|     Application Down
+12.07 00:54.45|     ##################SHUTDOWN#########################################################

@@ -65,11 +65,14 @@ class ArgumentParser(object):
         """
         # Split argument string to a list of tuples (arg, value)
         # e.g (arg_name: arg_value)
-        pattern = re.compile(r"([A-Za-z]*):\s([A-Za-z:\\ /_0-9.<>]*)")
+        pattern = re.compile(r"([A-Za-z0-9]*):\s([A-Za-z:\\ /_0-9.<>]*)")
         search = re.findall(pattern, self.args_string)
 
-        # Pack the list of key value pair tuples to the dict
-        args_dict = {i[0].rstrip(): self._normalize(i[1]) for i in search}
+        # Pack the list of key value pair tuples to the dict.
+        # args_dict = {i[0].rstrip(): self._normalize(i[1]) for i in search}
+        args_dict = {}
+        for key, value in search:
+            args_dict[key.rstrip()] = self._normalize(value)
 
         # self.log.debug('Maya normalized command line argumens %s' % args_dict)
 
@@ -130,10 +133,10 @@ class ArgumentParser(object):
 
 if __name__ == "__main__":
 
-    args_string_maya = "PyModPath: C:\Program Files\Render, TestBool: true, NoneTestArg:  , Renderer: mayaSoftware, SName: /Users/amy/Desktop/RR/testProject/scenes/test_01.ma, Db: /Users/amy/Documents/maya/projects/default/,  Camera: persp, FDir:  /Users/amy/Documents/maya/projects/default/images , FNameNoVar: test_01.  , FName: maya_01  , FPadding: 4, FExt: .jpg,   FrStart: 2, FrEnd: 3, FrStep: 1 , FrOffset: 0 , Threads:  4,"
-    args_string_arnold = " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: arnold, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/rr_arnold_01.ma, Db: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/,  Camera: persp, FDir:  /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/images , FName: <RenderPass>/rr_arnold_01  , FNameNoVar: beauty/rr_arnold_01_  , FPadding: 4, FExt: .png, FExtOverride: True,  FrStart: 1, FrEnd: 10, FrStep: 9 , FrOffset: 0 , RenderDemo: False, Threads:  4,   Verbose: 0,    "
+    args_string_maya = "PyModPath: C:\Program Files\Render, TestBool: true, NoneTestArg:  , Renderer: mayaSoftware, SName: /Users/amy/Desktop/RR/testProject/scenes/test_01.ma, Db: /Users/amy/Documents/maya/projects/default/,  Camera: persp, FDir:  /Users/amy/Documents/maya/projects/default/images , FNameNoVar: test_01.  , FName: maya_01  , FPadding: 4, FExt: .jpg,   FrStart: 2, FrEnd: 3, FrStep: 1 , FrOffset: 0 , Threads:  4, RegionX1: 148  ,  RegionX2: 301 , RegionY1: 0 , RegionY2: 449 , "
+    # args_string_arnold = " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: arnold, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/rr_arnold_01.ma, Db: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/,  Camera: persp, FDir:  /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/scenes/arnold/images , FName: <RenderPass>/rr_arnold_01  , FNameNoVar: beauty/rr_arnold_01_  , FPadding: 4, FExt: .png, FExtOverride: True,  FrStart: 1, FrEnd: 10, FrStep: 9 , FrOffset: 0 , RenderDemo: False, Threads:  4,   Verbose: 0,    "
 
     args_maya = ArgumentParser('RRMaya', args_string_maya)
-    args_arnold = ArgumentParser('RRMaya', args_string_arnold)
+    # args_arnold = ArgumentParser('RRMaya', args_string_arnold)
 
-    print args_arnold.get('RenderMotionBlur')
+    print args_maya.get('RegionX1')

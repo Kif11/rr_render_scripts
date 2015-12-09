@@ -44,6 +44,13 @@ class Logger(object):
 
 		# raise NameError("Error reported, aborting render script!")
 
+	def line(self):
+		"""
+		Print separation line on 80 char length to
+		improve log readability.
+		"""
+		self.log('-'*80)
+
 	def flush(self):
 		sys.stdout.flush()
 		sys.stderr.flush()

@@ -2,10 +2,10 @@
 renice +15 -p $$
 /bin/echo  '++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++' 
 /bin/echo  'Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO' 
-/bin/echo  '12.06 14:37.03' 
+/bin/echo  '12.08 23:14.29' 
 /bin/echo  'Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz' 
-/bin/echo  'Job: {OHN}  Sequence: 5-5, 5' 
-/bin/echo  'Scene: .../    mayasoftware/    rr_mayasoftaware_01 72.67Kb 12.06 14:35.45' 
+/bin/echo  'Job: {477}  Sequence: 12-12, 1  x 12' 
+/bin/echo  'Scene: .../    testScene/    testScene_01 73.10Kb 12.08 23:02.08' 
 /bin/echo  'Render config used: Maya mayaSoftware   3D02__Maya2008.cfg' 
 /bin/echo  'Executable used: /Applications/Autodesk/maya2015/Maya.app/Contents/bin/Render   ' 
 setenv rrExeBit "x64"
@@ -39,10 +39,10 @@ setenv rrJobVersionMajor "2015"
 /bin/echo 'rrJobVersionMajor 2015'
 setenv rrJobVersionMinor "16"
 /bin/echo 'rrJobVersionMinor 16'
-setenv rrJobTiled "false"
-/bin/echo 'rrJobTiled false'
-setenv rrJobCustomScene "oftaware"
-/bin/echo 'rrJobCustomScene oftaware'
+setenv rrJobTiled "true"
+/bin/echo 'rrJobTiled true'
+setenv rrJobCustomScene "tScene"
+/bin/echo 'rrJobCustomScene tScene'
 setenv rrJobCustomShot ""
 /bin/echo 'rrJobCustomShot '
 setenv rrJobCustomVersion ""
@@ -101,12 +101,12 @@ source "/Users/Shared/RR_localdata/_global.sh"
 source "/Users/Shared/RR_localdata/maya.sh" 
 /bin/echo  '\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"' 
 "/Users/amy/rrServer/bin/mac64/rrResetexitcode" 
-/bin/echo  '\"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/mayasoftware/scenes/rr_mayasoftaware_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: rr_msoftware_  , FName: rr_msoftware  , FPadding: 4, FExt: .png,   FrStart: 5, FrEnd: 5, FrStep: 5 , FrOffset: 0 , Threads:  4,       \") ' 
-"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya" -batch -command '     source "/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel"; rrStartWrapper("/Users/amy/rrServer/render_apps/scripts", " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/amy/rrServer/render_apps/scripts/rrmaya/tests/projects/mayasoftware/scenes/rr_mayasoftaware_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: rr_msoftware_  , FName: rr_msoftware  , FPadding: 4, FExt: .png,   FrStart: 5, FrEnd: 5, FrStep: 5 , FrOffset: 0 , Threads:  4,       ") ' 
-"/Users/amy/rrServer/bin/mac64/rrCheckexitcode" $? 0 0 5 
+/bin/echo  '\"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile01_.  , FName: testScene_01._tile01_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 148  ,  RegionX2: 301 , RegionY1: 0 , RegionY2: 449 ,   \") ' 
+"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya" -batch -command '     source "/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel"; rrStartWrapper("/Users/amy/rrServer/render_apps/scripts", " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile01_.  , FName: testScene_01._tile01_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 148  ,  RegionX2: 301 , RegionY1: 0 , RegionY2: 449 ,   ") ' 
+"/Users/amy/rrServer/bin/mac64/rrCheckexitcode" $? 0 0 12 
 /bin/echo  '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' 
 /bin/echo  'Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO' 
-/bin/echo  'Job ID: {OHN}' 
+/bin/echo  'Job ID: {477}' 
 /bin/echo  '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' 
 
 

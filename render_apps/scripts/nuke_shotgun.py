@@ -6,10 +6,26 @@ import platform
 import random
 import string
 
-# TODO(Kirill): Need to find a way for users to specify this path in not hardcoded way
-sys.path.append('/Volumes/EARTH/SGProjectConfig/install/core/python')
+# Command line arguments
+sgtk_path = sys.argv[1]
+original_nuke_file = sys.argv[2]
+local_nuke_file = sys.argv[3]
+
+# Append SG Tank path to PYTHONPATH
+sys.path.append(sgtk_path)
+
 import sgtk
 
+# TODO(Kirill):
+# We need to use global submission script instead of this local one.
+# Nuke local submission script path: /Applications/Nuke9.0v6/Nuke9.0v6.app/Contents/MacOS/plugins/rrSubmit_Nuke_5.py
+#
+# Config path: /Users/amy/rrServer/render_apps/_config/C13__Nuke5_shotgun.cfg
+
+# TODO(Kirill): I need to unify this script with the main nuke_local localrenderout
+# and make it pretty!
+
+# TODO(Kirill): Replace with the Logger module.
 def write_info(msg):
     print msg
 
@@ -43,24 +59,23 @@ def convert_sg_write_nodes(sg_engine):
     app.convert_to_write_nodes()
     write_info('All Shotgun write nodes was converted.')
 
-def make_local_scene(pyModPath, orgFilename, locFilename,
-                     orgDir, orgDirWinDrive, locDir):
+def make_local_scene(original_nuke_file, local_nuke_file):
     """
-    Process and save new nuke file for future render.
-    """
+    Open Nuke file in its original location; conver all SG Write nodes to
+    normal Nuke node; save the file to temp local directore.
 
-    # TODO(Kirill): This need to be replaced with path to global SG Toolkit
-    # config e.g [SG]/install/core/python
-    if (len(pyModPath) > 0):
-        sys.path.append(pyModPath)
+    param original_nuke_file: Path to original Nuke file. Should be valid
+    SG Toolkit project.
+    param local_nuke_file: Path to temp nuke file. Provided by the rrServer.
+    """
 
     # Start SG Nuke engine and conver all SG write node to Nuke Write
-    engine = start_nuke_engime(orgFilename)
-    nuke.scriptOpen(orgFilename)
+    engine = start_nuke_engime(original_nuke_file)
+    nuke.scriptOpen(original_nuke_file)
 
     sg_write_nodes = nuke.allNodes(group=nuke.root(),
-                                    filter='WriteTank',
-                                    recurseGroups = True)
+                                   filter='WriteTank',
+                                   recurseGroups = True)
     # Store SG write nodes output paths
     sg_write_paths = {}
     for n in sg_write_nodes:
@@ -75,15 +90,12 @@ def make_local_scene(pyModPath, orgFilename, locFilename,
 
     write_info('Render output path: %s' % n.knob('file').value())
 
-    write_info('Saving nuke script to %s' % locFilename)
-    nuke.scriptSaveAs(locFilename, 1)
+    write_info('Saving nuke script to %s' % local_nuke_file)
+    nuke.scriptSaveAs(local_nuke_file, 1)
 
     write_info('')
     write_info('Local scene created successufuly')
     write_info('')
 
-if (len(sys.argv) > 5):
-    make_local_scene(sys.argv[1], sys.argv[2], sys.argv[3],
-                       sys.argv[4], sys.argv[5], sys.argv[6])
-else:
-    make_local_scene(sys.argv[1], sys.argv[2], sys.argv[3], "", "", "")
+if __name__ == '__main__':
+    make_local_scene(original_nuke_file, local_nuke_file)
