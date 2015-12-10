@@ -1,1 +1,0 @@
-You can place your own python modules in here, this path is added to the embedded python in RR.

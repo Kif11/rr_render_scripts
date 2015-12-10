@@ -1,3 +1,0 @@
-
-<td><font color="#<%JobClientColor%>" size=-2><%JobClientName%>&nbsp;<br><%JobClientRenderTime%>&nbsp;</font></td>
-<%HTMLNewRowOnRow10_colored%>

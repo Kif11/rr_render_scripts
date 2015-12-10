@@ -1,3 +1,0 @@
-
-<a href="../<%GroupHtmlDir%>/index.htm"  target="_top"><%HTMLCurrentGroupBold%><%GroupName%><%HTMLCurrentGroupBoldEnd%></font><br>
-<%HTMLNewColumnOnRow4%>

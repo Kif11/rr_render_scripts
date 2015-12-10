@@ -1,1 +1,0 @@
-If you use shots and NO sequences for a project, then you have to use this one.

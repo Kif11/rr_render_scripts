@@ -1,3 +1,0 @@
-
-If you want to modify a plugin, you should copy it to a new name.
-The new plugin name will not be changed nor overwritten by any RR update.

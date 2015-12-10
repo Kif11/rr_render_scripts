@@ -1,1 +1,0 @@
-<tr><td><%ErrTime%></td><td><%ErrWho%></td><td><%ErrWhat%></td></tr>
