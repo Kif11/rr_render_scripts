@@ -264,12 +264,6 @@ class MayaRenderer(object):
             if (value is not None):
                 render_quality.setAttr(name, value)
 
-        # TODO(kirill): Remove it since it doesn't do anything meaningful.
-        # Source file location mac: /Applications/Autodesk/maya2015/Maya.app/Contents/scripts/others
-        # # Set render rigion
-        # maya.mel.eval('setMayaSoftwareRegion(%s,%s,%s,%s)'
-        #                                       % (self.rx1, self.rx2,
-        #                                          self.ry1, self.ry2))
 
     def init_mentalray(self):
 

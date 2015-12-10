@@ -16,6 +16,9 @@ from utils.argparser import ArgumentParser
 import rrtcp
 from utils.logger import Logger
 
+# TODO(Kirill) Add render region back for all renders.
+# We need it for multi tile render.
+
 class RRMayaJob(object):
 
     def __init__(self, args_string):
@@ -169,7 +172,8 @@ class RRMaya(RRApp):
             if (value is not None):
                 node.setAttr(name, value)
             else:
-                self.log.debug('Attribute %s is %s. Skipped!' % (name, value))
+                # self.log.debug('Attribute %s is %s. Skipped!' % (name, value))
+                pass
 
     def set_default_render_resolution(self, x, y):
         """
@@ -211,7 +215,8 @@ class RRMaya(RRApp):
 
         # Set render rigion. Need for multi-tiled rendering.
         region = (self.job.rx1, self.job.rx2, self.job.ry1, self.job.ry2)
-        pm.mel.setMayaSoftwareRegion(*region)
+        if not None in region:
+            pm.mel.setMayaSoftwareRegion(*region)
 
     def init_mentalray(self):
 
@@ -331,6 +336,38 @@ class RRMaya(RRApp):
         self.log.info("Randering of frame: %s finished in %s (h:m:s.ms)"
                                           % (frame_number, after_frame))
 
+    def render_frames(self):
+
+        render_globals = pm.PyNode('defaultRenderGlobals')
+        renderer = self.job.render_name
+
+        # Before starting render execute user script.
+        self.hook.before_segment_render()
+
+        self.log.info('Changing scene frame to frame %s...' % self.job.frame_start)
+
+        render_globals.setAttr('byFrameStep', self.job.frame_step)
+        render_globals.setAttr('byExtension', self.job.frame_step)
+
+        pm.mel.setImageSizePercent(-1.)
+        render_globals.setAttr('renderAll', 1)
+
+        frange = (self.job.frame_start,
+                  self.job.frame_end + 1,
+                  self.job.frame_step)
+
+        for frame in xrange(*frange):
+            self.hook.before_frame_render()
+            file_name = '%s/%s' % (self.job.file_dir, self.job.file_name_no_var)
+            rrtcp.create_placeholder(file_name,
+                                     frame,
+                                     self.job.frame_padding,
+                                     self.job.file_ext)
+
+            self.render_frame(frame)
+        # Run user code after render of segment is finished
+        self.hook.after_segment_render()
+
     def initialize(self):
 
         default_res = pm.PyNode('defaultResolution')
@@ -345,22 +382,30 @@ class RRMaya(RRApp):
         self.open_scene(self.job.maya_scene)
         # self.set_render_layer(self.job.render_layer)
 
+        self.log.line()
+        self.log.info('Start render initilization.')
+        self.log.line()
+
         renderer = self.job.render_name
-        if (renderer == "mayaSoftware"):
+        if (renderer == 'mayaSoftware'):
             self.init_mayasoftware()
-        elif (renderer == "mentalRay"):
+        elif (renderer == 'mentalRay'):
             self.init_mentalray()
-        elif (renderer == "vray"):
+        elif (renderer == 'vray'):
             self.init_vray()
-        elif (renderer == "arnold"):
+        elif (renderer == 'arnold'):
             self.init_arnold()
-        elif (renderer == "redshift"):
+        elif (renderer == 'redshift'):
             self.init_redshift()
+
+        self.log.line()
+        self.log.info('Render init finished.')
+        self.log.line()
 
         if (self.job.kso_mode):
             self.start_kso_server()
         else:
-            self.render_frame(12) # Temp for test
+            self.render_frames()
 
 
 def rr_start(args_string):

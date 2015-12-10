@@ -186,7 +186,7 @@ def create_placeholder(file_name, frame_number=None, padding=None, ext=None):
     if frame_number is not None:
         if padding is None:
             padding = 4
-        file_name = filename + frame_number.zfill(padding) + ext
+        file_name = file_name + str(frame_number).zfill(padding) + ext
 
     host_name = socket.gethostname()[:100]
     with open(file_name, "wb") as f:

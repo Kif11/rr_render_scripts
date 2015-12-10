@@ -2,9 +2,9 @@
 renice +15 -p $$
 /bin/echo  '++++++++++++++++++++++++ Log Start +++++++++++++++++++++++++' 
 /bin/echo  'Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO' 
-/bin/echo  '12.08 23:14.29' 
+/bin/echo  '12.09 00:15.09' 
 /bin/echo  'Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz' 
-/bin/echo  'Job: {477}  Sequence: 12-12, 1  x 12' 
+/bin/echo  'Job: {5G6a}  Sequence: 12-12, 1  x 12' 
 /bin/echo  'Scene: .../    testScene/    testScene_01 73.10Kb 12.08 23:02.08' 
 /bin/echo  'Render config used: Maya mayaSoftware   3D02__Maya2008.cfg' 
 /bin/echo  'Executable used: /Applications/Autodesk/maya2015/Maya.app/Contents/bin/Render   ' 
@@ -101,12 +101,12 @@ source "/Users/Shared/RR_localdata/_global.sh"
 source "/Users/Shared/RR_localdata/maya.sh" 
 /bin/echo  '\"/Users/amy/rrServer/bin/mac64/rrResetexitcode\"' 
 "/Users/amy/rrServer/bin/mac64/rrResetexitcode" 
-/bin/echo  '\"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile01_.  , FName: testScene_01._tile01_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 148  ,  RegionX2: 301 , RegionY1: 0 , RegionY2: 449 ,   \") ' 
-"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya" -batch -command '     source "/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel"; rrStartWrapper("/Users/amy/rrServer/render_apps/scripts", " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile01_.  , FName: testScene_01._tile01_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 148  ,  RegionX2: 301 , RegionY1: 0 , RegionY2: 449 ,   ") ' 
+/bin/echo  '\"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya\" -batch -command      source \"/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel\"; rrStartWrapper(\"/Users/amy/rrServer/render_apps/scripts\", \" PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile00_.  , FName: testScene_01._tile00_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 0  ,  RegionX2: 151 , RegionY1: 0 , RegionY2: 449 ,   \") ' 
+"/Applications/Autodesk/maya2015/Maya.app/Contents/bin/maya" -batch -command '     source "/Users/amy/rrServer/render_apps/scripts/rrmaya/rrmaya.mel"; rrStartWrapper("/Users/amy/rrServer/render_apps/scripts", " PyModPath: /Users/amy/rrServer/render_apps/scripts, Renderer: mayaSoftware, SName: /Users/Shared/RR_localdata/cachedscenes/Users_amy/Desktop/testScene/testScene_01.ma, Db: /Users/amy/Desktop/testScene/,  Camera: persp, FDir:  /Users/amy/Desktop/testScene/images , FNameNoVar: testScene_01._tile00_.  , FName: testScene_01._tile00_  , FPadding: 4, FExt: .png,   FrStart: 12, FrEnd: 12, FrStep: 1 , FrOffset: 0 , Threads:  4,      RegionX1: 0  ,  RegionX2: 151 , RegionY1: 0 , RegionY2: 449 ,   ") ' 
 "/Users/amy/rrServer/bin/mac64/rrCheckexitcode" $? 0 0 12 
 /bin/echo  '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' 
 /bin/echo  'Amys-MacBook-Pro  rrClient console     7.0.26    rrVer7.0.26      DEMO' 
-/bin/echo  'Job ID: {477}' 
+/bin/echo  'Job ID: {5G6a}' 
 /bin/echo  '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++' 
 
 

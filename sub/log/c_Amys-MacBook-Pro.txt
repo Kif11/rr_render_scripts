@@ -5822,3 +5822,1642 @@
 12.08 23:55.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
 12.08 23:56.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
 12.08 23:56.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:57.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:57.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:58.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:58.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:59.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.08 23:59.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:00.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:00.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:01.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:01.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:02.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:02.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:03.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:03.24|     Connected to rrServer
+12.09 00:03.39|     Job Received: {5F9b} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:03.39|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:03.39|     SetNewJobID {5F9b}  1550861072242966786 for thread 0 startNewJob
+12.09 00:03.39|     {5F9b} Rendering Job 12-12,1
+12.09 00:03.39|     {5F9b} Rendering to: /Users/Shared/RR_localdata/renderout/A/amy/Desktop/testScene/images/testScene_01.  copy to:/Users/
+12.09 00:03.39|     {5F9b} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:03.39|     {5F9b} Using Text Codec 'System'
+12.09 00:03.39|     {5F9b} Starting 1 Job instances... {5F9b} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:03.44|     ******* Sending client status '{5F9b} Rendering Job' *******
+12.09 00:04.00|     {5F9b} Render task done.
+12.09 00:04.01|     {5F9b} Job Done: {5F9b} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:04.01|     ******* Sending client status '{5F9b} Render Successfull' *******
+12.09 00:04.01|     cCommand:  Wait from rrServer (rrServer)
+12.09 00:04.11|     ******* Sending client status 'Waiting 24s' *******
+12.09 00:04.42|     ******* Sending client status 'Idle' *******
+12.09 00:06.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:07.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:07.22| WRN This computer has these network cards installed: 
+12.09 00:07.22|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 00:07.22|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 00:07.22|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 00:07.22|           adding mac 00:23:12:10:0C:66
+12.09 00:07.22|                  IP address 192.168.1.6 
+12.09 00:07.22|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 00:07.22|           adding mac 40:6C:8F:30:38:AC
+12.09 00:07.22|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 00:07.22|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 00:07.22|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 00:07.22|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 00:07.22|           adding mac D2:00:19:D4:7B:A0
+12.09 00:07.22|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 00:07.22|           adding mac 02:23:12:10:0C:66
+12.09 00:07.22|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 00:07.22|           adding mac DE:12:06:51:E4:47
+12.09 00:07.22|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 00:07.22|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 00:07.22|           adding mac 02:23:12:01:A6:00
+12.09 00:07.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:08.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:08.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:09.02|     Connected to rrServer
+12.09 00:09.07|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.07|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:09.07|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:09.07|     {5G6a} Rendering Job 12-12,1
+12.09 00:09.07|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:09.07|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:09.07|     {5G6a} Using Text Codec 'System'
+12.09 00:09.07|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.12|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:09.28|     {5G6a} Render task done.
+12.09 00:09.28|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:09.29|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.30|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:09.31|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.31|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:09.31|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:09.31|     {5G6a} Rendering Job 12-12,1
+12.09 00:09.31|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:09.31|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:09.31|     {5G6a} Using Text Codec 'System'
+12.09 00:09.31|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.40|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:09.52|     {5G6a} Render task done.
+12.09 00:09.53|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:09.53|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.54|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:09.55|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:09.55|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:09.55|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:09.55|     {5G6a} Rendering Job 12-12,1
+12.09 00:09.55|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:09.55|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:09.55|     {5G6a} Using Text Codec 'System'
+12.09 00:09.55|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.04|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:10.16|     {5G6a} Render task done.
+12.09 00:10.17|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:10.17|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.18|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:10.19|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.19|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:10.19|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:10.19|     {5G6a} Rendering Job 12-12,1
+12.09 00:10.19|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:10.19|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:10.19|     {5G6a} Using Text Codec 'System'
+12.09 00:10.19|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.28|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:10.40|     {5G6a} Render task done.
+12.09 00:10.41|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:10.41|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.42|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:10.43|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.43|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:10.43|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:10.43|     {5G6a} Rendering Job 12-12,1
+12.09 00:10.43|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:10.43|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:10.43|     {5G6a} Using Text Codec 'System'
+12.09 00:10.43|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:10.52|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:11.05|     {5G6a} Render task done.
+12.09 00:11.05|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:11.06|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.06|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:11.07|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.07|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:11.07|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:11.07|     {5G6a} Rendering Job 12-12,1
+12.09 00:11.07|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:11.07|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:11.07|     {5G6a} Using Text Codec 'System'
+12.09 00:11.07|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.16|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:11.29|     {5G6a} Render task done.
+12.09 00:11.29|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:11.30|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.30|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:11.32|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.32|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:11.32|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:11.32|     {5G6a} Rendering Job 12-12,1
+12.09 00:11.32|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:11.32|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:11.32|     {5G6a} Using Text Codec 'System'
+12.09 00:11.32|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.40|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:11.53|     {5G6a} Render task done.
+12.09 00:11.53|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:11.54|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.54|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:11.56|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:11.56|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:11.56|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:11.56|     {5G6a} Rendering Job 12-12,1
+12.09 00:11.56|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:11.56|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:11.56|     {5G6a} Using Text Codec 'System'
+12.09 00:11.56|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.04|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:12.17|     {5G6a} Render task done.
+12.09 00:12.18|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:12.18|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.18|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:12.20|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.20|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:12.20|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:12.20|     {5G6a} Rendering Job 12-12,1
+12.09 00:12.20|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:12.20|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:12.20|     {5G6a} Using Text Codec 'System'
+12.09 00:12.20|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.28|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:12.41|     {5G6a} Render task done.
+12.09 00:12.41|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:12.42|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.42|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:12.44|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.44|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:12.44|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:12.44|     {5G6a} Rendering Job 12-12,1
+12.09 00:12.44|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:12.44|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:12.44|     {5G6a} Using Text Codec 'System'
+12.09 00:12.44|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:12.52|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:13.05|     {5G6a} Render task done.
+12.09 00:13.06|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:13.06|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.06|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:13.08|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.08|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:13.08|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:13.08|     {5G6a} Rendering Job 12-12,1
+12.09 00:13.08|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:13.08|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:13.08|     {5G6a} Using Text Codec 'System'
+12.09 00:13.08|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.16|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:13.29|     {5G6a} Render task done.
+12.09 00:13.29|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:13.30|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.30|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:13.32|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.32|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:13.32|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:13.32|     {5G6a} Rendering Job 12-12,1
+12.09 00:13.32|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:13.32|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:13.32|     {5G6a} Using Text Codec 'System'
+12.09 00:13.32|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.40|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:13.53|     {5G6a} Render task done.
+12.09 00:13.54|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:13.54|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.55|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:13.56|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:13.56|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:13.56|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:13.56|     {5G6a} Rendering Job 12-12,1
+12.09 00:13.56|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:13.56|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:13.56|     {5G6a} Using Text Codec 'System'
+12.09 00:13.56|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.05|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:14.17|     {5G6a} Render task done.
+12.09 00:14.18|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:14.18|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.19|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:14.20|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.20|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:14.20|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:14.20|     {5G6a} Rendering Job 12-12,1
+12.09 00:14.20|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:14.20|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:14.20|     {5G6a} Using Text Codec 'System'
+12.09 00:14.20|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.29|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:14.41|     {5G6a} Render task done.
+12.09 00:14.42|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:14.42|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.43|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:14.44|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.44|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:14.44|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:14.44|     {5G6a} Rendering Job 12-12,1
+12.09 00:14.44|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:14.44|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:14.44|     {5G6a} Using Text Codec 'System'
+12.09 00:14.44|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:14.53|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:15.05|     {5G6a} Render task done.
+12.09 00:15.06|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:15.06|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:15.07|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:15.08|     Job Received: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:15.08|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.09 00:15.08|     SetNewJobID {5G6a}  15962385500212691201 for thread 0 startNewJob
+12.09 00:15.09|     {5G6a} Rendering Job 12-12,1
+12.09 00:15.09|     {5G6a} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.09 00:15.09|     {5G6a} Auto-version change. Job: 2015.16  client config: 2015.0
+12.09 00:15.09|     {5G6a} Using Text Codec 'System'
+12.09 00:15.09|     {5G6a} Starting 1 Job instances... {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:15.15| WRN {5G6a} System Memory getting lower:  Available/Free: 1296MB    System Cache: -1MB  Kernel: -1MB
+12.09 00:15.17|     ******* Sending client status '{5G6a} Rendering Job' *******
+12.09 00:15.35|     {5G6a} Render task done.
+12.09 00:15.36|     {5G6a} Starting to create 2 thumbnails.
+12.09 00:15.36|     {5G6a} Job Done: {5G6a} Desktop|Maya|tScene--|/ testScene / testScene_01
+12.09 00:15.37|     ******* Sending client status '{5G6a} Render Successfull' *******
+12.09 00:15.47|     ******* Sending client status 'Idle' *******
+12.09 00:18.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:18.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:18.38| WRN This computer has these network cards installed: 
+12.09 00:18.38|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 00:18.38|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 00:18.38|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 00:18.38|           adding mac 00:23:12:10:0C:66
+12.09 00:18.38|                  IP address 192.168.1.6 
+12.09 00:18.38|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 00:18.38|           adding mac 40:6C:8F:30:38:AC
+12.09 00:18.38|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 00:18.38|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 00:18.38|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 00:18.38|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 00:18.38|           adding mac D2:00:19:D4:7B:A0
+12.09 00:18.38|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 00:18.38|           adding mac 02:23:12:10:0C:66
+12.09 00:18.38|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 00:18.38|           adding mac DE:12:06:51:E4:47
+12.09 00:18.38|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 00:18.38|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 00:18.38|           adding mac 02:23:12:01:A6:00
+12.09 00:19.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:19.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:20.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:20.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:21.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:21.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:22.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:22.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:23.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:23.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:24.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:24.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:25.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:25.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:26.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:26.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:27.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:27.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:28.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:28.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:29.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:29.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:30.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:30.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:31.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:31.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:32.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:32.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:33.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:33.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:34.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:34.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:35.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:35.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:36.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:36.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:37.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:37.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:38.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:38.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:39.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:39.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:40.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:40.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:41.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:41.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:42.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:42.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:43.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:43.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:44.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:44.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:45.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:45.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:46.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:46.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:47.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:47.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:48.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:48.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:49.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:49.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:50.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:50.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:51.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:51.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:52.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:52.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:53.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:53.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:54.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:54.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:55.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:55.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:56.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:56.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:57.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:57.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:58.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:58.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:59.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 00:59.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:00.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:00.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:01.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:01.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:02.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:02.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:03.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:03.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:04.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:04.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:05.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:05.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:06.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:06.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:07.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:07.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:08.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:08.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:09.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:09.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:10.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:10.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:11.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:11.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:12.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:12.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:13.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:13.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:14.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:14.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:15.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:15.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:16.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:16.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:17.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:17.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:18.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:18.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:19.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:19.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:20.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:20.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:21.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:21.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:22.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:22.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:23.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:23.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:24.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:24.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:25.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:25.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:26.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:26.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:27.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:27.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:28.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:28.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:29.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:29.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:30.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:30.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:31.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:31.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:32.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:32.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:33.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:33.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:34.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:34.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:35.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:35.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:36.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:36.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:37.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:37.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:38.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:38.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:39.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:39.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:40.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:40.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:41.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:41.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:42.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:42.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:43.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:43.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 01:44.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 05:44.51| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1230;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.09 05:44.51|     cCommand:  Restart client executable from rrUnknown (TCPThread)
+12.09 05:44.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 05:44.55|     Client Down
+12.09 05:44.55|     Application Down
+12.09 05:44.55|     ##################SHUTDOWN#########################################################
+12.09 05:44.55|     #################STARTUP#################################################################
+12.09 05:44.55|     ------------------------------------------------------------------------------------------- 
+12.09 05:44.55|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.09 05:44.55|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.09 05:44.55|         shared RR root is /Users/amy/rrServer/
+12.09 05:44.55|        time - main files: .010s
+12.09 05:44.55|        time - globalconfig: .003s
+12.09 05:44.55| ERR No license file (or not allowed to read file)! 
+12.09 05:44.56|        time - loadFileRenderApps: .529s
+12.09 05:44.56|        time - loadFileUserSettings: .003s
+12.09 05:44.56|     Time Zone -8:00.00
+12.09 05:44.56|        time - all init:.545s
+12.09 05:44.56|        rrClient console     7.0.26    rrVer7.0.26
+12.09 05:44.56|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.09 05:44.56|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.09 05:44.56|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.09 05:44.56|      EUser: 501 amy  EGroup: 20 staff
+12.09 05:44.56|     Image plugins load time: .021s
+12.09 05:44.56|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.09 05:44.56|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.09 05:44.59|     List Processes (minCore=14.5% ( 3.6% total))
+12.09 05:44.59|     User logged in: amy
+12.09 05:45.01|     User login change: 'amy'
+12.09 05:45.01|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 05:45.01|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.08 23:45.01)
+12.09 05:45.01|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 05:45.01|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 05:45.01|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 05:45.05|     User login change: 'amy'
+12.09 05:45.05|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 05:45.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:12.35|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 04:12.35)
+12.09 10:12.35|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 10:12.35|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 10:12.35|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 10:12.35| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.09 10:12.35|     cCommand:  Restart client executable from rrUnknown (LastServerConnectTry)
+12.09 10:12.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:12.35| WRN This computer has these network cards installed: 
+12.09 10:12.35|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 10:12.35|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 10:12.35|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 10:12.35|           adding mac 00:23:12:10:0C:66
+12.09 10:12.35|                  IP address 192.168.1.6 
+12.09 10:12.35|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 10:12.35|           adding mac 40:6C:8F:30:38:AC
+12.09 10:12.35|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 10:12.35|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 10:12.35|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 10:12.35|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 10:12.35|           adding mac D2:00:19:D4:7B:A0
+12.09 10:12.35|     Network interface A #07 100100 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 10:12.35|           NOT active
+12.09 10:12.35|           NOT running
+12.09 10:12.35|           adding mac 02:23:12:10:0C:66
+12.09 10:12.35|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 10:12.35|           adding mac DE:12:06:51:E4:47
+12.09 10:12.35|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 10:12.35|           adding mac 02:23:12:01:A6:00
+12.09 10:12.36|     Client Down
+12.09 10:12.36|     Application Down
+12.09 10:12.36|     ##################SHUTDOWN#########################################################
+12.09 10:12.36|     #################STARTUP#################################################################
+12.09 10:12.36|     ------------------------------------------------------------------------------------------- 
+12.09 10:12.36|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.09 10:12.36|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.09 10:12.36|         shared RR root is /Users/amy/rrServer/
+12.09 10:12.36|        time - main files: .015s
+12.09 10:12.36|        time - globalconfig: .008s
+12.09 10:12.36| ERR No license file (or not allowed to read file)! 
+12.09 10:12.37|        time - loadFileRenderApps: .652s
+12.09 10:12.37|        time - loadFileUserSettings: .004s
+12.09 10:12.37|     Time Zone -8:00.00
+12.09 10:12.37|        time - all init:.680s
+12.09 10:12.37|        rrClient console     7.0.26    rrVer7.0.26
+12.09 10:12.37|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.09 10:12.37|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.09 10:12.37|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.09 10:12.37|      EUser: 501 amy  EGroup: 20 staff
+12.09 10:12.37|     Image plugins load time: .054s
+12.09 10:12.37|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.09 10:12.37|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.09 10:12.40|     List Processes (minCore=14.5% ( 3.6% total))
+12.09 10:12.40|     User logged in: amy
+12.09 10:12.41|     User login change: 'amy'
+12.09 10:12.41|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 10:12.41|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 04:12.41)
+12.09 10:12.41|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 10:12.41|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 10:12.41|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 10:12.44|     User login change: 'amy'
+12.09 10:12.44|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 10:12.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:13.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:13.27| WRN This computer has these network cards installed: 
+12.09 10:13.27|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 10:13.27|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 10:13.27|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 10:13.27|           adding mac 00:23:12:10:0C:66
+12.09 10:13.27|                  IP address 192.168.1.6 
+12.09 10:13.27|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 10:13.27|           adding mac 40:6C:8F:30:38:AC
+12.09 10:13.27|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 10:13.27|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 10:13.27|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 10:13.27|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 10:13.27|           adding mac D2:00:19:D4:7B:A0
+12.09 10:13.27|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 10:13.27|           adding mac 02:23:12:10:0C:66
+12.09 10:13.27|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 10:13.27|           adding mac DE:12:06:51:E4:47
+12.09 10:13.27|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 10:13.27|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 10:13.27|           adding mac 02:23:12:01:A6:00
+12.09 10:13.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:14.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:14.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:15.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:15.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:16.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:16.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:17.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:17.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:18.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:18.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:19.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:19.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:20.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:20.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:21.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:21.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:22.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:22.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:23.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:23.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:24.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:24.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:25.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:25.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:26.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:26.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:27.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:27.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:28.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:28.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:29.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:29.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:30.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:30.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:31.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:32.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:32.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:33.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:33.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:34.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:34.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:35.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:35.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:36.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:36.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:37.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:37.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:38.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:38.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:39.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:39.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:40.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:40.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:41.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:41.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:42.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:42.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:43.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:43.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:44.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:44.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:45.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:45.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:46.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:46.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:47.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:47.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:48.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:48.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:49.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:49.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:50.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:50.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:51.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:51.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:52.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:52.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:53.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:53.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:54.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:54.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:55.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:55.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:56.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:56.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:57.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:57.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:58.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:58.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:59.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 10:59.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:00.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:00.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:01.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:01.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:02.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:02.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:03.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:03.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:04.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:04.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:57.11| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.09 11:57.11|     cCommand:  Restart client executable from rrUnknown (LastServerConnectTry)
+12.09 11:57.11|     Client Down
+12.09 11:57.11|     Application Down
+12.09 11:57.11|     ##################SHUTDOWN#########################################################
+12.09 11:57.11|     #################STARTUP#################################################################
+12.09 11:57.11|     ------------------------------------------------------------------------------------------- 
+12.09 11:57.11|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.09 11:57.11|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.09 11:57.11|         shared RR root is /Users/amy/rrServer/
+12.09 11:57.11|        time - main files: .009s
+12.09 11:57.11|        time - globalconfig: .002s
+12.09 11:57.11| ERR No license file (or not allowed to read file)! 
+12.09 11:57.12|        time - loadFileRenderApps: .516s
+12.09 11:57.12|        time - loadFileUserSettings: .002s
+12.09 11:57.12|     Time Zone -8:00.00
+12.09 11:57.12|        time - all init:.530s
+12.09 11:57.12|        rrClient console     7.0.26    rrVer7.0.26
+12.09 11:57.12|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.09 11:57.12|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.09 11:57.12|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.09 11:57.12|      EUser: 501 amy  EGroup: 20 staff
+12.09 11:57.12|     Image plugins load time: .017s
+12.09 11:57.12|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.09 11:57.12|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.09 11:57.15|     List Processes (minCore=14.5% ( 3.6% total))
+12.09 11:57.15|     User logged in: amy
+12.09 11:57.16|     User login change: 'amy'
+12.09 11:57.16|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 11:57.16|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 05:57.16)
+12.09 11:57.16|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 11:57.16|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 11:57.16|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 11:57.21|     User login change: 'amy'
+12.09 11:57.21|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 11:57.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:58.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:58.04| WRN This computer has these network cards installed: 
+12.09 11:58.04|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 11:58.04|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 11:58.04|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 11:58.04|           adding mac 00:23:12:10:0C:66
+12.09 11:58.04|                  IP address 10.10.112.245 
+12.09 11:58.04|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 11:58.04|           adding mac 40:6C:8F:30:38:AC
+12.09 11:58.04|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 11:58.04|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 11:58.04|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 11:58.04|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 11:58.04|           adding mac D2:00:19:D4:7B:A0
+12.09 11:58.04|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 11:58.04|           adding mac 02:23:12:10:0C:66
+12.09 11:58.04|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 11:58.04|           adding mac DE:12:06:51:E4:47
+12.09 11:58.04|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 11:58.04|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 11:58.04|           adding mac 02:23:12:01:A6:00
+12.09 11:58.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:59.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 11:59.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:00.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:00.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:01.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:01.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:02.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:02.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:03.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:03.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:04.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:04.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:05.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:05.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:06.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:06.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:07.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:07.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:08.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:08.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:09.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:09.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:10.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:10.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:11.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:11.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:12.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:12.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:13.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:13.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:14.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:14.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:15.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:15.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:16.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:16.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:17.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:17.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:18.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:18.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:19.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:19.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:20.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:20.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:21.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:21.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:22.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:22.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:23.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:23.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:24.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:24.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:25.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:25.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:26.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:26.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:27.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:27.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:28.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:28.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:29.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:29.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:30.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:30.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:31.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:31.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:32.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:32.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:33.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:33.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:34.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:34.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:35.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:35.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:36.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:36.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:37.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:37.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:38.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:38.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:39.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:39.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:40.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:40.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:41.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:41.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:42.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:42.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:43.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:43.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:44.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:44.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:45.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:45.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:46.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:46.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:47.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:47.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:48.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:48.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:49.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:49.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:50.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:50.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:51.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:51.29| WRN  System Memory getting lower:  Available/Free: 1435MB    System Cache: -1MB  Kernel: -1MB
+12.09 12:51.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:52.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:52.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:53.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:53.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:54.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:54.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:55.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:55.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:56.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:56.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:57.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:57.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:58.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:58.24| WRN  System Memory getting lower:  Available/Free: 1381MB    System Cache: -1MB  Kernel: -1MB
+12.09 12:58.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:59.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 12:59.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:00.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:00.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:01.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:01.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:01.56| WRN  System Memory getting lower:  Available/Free: 1313MB    System Cache: -1MB  Kernel: -1MB
+12.09 13:02.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:02.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:03.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:03.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:04.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:04.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:05.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:05.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:06.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:06.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:07.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:07.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:08.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:08.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:09.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:09.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:10.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:10.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:11.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:11.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:12.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:12.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:13.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:13.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:14.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:14.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:15.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:15.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:16.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:16.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:17.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:17.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:18.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:18.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:19.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:19.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:20.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:20.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:21.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:21.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:22.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:22.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:23.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:23.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:24.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:24.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:25.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:25.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:26.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:26.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:27.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:27.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:28.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:28.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:29.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:29.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:30.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:30.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:31.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:31.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:32.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:32.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:33.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:33.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:34.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:34.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:35.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:35.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:36.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:36.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:37.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:37.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:38.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:38.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:39.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:39.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:40.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:40.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:41.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:41.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:42.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:42.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:43.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 13:43.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 14:21.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:23.38| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.09 17:23.38|     cCommand:  Restart client executable from rrUnknown (TCPThread)
+12.09 17:23.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:23.40|     Client Down
+12.09 17:23.40|     Application Down
+12.09 17:23.40|     ##################SHUTDOWN#########################################################
+12.09 17:23.40|     #################STARTUP#################################################################
+12.09 17:23.40|     ------------------------------------------------------------------------------------------- 
+12.09 17:23.40|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.09 17:23.40|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.09 17:23.40|         shared RR root is /Users/amy/rrServer/
+12.09 17:23.40|        time - main files: .013s
+12.09 17:23.40|        time - globalconfig: .007s
+12.09 17:23.40| ERR No license file (or not allowed to read file)! 
+12.09 17:23.40|        time - loadFileRenderApps: .550s
+12.09 17:23.40|        time - loadFileUserSettings: .003s
+12.09 17:23.40|     Time Zone -8:00.00
+12.09 17:23.40|        time - all init:.573s
+12.09 17:23.40|        rrClient console     7.0.26    rrVer7.0.26
+12.09 17:23.40|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.09 17:23.40|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.09 17:23.41|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.09 17:23.41|      EUser: 501 amy  EGroup: 20 staff
+12.09 17:23.41|     Image plugins load time: .052s
+12.09 17:23.41|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.09 17:23.41|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.09 17:23.44|     List Processes (minCore=14.5% ( 3.6% total))
+12.09 17:23.44|     User logged in: amy
+12.09 17:23.45|     User login change: 'amy'
+12.09 17:23.45|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 17:23.45|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 11:23.45)
+12.09 17:23.45|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 17:23.45|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 17:23.45|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 17:23.50|     User login change: 'amy'
+12.09 17:23.50|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 17:24.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:24.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:24.33| WRN This computer has these network cards installed: 
+12.09 17:24.33|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 17:24.33|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 17:24.33|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 17:24.33|           adding mac 00:23:12:10:0C:66
+12.09 17:24.33|                  IP address 192.168.1.6 
+12.09 17:24.33|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 17:24.33|           adding mac 40:6C:8F:30:38:AC
+12.09 17:24.33|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 17:24.33|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 17:24.33|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 17:24.33|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 17:24.33|           adding mac D2:00:19:D4:7B:A0
+12.09 17:24.33|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 17:24.33|           adding mac 02:23:12:10:0C:66
+12.09 17:24.33|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 17:24.33|           adding mac DE:12:06:51:E4:47
+12.09 17:24.33|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 17:24.33|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 17:24.33|           adding mac 02:23:12:01:A6:00
+12.09 17:25.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:25.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:26.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:26.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:27.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:27.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:28.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:28.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:29.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:29.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:30.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:30.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:31.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:31.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:32.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:32.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:33.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:33.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:34.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:34.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:35.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:35.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:36.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:36.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:37.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:37.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:38.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:38.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:39.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:39.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:40.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:40.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:41.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:41.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:42.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:42.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:43.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:43.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:44.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:44.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:45.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:45.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:46.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:46.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:47.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:47.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:48.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:48.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:49.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:49.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:50.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:50.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:51.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:51.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:52.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:52.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:53.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:53.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:54.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:54.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:55.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:55.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:56.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:56.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:57.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:57.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:58.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:58.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:59.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 17:59.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:00.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:00.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:01.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:01.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:02.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:02.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:03.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:03.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:04.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:04.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:05.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:05.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:06.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:06.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:07.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:07.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:08.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:08.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:16.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:17.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:17.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:18.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:18.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:19.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:19.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:20.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:20.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:21.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:21.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:22.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:22.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:23.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:23.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:24.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:24.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:25.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:25.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:26.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:26.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:27.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:27.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:28.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:28.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:29.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:29.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:30.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:30.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:31.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:31.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:32.09| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:32.39| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:33.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:33.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:34.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:34.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:35.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:35.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:36.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:36.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:37.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:37.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:38.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:38.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:39.10| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:39.40| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:40.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:40.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:41.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:41.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:42.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:42.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:43.04|     High artist CPU usage since 18:42.  Artist uses right now 100%CPU. System: 100%   Job Threads A: 0%  B: 0%  C: 0%
+12.09 18:43.05|     List Processes (minCore=3.5% ( 0.9% total))
+12.09 18:43.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:43.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:44.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:44.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:45.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:45.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:46.11| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:46.41| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:47.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:47.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:48.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:48.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:49.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:49.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:50.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:50.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:51.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:51.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:52.12| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:52.42| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:53.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:53.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:54.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:54.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:55.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:55.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:56.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:56.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:57.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:57.43| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:58.13| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:58.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:59.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 18:59.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:00.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:00.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:01.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:01.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:02.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:02.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:03.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:03.44| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:04.14| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:04.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:05.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:05.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:06.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:06.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:07.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:07.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:08.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:08.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:09.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:09.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:10.15| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:10.45| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:11.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:11.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:12.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:12.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:13.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:13.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:14.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:14.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:15.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:15.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:16.16| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:16.46| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:17.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:17.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:18.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:18.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:19.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:19.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:20.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:20.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:21.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:21.47| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:22.17| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:22.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:23.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:23.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:24.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:24.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:25.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:25.48| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:26.18| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:26.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:27.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:27.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:28.07|     High artist CPU usage since 19:27.  Artist uses right now 75%CPU. System: 75%   Job Threads A: 0%  B: 0%  C: 0%
+12.09 19:28.08|     List Processes (minCore=3.5% ( 0.9% total))
+12.09 19:28.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:28.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:29.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:29.41|     High artist CPU usage since 19:29.  Artist uses right now 87%CPU. System: 87%   Job Threads A: 0%  B: 0%  C: 0%
+12.09 19:29.42|     List Processes (minCore=3.5% ( 0.9% total))
+12.09 19:29.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:30.19| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:30.49| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:31.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:31.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:32.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:32.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:33.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:33.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:34.20| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:34.50| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:35.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:35.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:36.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:36.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:37.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:37.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:38.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:38.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:39.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:39.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:40.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:40.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:41.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:41.26| WRN  System Memory getting lower:  Available/Free: 1396MB    System Cache: -1MB  Kernel: -1MB
+12.09 19:41.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:42.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:42.29| WRN  System Memory getting lower:  Available/Free: 1341MB    System Cache: -1MB  Kernel: -1MB
+12.09 19:42.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:43.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:43.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:44.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:44.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:45.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:45.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:46.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:46.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:47.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:47.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:48.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:48.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:49.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:49.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:50.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:50.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:51.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:51.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:52.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:52.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:53.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:53.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:54.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:54.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:55.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:55.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:56.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:56.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:57.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:57.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:58.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:58.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:59.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 19:59.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:00.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:00.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:01.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:01.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:02.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:02.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:03.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:03.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:04.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:04.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:05.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:05.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:06.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:06.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:07.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:07.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:08.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:08.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:09.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:09.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:10.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:10.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:11.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:11.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:12.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:12.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:13.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:13.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:14.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:14.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:15.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:15.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:16.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:16.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:17.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:17.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 20:26.12|     High artist CPU usage since 20:26.  Artist uses right now 76%CPU. System: 76%   Job Threads A: 0%  B: 0%  C: 0%
+12.09 20:26.14|     List Processes (minCore=3.5% ( 0.9% total))
+12.09 21:52.03|     High artist CPU usage since 21:51.  Artist uses right now 78%CPU. System: 78%   Job Threads A: 0%  B: 0%  C: 0%
+12.09 21:52.04|     List Processes (minCore=3.5% ( 0.9% total))
+12.09 23:37.47| ERR Last connection attempt to server was 10 minutes ago, restarting client! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 2200;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.09 23:37.47|     cCommand:  Restart client executable from rrUnknown (LastServerConnectTry)
+12.09 23:37.48|     Client Down
+12.09 23:37.48|     Application Down
+12.09 23:37.48|     ##################SHUTDOWN#########################################################
+12.09 23:37.58|     #################STARTUP#################################################################
+12.09 23:37.58|     ------------------------------------------------------------------------------------------- 
+12.09 23:37.58|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.09 23:37.58|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.09 23:37.58|         shared RR root is /Users/amy/rrServer/
+12.09 23:37.58|        time - main files: .018s
+12.09 23:37.58|        time - globalconfig: .014s
+12.09 23:37.58| ERR No license file (or not allowed to read file)! 
+12.09 23:37.59|        time - loadFileRenderApps: .785s
+12.09 23:37.59|        time - loadFileUserSettings: .002s
+12.09 23:37.59|     Time Zone -8:00.00
+12.09 23:37.59|        time - all init:.820s
+12.09 23:37.59|        rrClient console     7.0.26    rrVer7.0.26
+12.09 23:37.59|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.09 23:37.59|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.09 23:37.59|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.09 23:37.59|      EUser: 501 amy  EGroup: 20 staff
+12.09 23:37.59|     Image plugins load time: .061s
+12.09 23:37.59|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.09 23:37.59|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.09 23:38.02|     List Processes (minCore=14.5% ( 3.6% total))
+12.09 23:38.02|     User logged in: amy
+12.09 23:38.04|     User login change: 'amy'
+12.09 23:38.04|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 23:38.04|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 17:38.04)
+12.09 23:38.04|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.09 23:38.04|     DailyExecute: LocalTextureFreeDriveSpace...
+12.09 23:38.04|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.09 23:38.08|     User login change: 'amy'
+12.09 23:38.08|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.09 23:38.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:38.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:38.51| WRN This computer has these network cards installed: 
+12.09 23:38.51|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 23:38.51|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.09 23:38.51|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.09 23:38.51|           adding mac 00:23:12:10:0C:66
+12.09 23:38.51|                  IP address 192.168.1.8 
+12.09 23:38.51|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.09 23:38.51|           adding mac 40:6C:8F:30:38:AC
+12.09 23:38.51|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.09 23:38.51|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.09 23:38.51|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.09 23:38.51|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.09 23:38.51|           adding mac D2:00:19:D4:7B:A0
+12.09 23:38.51|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.09 23:38.51|           adding mac 02:23:12:10:0C:66
+12.09 23:38.51|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.09 23:38.51|           adding mac DE:12:06:51:E4:47
+12.09 23:38.51|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.09 23:38.51|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.09 23:38.51|           adding mac 02:23:12:01:A6:00
+12.09 23:39.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:39.51| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:40.21| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:40.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:41.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:41.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:42.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:42.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:43.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:43.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:44.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:44.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:45.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:45.52| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:46.22| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:46.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:47.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:47.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:48.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:48.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:49.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:49.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:50.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:50.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:51.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:51.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:52.23| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:52.53| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:53.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:53.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:54.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:54.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:55.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:55.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:56.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:56.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:57.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:57.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:58.24| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:58.54| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:59.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.09 23:59.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:00.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:00.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:01.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:01.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:02.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:02.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:03.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:03.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:04.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:04.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:05.25| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:05.55| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:06.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:06.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:07.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:07.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:08.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:08.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:09.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:09.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:10.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:10.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:11.26| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:11.56| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:12.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:12.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:13.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:13.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:14.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:14.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:15.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:15.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:16.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:16.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:17.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:17.57| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:18.27| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:18.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:19.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:19.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:20.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:20.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:21.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:21.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:22.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:22.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:23.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:23.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:24.28| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:24.58| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:25.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:25.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:26.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:26.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:27.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:27.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:28.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:28.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:29.29| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:29.59| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:30.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:31.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:31.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:32.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:32.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:33.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:33.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:34.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:34.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:35.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:35.30| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:36.00| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:36.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:37.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:37.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:38.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:38.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:39.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:39.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:40.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:40.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:41.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:41.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:42.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:42.31| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:43.01| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:43.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:44.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:44.31|     High artist CPU usage since 00:44.  Artist uses right now 100%CPU. System: 100%   Job Threads A: 0%  B: 0%  C: 0%
+12.10 00:44.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:44.32|     List Processes (minCore=3.5% ( 0.9% total))
+12.10 00:45.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:45.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:46.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:46.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:47.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:47.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:48.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:48.32| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:49.02| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:49.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:50.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:50.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:51.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:51.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:52.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:52.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:53.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:53.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:54.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:54.33| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:55.03| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:55.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:56.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:56.27|     High artist CPU usage since 00:56.  Artist uses right now 100%CPU. System: 100%   Job Threads A: 0%  B: 0%  C: 0%
+12.10 00:56.28|     List Processes (minCore=3.5% ( 0.9% total))
+12.10 00:56.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:57.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:57.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:58.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:58.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:59.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 00:59.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:00.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:00.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:01.04| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:01.34| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:02.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:02.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:03.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:03.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:04.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:04.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:05.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:05.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:06.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:06.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:07.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:07.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:08.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:08.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:09.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:09.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:10.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:10.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:11.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:11.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:12.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:12.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:13.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:13.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:14.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:14.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:15.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:15.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:16.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:16.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:17.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:17.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:18.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:18.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:19.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!

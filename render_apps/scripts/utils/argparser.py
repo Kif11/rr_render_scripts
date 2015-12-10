@@ -90,8 +90,8 @@ class ArgumentParser(object):
         if name in self._args_dict:
             return self._args_dict[name]
         else:
-            self.log.debug('Argument with name "%s" doesn not exist. '
-                             'Returning None' % name)
+            # self.log.debug('Argument with name "%s" doesn not exist. '
+            #                  'Returning None' % name)
             return None
 
     def set(self, name, value):
