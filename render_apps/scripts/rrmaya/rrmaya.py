@@ -18,6 +18,8 @@ from utils.logger import Logger
 
 # TODO(Kirill) Add render region back for all renders.
 # We need it for multi tile render.
+# Tile render dosn't work. For some reason keep rendering after last part
+# is finished. Need to inspect XML on submission.
 
 class RRMayaJob(object):
 

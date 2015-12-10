@@ -7461,3 +7461,181 @@
 12.10 01:18.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
 12.10 01:18.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
 12.10 01:19.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:19.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:20.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:20.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:21.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:21.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:22.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:22.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:23.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:23.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:24.08| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:43.17| ERR Last Job Thread execution was 7 minutes ago, job thread froze! 
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291
+                    
+                    ClientTCPThread   Status: 0
+                    _ClientJobThread  Status: 1291;;   (_ClientJobThread::run()) rrClient console 7.0.26 32bit []
+12.10 01:43.17|     cCommand:  Restart client executable from rrUnknown (TCPThread)
+12.10 01:45.11|     Client Down
+12.10 01:45.11|     Application Down
+12.10 01:45.11|     ##################SHUTDOWN#########################################################
+12.10 01:45.12|     #################STARTUP#################################################################
+12.10 01:45.12|     ------------------------------------------------------------------------------------------- 
+12.10 01:45.12|     ----- ----- ----- ----- ----- ----- ----- init cfg ----- ----- ----- ----- ----- ----- ----- 
+12.10 01:45.12|        rrClient console     7.0.26    rrVer7.0.26  32bit
+12.10 01:45.12|         shared RR root is /Users/amy/rrServer/
+12.10 01:45.12|        time - main files: .096s
+12.10 01:45.12|        time - globalconfig: .007s
+12.10 01:45.12| ERR No license file (or not allowed to read file)! 
+12.10 01:45.12|        time - loadFileRenderApps: .771s
+12.10 01:45.12|        time - loadFileUserSettings: .003s
+12.10 01:45.12|     Time Zone -8:00.00
+12.10 01:45.12|        time - all init:.877s
+12.10 01:45.12|        rrClient console     7.0.26    rrVer7.0.26
+12.10 01:45.12|     ----- ----- ----- ----- ----- ----- ----- init done ----- ----- ----- ----- ----- ----- ----- 
+12.10 01:45.12|     /Users/amy/rrServer/sub/cfg_global/clients.ini - single loading...
+12.10 01:45.12|     Client is running on OSX 10.10.5 x64 4(HT)x2.5 Intel 6.5Ghz
+12.10 01:45.12|      EUser: 501 amy  EGroup: 20 staff
+12.10 01:45.13|     Image plugins load time: .057s
+12.10 01:45.13|     Clear all local render out folder '/Users/Shared/RR_localdata/renderout/'...
+12.10 01:45.13|     Clear all local temp folder '/Users/Shared/RR_localdata/temp/'...
+12.10 01:45.15|     List Processes (minCore=14.5% ( 3.6% total))
+12.10 01:45.16|     User logged in: amy
+12.10 01:45.17|     User login change: 'amy'
+12.10 01:45.17|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.10 01:45.17|     DailyExecute: Clearing.../Users/Shared/RR_localdata/temp/ (files older than 12.09 19:45.17)
+12.10 01:45.17|     DailyExecute: Clearing.../Users/Shared/RR_localdata/cachedscenes/
+12.10 01:45.17|     DailyExecute: LocalTextureFreeDriveSpace...
+12.10 01:45.17|     DailyExecute: delete .txt logs in /Users/Shared/RR_localdata/...
+12.10 01:45.22|     User login change: 'amy'
+12.10 01:45.22|     WH?: 0 && 1 && ( 1 || 1 || 0)
+12.10 01:45.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:46.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:46.05| WRN This computer has these network cards installed: 
+12.10 01:46.05|     Network interface B #01 110000     'gif0'    gif0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.10 01:46.05|     Network interface B #02 000000     'stf0'    stf0 -  NOT ADDED (mac address emtpy or double or 8 reached)
+12.10 01:46.05|     Network interface A #03 100111 00:23:12:10:0C:66    'en1'    en1
+12.10 01:46.05|           adding mac 00:23:12:10:0C:66
+12.10 01:46.05|                  IP address 192.168.1.8 
+12.10 01:46.05|     Network interface A #04 100111 40:6C:8F:30:38:AC    'en0'    en0
+12.10 01:46.05|           adding mac 40:6C:8F:30:38:AC
+12.10 01:46.05|     Network interface A #05 100111 40:6C:8F:FF:FE:9D:47:BA    'fw0'    fw0
+12.10 01:46.05|           adding mac 40:6C:8F:FF:FE:9D:47:BA
+12.10 01:46.05|           adding mac address failed! 40:6C:8F:FF:FE:9D:47:BA
+12.10 01:46.05|     Network interface A #06 100111 D2:00:19:D4:7B:A0    'en2'    en2
+12.10 01:46.05|           adding mac D2:00:19:D4:7B:A0
+12.10 01:46.05|     Network interface A #07 100111 02:23:12:10:0C:66    'p2p0'    p2p0
+12.10 01:46.05|           adding mac 02:23:12:10:0C:66
+12.10 01:46.05|     Network interface A #08 100111 DE:12:06:51:E4:47    'awdl0'    awdl0
+12.10 01:46.05|           adding mac DE:12:06:51:E4:47
+12.10 01:46.05|                  IP address FE80::DC12:6FF:FE51:E447%awdl0 
+12.10 01:46.05|     Network interface A #09 100111 02:23:12:01:A6:00    'bridge0'    bridge0
+12.10 01:46.05|           adding mac 02:23:12:01:A6:00
+12.10 01:46.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:47.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:47.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:48.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:48.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:49.05| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:49.35| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:50.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:50.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:51.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:51.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:52.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:52.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:53.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:53.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:54.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:54.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:55.06| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:55.36| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:56.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:56.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:57.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:57.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:58.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:58.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:59.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 01:59.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:00.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:00.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:01.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:01.37| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:02.07| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:02.38| WRN Unable to connect to Server!; 61: Connection refused;  while trying to connect to 127.0.0.1:7773!
+12.10 02:02.48|     Connected to rrServer
+12.10 02:02.48|     ******* Sending client status 'Idle since 17m' *******
+12.10 02:02.58|     Job Received: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:02.58|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.10 02:02.58|     SetNewJobID {AO3}  1912718493527572736 for thread 0 startNewJob
+12.10 02:02.58|     {AO3} Rendering Job 12-12,1
+12.10 02:02.58|     {AO3} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.10 02:02.58|     {AO3} Auto-version change. Job: 2015.16  client config: 2015.0
+12.10 02:02.58|     {AO3} Using Text Codec 'System'
+12.10 02:02.58|     {AO3} Starting 1 Job instances... {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:03.18|     Connected to rrServer
+12.10 02:03.18|     ******* Sending client status '{AO3} Rendering Job' *******
+12.10 02:03.20|     {AO3} Render task done.
+12.10 02:03.20|     {AO3} Starting to create 2 thumbnails.
+12.10 02:03.21|     {AO3} Job Done: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:03.21|     ******* Sending client status '{AO3} Render Successfull' *******
+12.10 02:03.22|     Job Received: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:03.22|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.10 02:03.22|     SetNewJobID {AO3}  1912718493527572736 for thread 0 startNewJob
+12.10 02:03.22|     {AO3} Rendering Job 12-12,1
+12.10 02:03.22|     {AO3} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.10 02:03.22|     {AO3} Auto-version change. Job: 2015.16  client config: 2015.0
+12.10 02:03.22|     {AO3} Using Text Codec 'System'
+12.10 02:03.22|     {AO3} Starting 1 Job instances... {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:03.31|     ******* Sending client status '{AO3} Rendering Job' *******
+12.10 02:03.43|     {AO3} Render task done.
+12.10 02:03.44|     {AO3} Starting to create 2 thumbnails.
+12.10 02:03.44|     {AO3} Job Done: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:03.45|     ******* Sending client status '{AO3} Render Successfull' *******
+12.10 02:03.45|     cCommand:  Wait from rrServer (rrServer)
+12.10 02:03.55|     ******* Sending client status 'Waiting 25s' *******
+12.10 02:04.25|     ******* Sending client status 'Idle' *******
+12.10 02:04.30|     Job Received: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:04.30|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.10 02:04.30|     SetNewJobID {AO3}  1912718493527572736 for thread 0 startNewJob
+12.10 02:04.30|     {AO3} Rendering Job 12-12,1
+12.10 02:04.30|     {AO3} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.10 02:04.30|     {AO3} Auto-version change. Job: 2015.16  client config: 2015.0
+12.10 02:04.30|     {AO3} Using Text Codec 'System'
+12.10 02:04.30|     {AO3} Starting 1 Job instances... {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:04.35|     ******* Sending client status '{AO3} Rendering Job' *******
+12.10 02:04.51|     {AO3} Render task done.
+12.10 02:04.51|     {AO3} Starting to create 2 thumbnails.
+12.10 02:04.52|     {AO3} Job Done: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:04.52|     ******* Sending client status '{AO3} Render Successfull' *******
+12.10 02:04.52|     cCommand:  Wait from rrServer (rrServer)
+12.10 02:05.02|     ******* Sending client status 'Waiting 25s' *******
+12.10 02:05.32|     ******* Sending client status 'Idle' *******
+12.10 02:05.37|     Job Received: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:05.37|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.10 02:05.37|     SetNewJobID {AO3}  1912718493527572736 for thread 0 startNewJob
+12.10 02:05.37|     {AO3} Rendering Job 12-12,1
+12.10 02:05.37|     {AO3} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.10 02:05.37|     {AO3} Auto-version change. Job: 2015.16  client config: 2015.0
+12.10 02:05.37|     {AO3} Using Text Codec 'System'
+12.10 02:05.37|     {AO3} Starting 1 Job instances... {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:05.42|     ******* Sending client status '{AO3} Rendering Job' *******
+12.10 02:06.19|     {AO3} Render task done.
+12.10 02:06.20|     {AO3} Starting to create 2 thumbnails.
+12.10 02:06.20|     {AO3} Job Done: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:06.20|     ******* Sending client status '{AO3} Render Successfull' *******
+12.10 02:06.22|     Job Received: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:06.22|     SetNewJobID {AAA}  0 for thread 0 clearRenderSettings
+12.10 02:06.22|     SetNewJobID {AO3}  1912718493527572736 for thread 0 startNewJob
+12.10 02:06.22|     {AO3} Rendering Job 12-12,1
+12.10 02:06.22|     {AO3} Rendering to: /Users/amy/Desktop/testScene/images/testScene_01.
+12.10 02:06.22|     {AO3} Auto-version change. Job: 2015.16  client config: 2015.0
+12.10 02:06.22|     {AO3} Using Text Codec 'System'
+12.10 02:06.22|     {AO3} Starting 1 Job instances... {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
+12.10 02:06.31|     ******* Sending client status '{AO3} Rendering Job' *******
+12.10 02:06.43|     {AO3} Render task done.
+12.10 02:06.43|     {AO3} Starting to create 2 thumbnails.
+12.10 02:06.44|     {AO3} Job Done: {AO3} Desktop|Maya|tScene--| / testScene / testScene_01
