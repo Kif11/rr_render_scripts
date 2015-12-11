@@ -43,7 +43,7 @@ def write_info(msg):
 
 def start_sg_nuke_engime(work_area_path):
     """
-    Initilize Shotgun Toolkit from the given context
+    Initialize Shotgun Toolkit from the given context
     path and start the engine. For more info check:
     https://support.shotgunsoftware.com/entries/95440797#Render%20Farm%20Integration%201
     returns: Nuke SGTK Instance
@@ -53,7 +53,7 @@ def start_sg_nuke_engime(work_area_path):
     ctx = tk.context_from_path(work_area_path)
     # Attempt to start the engine for this context
     engine = sgtk.platform.start_engine('tk-nuke', tk, ctx)
-    write_info('Shotgun Toolkit Nuke engine was initilized.')
+    write_info('Shotgun Toolkit Nuke engine was initialized.')
     return engine
 
 def convert_sg_write_nodes(sg_engine):
@@ -73,15 +73,15 @@ def convert_sg_write_nodes(sg_engine):
 
 def create_local_scene(original_nuke_file, local_nuke_file):
     """
-    Open Nuke file in its original location; conver all SG Write nodes to
-    normal Nuke node; save the file to temp local directore.
+    Open Nuke file in its original location; convert all SG Write nodes to
+    normal Nuke node; save the file to temp local directory.
 
     param original_nuke_file: Path to original Nuke file. Should be valid
     SG Toolkit project.
     param local_nuke_file: Path to temp nuke file. Provided by the rrServer.
     """
 
-    # Start SG Nuke engine and conver all SG write node to Nuke Write
+    # Start SG Nuke engine and convert all SG write node to Nuke Write
     engine = start_sg_nuke_engime(original_nuke_file)
     nuke.scriptOpen(original_nuke_file)
 
@@ -102,16 +102,15 @@ def create_local_scene(original_nuke_file, local_nuke_file):
 
     log.info('Render output path: %s' % n.knob('file').value())
 
-    # import pdb; pdb.set_trace()
     # TODO(Kirill): Need to destroy the engine somehow.
-    # Otherwise this error is rased
+    # Otherwise this error is raised
     # ERROR: The Shotgun Pipeline Toolkit is disabled: The path ''
     # does not seem to belong to any known Toolkit project!
 
     log.info('Saving nuke script to %s' % local_nuke_file)
     nuke.scriptSaveAs(local_nuke_file, 1)
     log.line()
-    log.info('Local scene created successufuly.')
+    log.info('Local scene created successfully.')
 
 if __name__ == '__main__':
     create_local_scene(original_nuke_file, local_nuke_file)

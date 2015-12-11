@@ -2,19 +2,18 @@ import os
 import sys
 import datetime
 import time
-import pymel.core as pm
-import maya.mel
+
 parent_dir = os.path.join(os.getcwd(), '..')
 sys.path.append(parent_dir)
-import rrapp.application
-reload(rrapp.application)
+
+import pymel.core as pm
+import maya.mel
+
 from rrapp.application import RRApp
 from utils.hook import Hook
-import utils.argparser
-reload(utils.argparser)
 from utils.argparser import ArgumentParser
-import rrtcp
 from utils.logger import Logger
+import rrtcp
 
 # TODO(Kirill) Add render region back for all renders.
 # We need it for multi tile render.
