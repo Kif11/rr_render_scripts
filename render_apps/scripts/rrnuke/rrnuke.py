@@ -12,12 +12,11 @@ local_nuke_file = sys.argv[3]
 # Render modules directory
 current_script_dir = os.path.split(__file__)[0]
 parent_dir = os.path.join(current_script_dir, '..')
-
-print "PARENT: ", parent_dir
-
 # Append SG Tank path to PYTHONPATH
 sys.path.append(sgtk_path)
+# Append RR script directories
 sys.path.append(parent_dir)
+sys.path.append(current_script_dir)
 
 import nuke
 from utils.logger import Logger
@@ -37,10 +36,6 @@ except ImportError:
 # TODO(Kirill): I need to unify this script with the main nuke_local localrenderout
 # and make it pretty!
 
-# TODO(Kirill): Replace with the Logger module.
-def write_info(msg):
-    print msg
-
 def start_sg_nuke_engime(work_area_path):
     """
     Initialize Shotgun Toolkit from the given context
@@ -53,7 +48,7 @@ def start_sg_nuke_engime(work_area_path):
     ctx = tk.context_from_path(work_area_path)
     # Attempt to start the engine for this context
     engine = sgtk.platform.start_engine('tk-nuke', tk, ctx)
-    write_info('Shotgun Toolkit Nuke engine was initialized.')
+    log.info('Shotgun Toolkit Nuke engine was initialized.')
     return engine
 
 def convert_sg_write_nodes(sg_engine):
@@ -64,12 +59,12 @@ def convert_sg_write_nodes(sg_engine):
     """
     app = sg_engine.apps["tk-nuke-writenode"]
     for n in app.get_write_nodes():
-        write_info('Found "%s" shotgun write node.' % n.name())
-    write_info('Converting to nuke write nodes...')
+        log.info('Found "%s" shotgun write node.' % n.name())
+    log.info('Converting to nuke write nodes...')
     # For function implementation check:
     # https://github.com/shotgunsoftware/tk-nuke-writenode/blob/master/python/tk_nuke_writenode/handler.py
     app.convert_to_write_nodes()
-    write_info('All Shotgun write nodes was converted.')
+    log.info('All Shotgun write nodes was converted.')
 
 def create_local_scene(original_nuke_file, local_nuke_file):
     """
