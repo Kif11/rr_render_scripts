@@ -11,7 +11,7 @@ class Hook(object):
 		parrent class variables and methods trough
 		self.parent variable.
 		:param parent: Parent class from which this
-		hook had been called.
+		hook has been called.
 		"""
 		self.log = Logger()
 
