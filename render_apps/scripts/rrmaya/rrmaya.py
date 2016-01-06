@@ -22,6 +22,11 @@ import rrtcp
 
 class RRMayaJob(object):
 
+    """
+    This class contains set of parameters describing a RoyalRender job
+    and function that set/get or do operation on this parameters.
+    """
+
     def __init__(self, args_string):
         self.arg = ArgumentParser('RRMaya', args_string)
         self.log = Logger()
@@ -147,17 +152,16 @@ class RRMaya(RRApp):
             pm.workspace.fileRules[file_rule] = path
 
     def load_plugin(self, plugin_name):
-        # Maya will skip this action if plugin is alredy loaded
+        # Maya will skip this action if plugin is alredy loaded.
         maya.mel.eval('loadPlugin %s;' % plugin_name)
 
     def override_attr(self, attr, value):
         """
-        Overide attribute value.
-        param attr: PyMel atribute object.
+        Override attribute value.
+        param attr: PyMel attribute object.
         param value: New value for the attribute.
         """
-        # Removes any render layer adjustment
-    	# and unlocks the attr,
+        # Removes any render layer adjustments and unlocks the attr,
     	# so that command line rendering can override the value.
         maya.mel.eval('removeRenderLayerAdjustmentAndUnlock %s;' % attr.name())
         attr.set(value)
@@ -167,7 +171,7 @@ class RRMaya(RRApp):
     def set_attrs(self, node, attr_dict):
         """
         param node: PyMel note to assign attributes to.
-        param attr_dict: Dictionlary of Attribute name : value.
+        param attr_dict: Dictionary of attributes.
         """
         for name, value in attr_dict.items():
             if (value is not None):
@@ -214,7 +218,7 @@ class RRMaya(RRApp):
              'coverageThreshold': self.job.treshold
         })
 
-        # Set render rigion. Need for multi-tiled rendering.
+        # Set render region. Need for multi-tiled rendering.
         region = (self.job.rx1, self.job.rx2, self.job.ry1, self.job.ry2)
         if not None in region:
             pm.mel.setMayaSoftwareRegion(*region)
@@ -232,7 +236,7 @@ class RRMaya(RRApp):
         if self.job.image_format is not None:
             pm.mel.setMentalRayImageFormat(self.job.image_format)
 
-        # Set global mental ray variables.
+        # Set global Mental Ray variables.
         for name, value in {
             'VerbosityOn': 'true',
             'Verbosity': self.job.verbose,
@@ -305,11 +309,12 @@ class RRMaya(RRApp):
             ai_translator.set(new_ext)
 
     def init_redshift(self):
-        pass
+        raise NotImplementedError
 
     def render_frame(self, frame_number):
         """
         Render one frame.
+        :param frame_number: Frame to render.
         """
         render_globals = pm.PyNode('defaultRenderGlobals')
 
@@ -334,7 +339,7 @@ class RRMaya(RRApp):
 
         after_frame = datetime.datetime.now() - before_frame
 
-        self.log.info("Randering of frame: %s finished in %s (h:m:s.ms)"
+        self.log.info("Rendering of frame: %s finished in %s (h:m:s.ms)"
                                           % (frame_number, after_frame))
 
     def render_frames(self):
@@ -366,6 +371,7 @@ class RRMaya(RRApp):
                                      self.job.file_ext)
 
             self.render_frame(frame)
+
         # Run user code after render of segment is finished
         self.hook.after_segment_render()
 
@@ -383,10 +389,6 @@ class RRMaya(RRApp):
         self.open_scene(self.job.maya_scene)
         # self.set_render_layer(self.job.render_layer)
 
-        self.log.line()
-        self.log.info('Start render initilization.')
-        self.log.line()
-
         renderer = self.job.render_name
         if (renderer == 'mayaSoftware'):
             self.init_mayasoftware()
@@ -399,11 +401,8 @@ class RRMaya(RRApp):
         elif (renderer == 'redshift'):
             self.init_redshift()
 
-        self.log.line()
-        self.log.info('Render init finished.')
-        self.log.line()
-
         if (self.job.kso_mode):
+            self.log.info('Starting KSO mode...')
             self.start_kso_server()
         else:
             self.render_frames()
