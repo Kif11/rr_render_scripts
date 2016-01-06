@@ -95,7 +95,7 @@ class rrKSOTCPHandler(SocketServer.BaseRequestHandler):
     def handle(self):
         """
         Method for processing incoming requests.
-        This overide handle method in the BaseRequestHandler.
+        This override handle method in the BaseRequestHandler.
         """
         self.server.log.debug('Starting request hendler...')
 
@@ -130,11 +130,8 @@ class rrKSOTCPHandler(SocketServer.BaseRequestHandler):
 
 class rrKSOServer(SocketServer.TCPServer):
 
-    # TODO(Kirill): Ask Holger about asynchronous behaviour.
-    # SocketServer.ThreadingMixIn
-    # The mix-in classes override process_request() to start a
-    # new thread or process when a request is ready to be handled,
-    # and the work is done in the new child.
+    # NOTE(Kirill): Inherit from SocketServer.ThreadingMixIn
+    # in order activate asynchronous behavior.
 
     def __init__(self, server_address, request_handler):
         self.daemon_threads = True
@@ -182,6 +179,11 @@ class rrKSOServer(SocketServer.TCPServer):
         self.log.info('RR TCP connection closed')
 
 def create_placeholder(file_name, frame_number=None, padding=None, ext=None):
+    """
+    Create an empty file for render frame.
+    The placeholders set the time when a frame started.
+    So rrControl display it as the green bar.
+    """
 
     if frame_number is not None:
         if padding is None:
@@ -200,6 +202,7 @@ def create_placeholder(file_name, frame_number=None, padding=None, ext=None):
         f.write(chr(len(host_name)))
         f.write("\x00")
         f.write("\x00\x00")
+
 
 if __name__ == '__main___':
     HOST, PORT = "localhost", 7774
