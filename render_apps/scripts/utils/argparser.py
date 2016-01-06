@@ -3,10 +3,7 @@ from logger import Logger
 
 class ArgumentParser(object):
 
-
     def __init__(self, app_name, args_string):
-
-        self._APP_ARG_FILE = 'app_arg.json'
 
         self._MAYA = 'RRMaya'
         self._3DSMAX = 'RR3dsmax'
@@ -26,7 +23,7 @@ class ArgumentParser(object):
         if (len(value) == 0):
             return None
 
-        # Convert arg calue to python type
+        # Convert arg value to python type
         constructors = [int, float, str]
         for c in constructors:
             try:
@@ -35,7 +32,7 @@ class ArgumentParser(object):
             except ValueError:
                 pass
 
-        # Conver string to bool
+        # Convert string to bool
         bool_dict = {'true': True, 'false': False}
         if value in bool_dict.keys():
             value = bool_dict[value]
@@ -58,7 +55,7 @@ class ArgumentParser(object):
 
     def _get_maya_args(self):
         """
-        This metod must always return a dict of properly
+        This method must always return a dict of properly
         formated key value pairs.
 
         :returns dict: {argument_name: argument_value}
@@ -69,7 +66,6 @@ class ArgumentParser(object):
         search = re.findall(pattern, self.args_string)
 
         # Pack the list of key value pair tuples to the dict.
-        # args_dict = {i[0].rstrip(): self._normalize(i[1]) for i in search}
         args_dict = {}
         for key, value in search:
             args_dict[key.rstrip()] = self._normalize(value)
@@ -79,7 +75,7 @@ class ArgumentParser(object):
         return args_dict
 
     def _get_3dsmax_args(self):
-        pass
+        raise NotImplementedError
 
     def get(self, name):
         """
