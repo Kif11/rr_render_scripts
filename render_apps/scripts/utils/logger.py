@@ -47,8 +47,7 @@ class Logger(object):
 
 	def line(self):
 		"""
-		Print separation line on 80 char length to
-		improve log readability.
+		Print separation line on 80 chars.
 		"""
 		self.log(self._SEP_CHAR * 80)
 
