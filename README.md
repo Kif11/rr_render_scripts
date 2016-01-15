@@ -1,7 +1,6 @@
 # Client side functionality extension
 * __render_apps/scripts__ folder contains Python scripts that process job on the client and perform rendering. 
 * __render_apps/_submitplugins__ folder contains Python scripts that process job on the client before sending it to the main rrSubmitter app.
-* 
 
 Render scripts take an argument list from command line sent by C++ main server application. 
 Allows custom user hooks to be called before or after render jobs.
