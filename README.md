@@ -3,7 +3,7 @@ Royal Render is the powerful application to organize your render jobs for your r
 
 We constantly pursue improved workflow, meaningful features and better performance.  We put ease of use up front, keeping innovative algorithms and complex architecture under the hood.
 
-# Render scripts 
+# Content
 * __render_apps/scripts__ folder contain Python scripts that process job on the client and perform rendering. 
 * __render_apps/_submitplugins__ folder contain Python scripts that process job on the client before sending it to the main rrSubmitter app.
 
